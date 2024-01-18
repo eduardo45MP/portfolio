@@ -1,42 +1,42 @@
-# portfolio
-Criação de um portifólio
+# Portfolio
+**Creation of a Portfolio**
 
-# Criando um Portfólio Eficaz
+# Creating an Effective Portfolio
 
-## 1. Escolha uma plataforma:
-   - Pode ser um site pessoal, uma plataforma específica para portfólios (como Behance, Dribbble, ou GitHub) ou até mesmo um documento PDF.
+## 1. Choose a Platform:
+   - It can be a personal website, a platform specific to portfolios (such as Behance, Dribbble, or GitHub), or even a PDF document.
 
-## 2. Seção de Introdução:
-   - Inclua uma breve introdução sobre você, destacando sua formação, experiência e objetivos profissionais.
+## 2. Introduction Section:
+   - Include a brief introduction about yourself, highlighting your education, experience, and professional goals.
 
-## 3. Experiência Profissional:
-   - Liste suas experiências profissionais anteriores. Inclua o nome da empresa, suas responsabilidades e as realizações significativas. Use números e estatísticas sempre que possível para quantificar seu impacto.
+## 3. Professional Experience:
+   - List your previous professional experiences. Include the company name, your responsibilities, and significant achievements. Use numbers and statistics whenever possible to quantify your impact.
 
-## 4. Projetos Destacados:
-   - Destaque alguns projetos específicos em que trabalhou. Forneça detalhes sobre o contexto, suas contribuições e os resultados alcançados.
+## 4. Featured Projects:
+   - Showcase specific projects you've worked on. Provide details about the context, your contributions, and the achieved results.
 
-## 5. Habilidades:
-   - Liste suas habilidades principais. Pode ser útil categorizá-las, como habilidades técnicas, habilidades interpessoais, etc.
+## 5. Skills:
+   - List your key skills. It may be useful to categorize them, such as technical skills, interpersonal skills, etc.
 
-## 6. Educação:
-   - Inclua informações sobre sua educação, como instituição, curso e datas de graduação.
+## 6. Education:
+   - Include information about your education, including the institution, course, and graduation dates.
 
-## 7. Certificações e Prêmios:
-   - Se você tiver certificações relevantes ou tiver recebido prêmios, inclua-os em uma seção separada.
+## 7. Certifications and Awards:
+   - If you have relevant certifications or have received awards, include them in a separate section.
 
-## 8. Portfólio Visual:
-   - Se você estiver em um campo criativo, como design ou desenvolvimento web, inclua imagens ou links para seus projetos. Certifique-se de adicionar uma breve descrição de cada projeto.
+## 8. Visual Portfolio:
+   - If you're in a creative field, like design or web development, include images or links to your projects. Make sure to add a brief description for each project.
 
-## 9. Depoimentos ou Recomendações:
-   - Se possível, inclua depoimentos ou recomendações de colegas de trabalho anteriores ou supervisores.
+## 9. Testimonials or Recommendations:
+   - If possible, include testimonials or recommendations from previous colleagues or supervisors.
 
-## 10. Informações de Contato:
-   - Forneça suas informações de contato, como e-mail e LinkedIn, para que as pessoas possam entrar em contato com você.
+## 10. Contact Information:
+   - Provide your contact information, such as email and LinkedIn, so people can reach out to you.
 
-## 11. Atualize Regularmente:
-   - Mantenha seu portfólio atualizado com novos projetos e experiências. Isso mostrará que você está continuamente se desenvolvendo profissionalmente.
+## 11. Regular Updates:
+   - Keep your portfolio updated with new projects and experiences. This demonstrates that you're continually developing professionally.
 
-## 12. Design Limpo e Profissional:
-   - Escolha um design limpo e profissional que seja fácil de navegar. Use fontes legíveis e evite sobrecarregar com muitos elementos visuais.
+## 12. Clean and Professional Design:
+   - Choose a clean and professional design that is easy to navigate. Use readable fonts and avoid overloading with too many visual elements.
 
-Lembre-se de adaptar essas sugestões às suas necessidades específicas. Se você tiver algum trabalho específico em mente para o seu portfólio, sinta-se à vontade para pedir mais orientações sobre essa área específica.
+Remember to tailor these suggestions to your specific needs. If you have a particular project in mind for your portfolio, feel free to ask for more guidance in that specific area.
