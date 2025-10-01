@@ -9,7 +9,7 @@ The site is built to be **simple, responsive, and easy to navigate**, serving as
 ## 👨‍💻 About Me
 I am **Eduardo Peixoto**, CEO at [Innoforge.tech](https://innoforge.tech) and a developer with interests in **AI, automation, cybersecurity, and web solutions**.  
 My mission is to integrate **technological innovation** with **real-world applications** that have a direct impact.  
-More in [About Me](aboutme.md)
+More in [About Me](aboutMe.md)
 
 ---
 

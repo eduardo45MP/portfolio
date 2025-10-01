@@ -1,5 +1,5 @@
 # Sobre Mim
-[Read in English 🇬🇧](about.md)
+[Read in English 🇬🇧](aboutMe.md)
 
 Olá! Sou o **Eduardo**, e minha principal missão é o **empreendedorismo movido pela tecnologia**.  
 Gosto de resolver problemas com software, aproveitando minha base sólida em lógica de programação.  
