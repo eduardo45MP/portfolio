@@ -1,24 +1,42 @@
 # About Me
+[Leia em Português 🇧🇷](sobreMim.md)
 
-Hey there! I'm Eduardo, and my main goal is entrepreneurship. I love solving problems with technology, leveraging my strong logic programming skills. I adapt to the tech demands of each project, be it programming languages or databases.
+Hey there! I'm **Eduardo**, and my main mission is **entrepreneurship powered by technology**.  
+I love solving problems with software, leveraging my strong background in logic programming. I adapt quickly to each project's needs — whether it involves programming languages, frameworks, or databases.
 
-## Skills and Learning
+---
 
-Constantly fueling my creativity, I enjoy envisioning new software solutions. While I'm yet to embark on significant projects, each endeavor teaches me something new.
+## 💡 Skills and Learning
+I’m constantly fueling my creativity by envisioning new software solutions.  
+Each project — big or small — becomes a stepping stone for growth, sharpening my problem-solving and technical skills.
 
-## Language Palette
+---
 
-Fluent in Portuguese and English, with a dash of Spanish. Next on my linguistic journey: Mandarin, French, German, Russian, and Arabic.
+## 🌍 Language Palette
+- Native Portuguese  
+- Fluent in English  
+- Conversational Spanish  
+- Next goals: Mandarin, French, German, Russian, and Arabic  
 
-## Challenges and Values
+---
 
-In the entrepreneurial realm, my challenge lies in finding a partner whose strengths complement mine. I highly value collaborative work and believe in the power of teamwork.
+## 🤝 Challenges and Values
+In the entrepreneurial realm, my challenge is finding **partners with complementary strengths**.  
+I believe deeply in the power of **collaboration and teamwork** to turn ambitious ideas into real solutions.
 
-## Personal Interests
+---
 
-Beyond tech, my interests include languages, the vastness of the sea, spirituality, and the arts.
+## 🎨 Personal Interests
+Outside of tech, I enjoy:  
+- Learning languages  
+- Exploring the vastness of the sea  
+- Diving into spirituality  
+- Appreciating the arts  
 
-## Let's Connect!
+---
 
-📱 +5581999350771  
-📧 eduardopeixoto45@outlook.com
+## 📬 Let's Connect!
+- 📱 +55 81 99935-0771  
+- ✉️ [eduardopeixoto45@outlook.com](mailto:eduardopeixoto45@outlook.com)  
+- 💼 [LinkedIn](https://linkedin.com/in/eduardo)  
+- 🐙 [GitHub](https://github.com/eduardo45MP)  
