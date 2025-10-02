@@ -1,25 +1,33 @@
+/* =========================
+   THEME VARIABLES
+   ========================= */
 :root {
-  --color-primary: #5a6a7a;
-  --color-secondary: #330010;
-  --color-background: #ffffff;
-  --color-surface: #f5f5f5;
-  --color-text: #333333;
-  --color-muted: #6c7682;
-  --color-accent: #401a00;
-  --shadow-soft: 0 12px 32px rgba(51, 0, 16, 0.08);
-  --radius-sm: 0.75rem;
-  --radius-md: 1rem;
-  --radius-lg: 1.5rem;
+  --color-primary: #5a6a7a; /* Azul acinzentado - cor principal (links, botões) */
+  --color-secondary: #330010; /* Vinho escuro - usado em títulos e destaques */
+  --color-background: #ffffff; /* Fundo padrão (light mode) */
+  --color-surface: #f5f5f5; /* Superfícies sutis (cards, seções secundárias) */
+  --color-text: #333333; /* Texto primário */
+  --color-muted: #6c7682; /* Texto secundário e elementos menos importantes */
+  --color-accent: #401a00; /* Marrom profundo - usado em detalhes ou destaques */
+  
+  --shadow-soft: 0 12px 32px rgba(51, 0, 16, 0.08); /* Sombra suave para cards */
+  
+  --radius-sm: 0.75rem; /* Bordas levemente arredondadas */
+  --radius-md: 1rem;    /* Bordas médias */
+  --radius-lg: 1.5rem;  /* Bordas grandes (cards principais) */
 }
 
+/* =========================
+   RESET & BASE
+   ========================= */
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Inclui borda e padding no cálculo do tamanho */
   margin: 0;
   padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Suaviza o scroll para links âncora */
 }
 
 body {
@@ -27,13 +35,16 @@ body {
   background: var(--color-background);
   color: var(--color-text);
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased; /* Suaviza fontes em navegadores WebKit */
 }
 
+/* =========================
+   TYPOGRAPHY
+   ========================= */
 h1,
 h2,
 h3 {
-  font-family: 'Poppins', system-ui, sans-serif;
+  font-family: 'Poppins', system-ui, sans-serif; /* Títulos com destaque */
   line-height: 1.2;
   color: var(--color-secondary);
 }
@@ -49,17 +60,21 @@ a:focus {
   color: var(--color-secondary);
 }
 
+/* =========================
+   LAYOUT
+   ========================= */
 .container {
-  width: min(1140px, 92vw);
+  width: min(1140px, 92vw); /* Largura máxima responsiva */
   margin: 0 auto;
 }
 
+/* ----- HEADER ----- */
 .top-bar {
-  position: sticky;
+  position: sticky; /* Fixa no topo ao rolar */
   top: 0;
   z-index: 10;
   background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px); /* Efeito vidro fosco */
   border-bottom: 1px solid rgba(51, 0, 16, 0.08);
 }
 
@@ -79,6 +94,7 @@ a:focus {
   color: var(--color-secondary);
 }
 
+/* ----- NAVIGATION ----- */
 nav ul {
   display: flex;
   gap: 1.5rem;
@@ -95,15 +111,19 @@ nav a:focus {
   color: var(--color-secondary);
 }
 
+/* =========================
+   MAIN STRUCTURE
+   ========================= */
 main {
   display: grid;
   gap: 6rem;
   padding-bottom: 6rem;
 }
 
+/* ----- HERO SECTION ----- */
 .hero {
   background: linear-gradient(135deg, rgba(90, 106, 122, 0.12), rgba(255, 255, 255, 0.95));
-  padding: 8rem 0 6rem;
+  padding: 3rem 0 6rem;
 }
 
 .hero-grid {
@@ -113,6 +133,7 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+/* Badge estilizada (pílula) */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -120,7 +141,7 @@ main {
   padding: 0.4rem 0.9rem;
   background: rgba(90, 106, 122, 0.12);
   color: var(--color-secondary);
-  border-radius: 999px;
+  border-radius: 999px; /* Formato cápsula */
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -128,7 +149,7 @@ main {
 }
 
 .hero h1 {
-  font-size: clamp(2.3rem, 4vw + 1rem, 3.6rem);
+  font-size: clamp(2.3rem, 4vw + 1rem, 3.6rem); /* Escala responsiva */
   margin: 1rem 0;
 }
 
@@ -138,6 +159,7 @@ main {
   max-width: 36rem;
 }
 
+/* ----- CALL TO ACTION ----- */
 .cta-group {
   display: flex;
   gap: 1rem;
@@ -180,6 +202,7 @@ main {
   background: rgba(51, 0, 16, 0.08);
 }
 
+/* ----- HERO HIGHLIGHTS ----- */
 .hero-highlights {
   display: grid;
   gap: 1.5rem;
@@ -198,6 +221,7 @@ main {
   margin-left: 0;
 }
 
+/* ----- HERO SIDE CARD ----- */
 .hero-card {
   background: var(--color-background);
   border: 1px solid rgba(51, 0, 16, 0.08);
@@ -212,12 +236,16 @@ main {
   margin-bottom: 0.75rem;
 }
 
+/* ----- CODE STYLING ----- */
 code {
   font-family: 'Fira Code', 'Roboto Mono', ui-monospace, SFMono-Regular, monospace;
   font-size: 0.9rem;
   color: var(--color-accent);
 }
 
+/* =========================
+   SECTIONS
+   ========================= */
 .section {
   padding: 0 0 0;
 }
@@ -246,6 +274,7 @@ code {
   color: var(--color-muted);
 }
 
+/* ----- FEATURE LIST ----- */
 .feature-list {
   display: grid;
   gap: 1.2rem;
@@ -259,7 +288,7 @@ code {
 }
 
 .feature-list li::before {
-  content: '›';
+  content: '›'; /* Setinha como marcador */
   position: absolute;
   left: 0;
   top: 0;
@@ -268,6 +297,7 @@ code {
   font-weight: 700;
 }
 
+/* ----- CARDS ----- */
 .cards-grid {
   display: grid;
   gap: 1.6rem;
@@ -303,6 +333,7 @@ code {
   color: var(--color-muted);
 }
 
+/* Metadata tags dentro dos cards */
 .metadata {
   display: flex;
   flex-wrap: wrap;
@@ -317,6 +348,7 @@ code {
   background: rgba(90, 106, 122, 0.12);
 }
 
+/* ----- CONTACT SECTION ----- */
 .contact-card {
   display: grid;
   gap: 1rem;
@@ -351,6 +383,9 @@ code {
   font-weight: 500;
 }
 
+/* =========================
+   FOOTER
+   ========================= */
 footer {
   padding: 3rem 0;
   background: var(--color-background);
@@ -365,6 +400,9 @@ footer .container {
   font-size: 0.9rem;
 }
 
+/* =========================
+   MEDIA QUERIES
+   ========================= */
 @media (max-width: 840px) {
   nav ul {
     gap: 1rem;

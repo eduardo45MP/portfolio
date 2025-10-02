@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ReadMonitor é um ecossistema full-stack para gerenciar leituras e acervo pessoal com Controller, Model e View separados."
+    />
+    <title>ReadMonitor · Biblioteca inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <nav aria-label="Navegação do projeto">
+          <ul>
+            <li><a href="#visao-geral">Visão geral</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#contribuicoes">Contribuições</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="badge">Aplicativo de leituras</span>
+            <h1>ReadMonitor</h1>
+            <p>
+              Plataforma para acompanhar leituras concluídas, em andamento e futuras, com controle detalhado do acervo pessoal.
+            </p>
+            <div class="cta-group">
+              <a
+                class="btn primary"
+                href="https://github.com/eduardo45MP/ReadMonitor"
+                target="_blank"
+                rel="noopener"
+              >Ver no GitHub</a>
+              <a class="btn ghost" href="#instalacao">Setup completo</a>
+            </div>
+            <dl class="hero-highlights">
+              <div>
+                <dt>Abordagem</dt>
+                <dd>Arquitetura MVC distribuída entre Controller (Next.js), Model (Node + Sequelize) e View (Expo).</dd>
+              </div>
+              <div>
+                <dt>Objetivo</dt>
+                <dd>Oferecer visão 360° das leituras, com cadastros ricos e relatórios futuros.</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero-card" aria-label="Informações rápidas">
+            <div>
+              <h3>Funcionalidades centrais</h3>
+              <p>Gerenciamento de status, cadastro completo por livro e sincronização com base SQLite.</p>
+            </div>
+            <div>
+              <h3>Experiência</h3>
+              <p>Web para administração, mobile para uso diário via Expo.</p>
+            </div>
+            <div>
+              <h3>Licença</h3>
+              <p>MIT · Contribuições colaborativas são incentivadas.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="visao-geral" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Visão geral</span>
+            <h2>Biblioteca digital alinhada à rotina de leitura</h2>
+            <p>
+              O ReadMonitor centraliza acompanhamento de livros, com foco em facilitar consultas rápidas e cadastros detalhados.
+            </p>
+          </div>
+          <ul class="feature-list">
+            <li>Painel com listas filtradas por status: lidos, em andamento e quero ler.</li>
+            <li>Formulário completo com informações bibliográficas (ISBN, CDD, CDU, tipo e disponibilidade).</li>
+            <li>Planejamento para estatísticas e recomendações personalizadas.</li>
+            <li>Arquitetura pronta para sincronização com serviços externos ou dashboards.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Stack técnica</span>
+            <h2>Separação em camadas para escalar com confiança</h2>
+            <p>
+              Cada componente possui responsabilidades específicas, garantindo testes independentes e evolução incremental.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🕸️</span>
+              <h3>Controller · Next.js</h3>
+              <p>Camada responsável por rotas, APIs REST e painel administrativo.</p>
+              <div class="metadata">
+                <span>express</span>
+                <span>cors</span>
+                <span>dotenv</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🗃️</span>
+              <h3>Model · Node + Sequelize</h3>
+              <p>Orquestra a persistência em SQLite e a camada de regras de negócio.</p>
+              <div class="metadata">
+                <span>sqlite3</span>
+                <span>ORM</span>
+                <span>Seeder</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">📱</span>
+              <h3>View · Expo</h3>
+              <p>Interface mobile para adicionar, consultar e atualizar livros com rapidez.</p>
+              <div class="metadata">
+                <span>React Native</span>
+                <span>Android</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Arquitetura</span>
+            <h2>Organização dos diretórios</h2>
+            <p>
+              A estrutura reforça a separação de camadas e facilita deploys independentes.</p>
+          </div>
+          <pre><code>ReadMonitor/
+├── Controller/   # Next.js para rotas/admin
+├── Model/        # Node.js + Sequelize + SQLite
+├── View/         # Aplicativo mobile via Expo
+├── db.sqlite3    # Banco local
+└── README.md     # Documentação completa</code></pre>
+        </div>
+      </section>
+
+      <section id="instalacao" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Instalação</span>
+            <h2>Fluxo de setup por camada</h2>
+            <p>
+              Prepare cada módulo em seu diretório correspondente, garantindo que variáveis de ambiente e dependências estejam corretas.</p>
+          </div>
+          <ol>
+            <li>Clone o repositório:</li>
+          </ol>
+          <pre><code>git clone https://github.com/eduardo45MP/ReadMonitor.git
+cd ReadMonitor</code></pre>
+          <ol start="2">
+            <li>Configure o Controller (Next.js):</li>
+          </ol>
+          <pre><code>cd Controller
+npm install
+npm run dev  # Porta padrão 3000
+cd ..</code></pre>
+          <ol start="3">
+            <li>Configure o Model (Node + Sequelize):</li>
+          </ol>
+          <pre><code>cd Model
+npm install
+npm start     # Inicializa API + SQLite
+cd ..</code></pre>
+          <ol start="4">
+            <li>Configure a View (Expo):</li>
+          </ol>
+          <pre><code>cd View
+npm install
+npm start    # Abra o app Expo no dispositivo
+cd ..</code></pre>
+          <p>
+            Ajuste o arquivo de configuração de cada camada para apontar para o mesmo banco/endpoint. Considere scripts de seed para popular dados iniciais.</p>
+        </div>
+      </section>
+
+      <section id="contribuicoes" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Open Source</span>
+            <h2>Ideias para evoluir o ReadMonitor</h2>
+            <p>
+              Há espaço para novas funcionalidades, integrações e melhorias de UX tanto no painel web quanto no app mobile.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">📈</span>
+              <h3>Estatísticas</h3>
+              <p>Dashboards com tempo de leitura, gêneros preferidos e metas alcançadas.</p>
+              <div class="metadata">
+                <span>Charts</span>
+                <span>Analytics</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🔄</span>
+              <h3>Sync e backups</h3>
+              <p>Integrações com serviços de nuvem e exportação automática do acervo.</p>
+              <div class="metadata">
+                <span>Supabase</span>
+                <span>Drive</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🧭</span>
+              <h3>UX mobile</h3>
+              <p>Fluxos otimizados para adicionar livros com código de barras ou captura de capa.</p>
+              <div class="metadata">
+                <span>Camera</span>
+                <span>Vision</span>
+              </div>
+            </article>
+          </div>
+          <p style="margin-top: 2rem; color: var(--color-muted);">
+            Consulte <code>portfolio/docs/ROADMAP.md</code> para alinhar as prioridades do portfólio e manter consistência visual seguindo o guia em <code>portfolio/docs/visualID.md</code>.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="EduAssistant é um assistente de voz pessoal com memória, integrações locais e automação leve."
+    />
+    <title>edu_assistant · Voice Ops Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <nav aria-label="Navegação do projeto">
+          <ul>
+            <li><a href="#visao-geral">Visão geral</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#contribuicoes">Contribuições</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="badge">Assistente pessoal</span>
+            <h1>edu_assistant</h1>
+            <p>
+              Um assistente de voz local, com memória contextual e integrações sob medida para rotina, projetos e automações pessoais.
+            </p>
+            <div class="cta-group">
+              <a
+                class="btn primary"
+                href="https://github.com/eduardo45MP/edu_assistant"
+                target="_blank"
+                rel="noopener"
+              >Ver no GitHub</a>
+              <a class="btn ghost" href="#instalacao">Rodar agora</a>
+            </div>
+            <dl class="hero-highlights">
+              <div>
+                <dt>Diferencial</dt>
+                <dd>Foco em privacidade e controle local, mantendo custos baixos com APIs acessíveis.</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd>Em evolução, com roadmap público para novos fluxos, integrações e modo offline.</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero-card" aria-label="Informações rápidas">
+            <div>
+              <h3>Interações</h3>
+              <p>Entrada por voz via Whisper, resposta falada com Edge TTS e processamento conversacional GPT 3.5.</p>
+            </div>
+            <div>
+              <h3>Memória leve</h3>
+              <p>JSONs locais para preferências, agenda e histórico rápido, com planejamento para FAISS.</p>
+            </div>
+            <div>
+              <h3>Licença</h3>
+              <p>MIT · contribuições bem-vindas para módulo de automações, UX e suporte offline.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="visao-geral" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Visão geral</span>
+            <h2>Um copiloto doméstico conectado ao seu ecossistema local</h2>
+            <p>
+              O projeto nasceu da necessidade de operar rotina, agenda e projetos sem expor dados sensíveis a serviços externos. Todo o fluxo gira em torno da máquina do usuário.
+            </p>
+          </div>
+          <ul class="feature-list">
+            <li>Comandos por voz naturais, com transcrição rápida e precisa.</li>
+            <li>Respostas faladas, prontas para interação contínua e acessível.</li>
+            <li>Memória persistente de preferências, atividades recorrentes e arquivos importantes.</li>
+            <li>Base de código extensível para automações personalizadas via scripts Python.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Stack técnica</span>
+            <h2>Infraestrutura enxuta, pronta para evoluir</h2>
+            <p>
+              Componentes desacoplados permitem substituições futuras (LLM local, novos TTS, agendas externas) sem reescrever o projeto inteiro.
+            </p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🐍</span>
+              <h3>Core em Python</h3>
+              <p>Scripts organizados em módulos, seguindo boas práticas e orientados a testes automatizados futuros.</p>
+              <div class="metadata">
+                <span>3.10+</span>
+                <span>venv</span>
+                <span>CLI</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🗣️</span>
+              <h3>Entrada e saída de voz</h3>
+              <p>Transcrição com Whisper API e síntese via Edge TTS, mantendo baixo custo operacional.</p>
+              <div class="metadata">
+                <span>openai</span>
+                <span>edge-tts</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🧠</span>
+              <h3>Contexto inteligente</h3>
+              <p>Integração com GPT-3.5-turbo e planejamento para memória vetorial com FAISS.</p>
+              <div class="metadata">
+                <span>gpt_client.py</span>
+                <span>faiss</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Arquitetura</span>
+            <h2>Componentização por responsabilidades</h2>
+            <p>
+              Cada pasta abriga uma camada isolada (entrada, saída, memória, dados), facilitando manutenção e extensões.
+            </p>
+          </div>
+          <pre><code>edu_assistant/
+├── main.py              # Interface voz/texto
+├── config.json          # Credenciais e preferências
+├── memory/              # Memórias locais, agenda e vetores
+├── data/projects/       # Metadados dos seus projetos
+├── modules/
+│   ├── voice_input.py   # Whisper API
+│   ├── voice_output.py  # Edge TTS
+│   ├── gpt_client.py    # Chamadas ao modelo
+│   ├── context_loader.py# Insumos de contexto
+│   ├── agenda.py        # Rotina diária
+│   └── actions.py       # Execução de automações
+└── requirements.txt     # Dependências principais</code></pre>
+        </div>
+      </section>
+
+      <section id="instalacao" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Instalação</span>
+            <h2>Configure seu assistente em minutos</h2>
+            <p>
+              Siga os passos para preparar ambiente, credenciais e iniciar o fluxo conversacional no desktop.
+            </p>
+          </div>
+          <ol>
+            <li>Clone o repositório e crie o ambiente virtual:</li>
+          </ol>
+          <pre><code>git clone https://github.com/eduardo45MP/edu_assistant.git
+cd edu_assistant
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+# .\venv\Scripts\activate  # Windows</code></pre>
+          <ol start="2">
+            <li>Instale as dependências:</li>
+          </ol>
+          <pre><code>pip install -r requirements.txt</code></pre>
+          <ol start="3">
+            <li>Copie o arquivo de exemplo e adicione suas chaves:</li>
+          </ol>
+          <pre><code>cp config.example.json config.json
+# Preencha com API keys, preferências e caminhos locais</code></pre>
+          <ol start="4">
+            <li>Execute o assistente:</li>
+          </ol>
+          <pre><code>python main.py</code></pre>
+          <p>
+            Adapte o fluxo para texto puro substituindo a captura de áudio pelo modo CLI enquanto não tiver microfone disponível.
+          </p>
+        </div>
+      </section>
+
+      <section id="contribuicoes" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Open Source</span>
+            <h2>Colabore com novos módulos e automações</h2>
+            <p>
+              Sugestões e PRs são bem-vindos, especialmente para suporte offline, novas integrações e UX.</p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🔌</span>
+              <h3>Integrações</h3>
+              <p>Conecte agendas externas, serviços de e-mail ou plataformas de produtividade.</p>
+              <div class="metadata">
+                <span>Google Calendar</span>
+                <span>Notion</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🛡️</span>
+              <h3>Modo offline</h3>
+              <p>Explore LLMs locais (Ollama, LM Studio) e opções de STT/TTS open source.</p>
+              <div class="metadata">
+                <span>Whisper.cpp</span>
+                <span>Coqui TTS</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🎛️</span>
+              <h3>Experiência do usuário</h3>
+              <p>Crie interfaces desktop/mobile ou dashboards web para monitorar o assistente em tempo real.</p>
+              <div class="metadata">
+                <span>Electron</span>
+                <span>Next.js</span>
+              </div>
+            </article>
+          </div>
+          <p style="margin-top: 2rem; color: var(--color-muted);">
+            Mantenha o padrão de identidade visual descrito em <code>portfolio/docs/visualID.md</code> e acompanhe o <code>ROADMAP.md</code> para contribuir com prioridades atuais.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

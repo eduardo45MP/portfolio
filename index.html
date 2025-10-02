@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-GB">
   <head>
+    <!-- Meta configuration -->
     <meta charset="UTF-8" />
+    <!-- Ensures responsive behaviour across devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO description: appears in search engines -->
     <meta
       name="description"
       content="Portfolio of Eduardo Peixoto (Eduardo45MP.dev), developer focused on AI, automation, cybersecurity and web solutions."
     />
     <title>Eduardo45MP.dev | Portfolio</title>
+
+    <!-- Google Fonts preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font families: Fira Code (monospace), Poppins (headings), Roboto (body text) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- ========== HEADER ========== -->
     <header class="top-bar">
       <div class="container">
+        <!-- Brand / Logo link to hero section -->
         <a class="brand" href="#hero">Eduardo45MP.dev</a>
+        
+        <!-- Primary navigation menu with accessibility label -->
         <nav aria-label="Main navigation">
           <ul>
             <li><a href="#hero">Home</a></li>
@@ -32,19 +45,31 @@
       </div>
     </header>
 
+    <!-- ========== MAIN CONTENT ========== -->
     <main>
+
+      <!-- ===== HERO SECTION ===== -->
       <section id="hero" class="hero">
         <div class="container hero-grid">
           <div>
+            <!-- Badge highlighting role -->
             <span class="badge">CEO @ Innoforge.tech · Developer</span>
+            
+            <!-- Main heading -->
             <h1>Entrepreneurship driven by technology</h1>
+            
+            <!-- Intro paragraph -->
             <p>
               I am Eduardo Peixoto, integrating technological innovation, automation and cybersecurity into digital projects that solve real-world challenges and deliver immediate impact.
             </p>
+
+            <!-- Call to action buttons -->
             <div class="cta-group">
               <a class="btn primary" href="#projects">View projects</a>
               <a class="btn ghost" href="#contact">Get in touch</a>
             </div>
+
+            <!-- Highlights: mission & expertise -->
             <dl class="hero-highlights">
               <div>
                 <dt>Mission</dt>
@@ -56,6 +81,8 @@
               </div>
             </dl>
           </div>
+
+          <!-- Quick info card aligned to hero -->
           <aside class="hero-card" aria-label="Quick highlights">
             <div>
               <h3>Core Stack</h3>
@@ -74,6 +101,7 @@
         </div>
       </section>
 
+      <!-- ===== ABOUT SECTION ===== -->
       <section id="about" class="section">
         <div class="container">
           <div class="section-header">
@@ -92,6 +120,7 @@
         </div>
       </section>
 
+      <!-- ===== STACK SECTION ===== -->
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
@@ -101,6 +130,8 @@
               Minimalist and scalable stack, ready to evolve from static pages to full applications with automation, security, and data.
             </p>
           </div>
+
+          <!-- Grid of cards for skill categories -->
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧠</span>
@@ -111,6 +142,7 @@
                 <span>Automated Ops</span>
               </div>
             </article>
+
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
               <h3>Cybersecurity</h3>
@@ -120,6 +152,7 @@
                 <span>Network Hardening</span>
               </div>
             </article>
+
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🎨</span>
               <h3>Web Experiences</h3>
@@ -129,6 +162,7 @@
                 <span>Design Systems</span>
               </div>
             </article>
+
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🌍</span>
               <h3>Languages & Culture</h3>
@@ -142,6 +176,7 @@
         </div>
       </section>
 
+      <!-- ===== PROJECTS SECTION ===== -->
       <section id="projects" class="section">
         <div class="container">
           <div class="section-header">
@@ -151,36 +186,44 @@
               A selection of public initiatives showcasing the combination of AI, automation, education, and security built throughout my journey.
             </p>
           </div>
+
+          <!-- Grid of project cards -->
           <div class="cards-grid">
+            <!-- Example project -->
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🤖</span>
               <h3>edu_assistant</h3>
               <p>Voice assistant with local memory and smart flows to organise routines and research insights.</p>
+              <a href="./projects/edu_assistant/index.html" target="_blank" rel="noopener">See more</a>
               <a href="https://github.com/eduardo45MP/edu_assistant" target="_blank" rel="noopener">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🃏</span>
               <h3>AI_studies</h3>
               <p>Laboratory repository to study, test and document experiments in artificial intelligence.</p>
+              <a href="./projects/AI_studies/index.html" target="_blank" rel="noopener">See more</a>
               <a href="https://github.com/eduardo45MP/AI_studies" target="_blank" rel="noopener">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📚</span>
               <h3>ReadMonitor</h3>
               <p>Mobile/web app that tracks reading habits with a focus on continuous improvement.</p>
+              <a href="./projects/ReadMonitor/index.html" target="_blank" rel="noopener">See more</a>
               <a href="https://github.com/eduardo45MP/ReadMonitor" target="_blank" rel="noopener">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🪆</span>
               <h3>RussianTrainingHub</h3>
               <p>Gamified educational games platform to make learning Russian more accessible.</p>
-              <a href="https://eduardo45mp.github.io/RussianTrainingHub/" target="_blank" rel="noopener">View Page</a>
+              <a href="./projects/RussianTrainingHub/index.html" target="_blank" rel="noopener">See more</a>
+              <a href="https://eduardo45mp.github.io/RussianTrainingHub/" target="_blank" rel="noopener">View App</a>
               <a href="https://github.com/eduardo45MP/RussianTrainingHub" target="_blank" rel="noopener">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🕶️</span>
               <h3>NSA</h3>
               <p>System for Wi-Fi testing and audits, strengthening security layers.</p>
+              <a href="./projects/NSA/index.html" target="_blank" rel="noopener">See more</a>
               <a href="https://github.com/eduardo45MP/NSA" target="_blank" rel="noopener">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
@@ -193,6 +236,7 @@
         </div>
       </section>
 
+      <!-- ===== ROADMAP SECTION ===== -->
       <section class="section">
         <div class="container">
           <div class="section-header">
@@ -202,6 +246,8 @@
               The roadmap guides frequent updates to keep the portfolio aligned with strategic initiatives and partnerships.
             </p>
           </div>
+          
+          <!-- Roadmap phases as cards -->
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">⚡</span>
@@ -222,14 +268,22 @@
         </div>
       </section>
 
+      <!-- ===== CONTACT SECTION ===== -->
       <section id="contact" class="section">
         <div class="container">
           <div class="contact-card">
+            <!-- Badge -->
             <span class="badge" aria-hidden="true">Let's create together</span>
+            
+            <!-- Headline -->
             <h2>Open to collaborations and new partnerships</h2>
+            
+            <!-- Description -->
             <p>
               Count on me to build digital solutions that connect technology, business, and real impact. Send a message, share an idea, or schedule a chat.
             </p>
+
+            <!-- Contact details -->
             <ul class="contact-list">
               <li>
                 <a href="mailto:eduardopeixoto45@outlook.com">
@@ -262,15 +316,23 @@
       </section>
     </main>
 
+    <!-- ========== FOOTER ========== -->
     <footer>
       <div class="container">
+        <!-- Copyright -->
         <div>© <span id="year">2024</span> Eduardo Peixoto · eduardo45MP.dev</div>
+        
+        <!-- Links to documentation files -->
         <div>
-          Full documentation available in <a href="./docs/archtecture.md">Architecture</a>, <a href="./docs/visualID.md">Visual Identity</a> and <a href="./ROADMAP.md">Roadmap</a>.
+          Full documentation available in 
+          <a href="./docs/archtecture.md">Architecture</a>, 
+          <a href="./docs/visualID.md">Visual Identity</a> and 
+          <a href="./ROADMAP.md">Roadmap</a>.
         </div>
       </div>
     </footer>
 
+    <!-- Main JS file (interactivity, dynamic year, etc.) -->
     <script src="./scripts/main.js"></script>
   </body>
 </html>

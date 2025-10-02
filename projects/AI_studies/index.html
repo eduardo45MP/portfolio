@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AI_studies é o laboratório público de experimentos em Inteligência Artificial de Eduardo45MP.dev."
+    />
+    <title>AI_studies · Laboratório de IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="container">
+        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <nav aria-label="Navegação do projeto">
+          <ul>
+            <li><a href="#visao-geral">Visão geral</a></li>
+            <li><a href="#stack">Stack</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#contribuicoes">Contribuições</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="badge">Laboratório de IA</span>
+            <h1>AI_studies</h1>
+            <p>
+              Repositório dedicado a consolidar estudos e protótipos em Inteligência Artificial, explorando de forma prática machine learning, deep learning, PNL, visão computacional e modelos generativos.
+            </p>
+            <div class="cta-group">
+              <a
+                class="btn primary"
+                href="https://github.com/eduardo45MP/AI_studies"
+                target="_blank"
+                rel="noopener"
+              >Ver no GitHub</a>
+              <a class="btn ghost" href="#instalacao">Guia de início rápido</a>
+            </div>
+            <dl class="hero-highlights">
+              <div>
+                <dt>Propósito</dt>
+                <dd>Documentar aprendizados contínuos em IA e manter um acervo vivo de notebooks, datasets e scripts utilitários.</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd>Aberto para experiências, contribuições e evolução conjunta com a comunidade.</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero-card" aria-label="Informações rápidas">
+            <div>
+              <h3>Foco atual</h3>
+              <p>Modelos preditivos, fine-tuning de LLMs compactos e protótipos de automações inteligentes.</p>
+            </div>
+            <div>
+              <h3>Organização</h3>
+              <p>Estrutura modular com pastas para notebooks, datasets, modelos treinados e scripts reutilizáveis.</p>
+            </div>
+            <div>
+              <h3>Licença</h3>
+              <p>MIT · Livre para uso, modificação e distribuição com créditos.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="visao-geral" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Visão geral</span>
+            <h2>Explorar, testar e documentar Inteligência Artificial</h2>
+            <p>
+              O AI_studies funciona como um laboratório centralizado de experimentos. Cada ciclo de aprendizado fica documentado para reutilização e compartilhamento com outros desenvolvedores.
+            </p>
+          </div>
+          <ul class="feature-list">
+            <li>Curadoria permanente de notebooks que demonstram técnicas de IA em problemas reais.</li>
+            <li>Datasets versionados para garantir reprodução de resultados e comparações futuras.</li>
+            <li>Scripts utilitários que automatizam pipelines de treino, avaliação e visualização.</li>
+            <li>Roadmap transparente com temas como modelos generativos, séries temporais e recomendações inteligentes.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="stack" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Stack técnica</span>
+            <h2>Ferramentas modernas para experimentação rápida</h2>
+            <p>
+              A base combina o ecossistema Python com frameworks consolidados para machine learning, visualização e manipulação de dados.
+            </p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🐍</span>
+              <h3>Python 3.10+</h3>
+              <p>Ambiente principal para notebooks, scripts e integração de bibliotecas científicas.</p>
+              <div class="metadata">
+                <span>Virtualenv</span>
+                <span>pip</span>
+                <span>Poetry (opcional)</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🧠</span>
+              <h3>Frameworks de IA</h3>
+              <p>PyTorch, TensorFlow, Hugging Face Transformers e Scikit-learn para treinos supervisionados e generativos.</p>
+              <div class="metadata">
+                <span>torch</span>
+                <span>tensorflow</span>
+                <span>transformers</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">📊</span>
+              <h3>Data & Visualização</h3>
+              <p>Pandas, NumPy e Matplotlib garantem manipulação eficiente de dados e dashboards de análise.</p>
+              <div class="metadata">
+                <span>pandas</span>
+                <span>numpy</span>
+                <span>matplotlib</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Arquitetura</span>
+            <h2>Estrutura pensada para crescer sem perder organização</h2>
+            <p>
+              Cada experimento vive em pastas próprias, facilitando replicações, comparações e publicações futuras.
+            </p>
+          </div>
+          <pre><code>AI_studies/
+├── notebooks/       # Experimentos em Jupyter
+├── datasets/        # Bases de dados utilizadas
+├── models/          # Modelos treinados e checkpoints
+├── scripts/         # Utilitários e pipelines
+└── README.md        # Documentação central</code></pre>
+        </div>
+      </section>
+
+      <section id="instalacao" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Instalação</span>
+            <h2>Inicie seus testes com poucos comandos</h2>
+            <p>
+              O repositório é leve e pode ser usado em laboratórios locais, Google Colab ou ambientes em nuvem.
+            </p>
+          </div>
+          <ol>
+            <li>Clone o repositório e acesse a pasta:</li>
+          </ol>
+          <pre><code>git clone https://github.com/eduardo45MP/AI_studies.git
+cd AI_studies</code></pre>
+          <ol start="2">
+            <li>Crie e ative um ambiente virtual Python:</li>
+          </ol>
+          <pre><code>python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+# .\venv\Scripts\activate  # Windows</code></pre>
+          <ol start="3">
+            <li>Instale as dependências necessárias para cada notebook ou script:</li>
+          </ol>
+          <pre><code>pip install -r requirements.txt  # quando disponível
+# ou instale bibliotecas individuais conforme o experimento</code></pre>
+          <p>
+            Utilize o Google Colab para testes rápidos compartilhando notebooks diretamente do diretório 
+            <code>notebooks/</code>.
+          </p>
+        </div>
+      </section>
+
+      <section id="contribuicoes" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span>Open Source</span>
+            <h2>Como contribuir com o AI_studies</h2>
+            <p>
+              O projeto valoriza contribuições colaborativas que documentem experimentos, aprimorem datasets ou proponham novos desafios.
+            </p>
+          </div>
+          <div class="cards-grid">
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🧪</span>
+              <h3>Novos experimentos</h3>
+              <p>Traga notebooks bem documentados com insights e comparativos entre modelos.</p>
+              <div class="metadata">
+                <span>Fork + PR</span>
+                <span>Docstring</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">🗂️</span>
+              <h3>Datasets curados</h3>
+              <p>Inclua bases públicas ou sintéticas com README explicando licenças, formato e uso.</p>
+              <div class="metadata">
+                <span>CC-BY</span>
+                <span>MIT</span>
+              </div>
+            </article>
+            <article class="card" tabindex="0">
+              <span class="icon" aria-hidden="true">⚙️</span>
+              <h3>Scripts utilitários</h3>
+              <p>Automatize fluxos de treino, avaliação ou deploy e compartilhe boas práticas.</p>
+              <div class="metadata">
+                <span>CI/CD</span>
+                <span>pytest opcional</span>
+              </div>
+            </article>
+          </div>
+          <p style="margin-top: 2rem; color: var(--color-muted);">
+            Abra uma issue com o escopo da contribuição antes do PR para alinhamento rápido. Consulte também os documentos em <code>portfolio/docs/</code> para manter o padrão visual e narrativo das páginas.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
