@@ -12,24 +12,24 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - About pages (`about.md` / `sobreMim.md`).  
 - Organisation of public repositories.
 - Improve the **Projects** section with visual cards and direct GitHub links.  
-
+- Create a fully responsive layout (Home, Projects, About, Contact).
 
 ---
 
 ## 🔜 Short Term
-- Create a fully responsive layout (Home, Projects, About, Contact).
+- Implement **dark mode**. 
+- Expand to **full multilingual support** (English and Portuguese side by side).
 - Configure **favicon and consistent visual identity**.  
 - Include `ROADMAP.md` as an evolution reference.
-- Implement **dark mode**. 
-- Expand to Pt-br option.
 
 ---
 
 ## ⏩ Medium Term
-- Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
-- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages). 
+- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).
 - Test alternative deployment on **Vercel/Netlify** for comparison.
-- Create a **professional timeline page** (experience, certifications, goals).  
+- Expand to es-LA option.
+- Create a **professional timeline page** (experience, certifications, goals).
+- Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
 
 ---
 
@@ -37,7 +37,6 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - Transform the portfolio into a **SPA (Single Page Application)** with React or Next.js.  
 - Create integration with a **real contact form** (Formspree or a simple backend).  
 - Provide an **online demo section** for projects (e.g., RussianTrainingHub, ReadMonitor).  
-- Expand to **full multilingual support** (English and Portuguese side by side).  
 - Publish the roadmap publicly and open to community feedback.  
 
 ---
