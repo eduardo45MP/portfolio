@@ -237,6 +237,14 @@ main {
 }
 
 /* ----- CODE STYLING ----- */
+pre {
+  background: var(--color-background);
+  border: 1px solid rgba(51, 0, 16, 0.08);
+  border-radius: var(--radius-md);
+  padding: 1.1rem 1.4rem;
+  overflow-x: auto;
+}
+
 code {
   font-family: 'Fira Code', 'Roboto Mono', ui-monospace, SFMono-Regular, monospace;
   font-size: 0.9rem;
