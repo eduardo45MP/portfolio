@@ -10,24 +10,25 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - Basic integration with GitHub Pages.  
 - Bilingual READMEs (`README.md` and `README.pt-BR.md`).  
 - About pages (`about.md` / `sobreMim.md`).  
-- Organisation of public repositories.  
+- Organisation of public repositories.
+- Improve the **Projects** section with visual cards and direct GitHub links.  
+
 
 ---
 
 ## 🔜 Short Term
-- Create a fully responsive layout (Home, Projects, About, Contact).  
-- Add screenshots of the main projects.  
-- Improve the **Projects** section with visual cards and direct GitHub links.  
+- Create a fully responsive layout (Home, Projects, About, Contact).
 - Configure **favicon and consistent visual identity**.  
-- Include `ROADMAP.md` as an evolution reference.  
+- Include `ROADMAP.md` as an evolution reference.
+- Implement **dark mode**. 
+- Expand to Pt-br option.
 
 ---
 
 ## ⏩ Medium Term
 - Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
-- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).  
-- Implement **dark mode**.  
-- Test alternative deployment on **Vercel/Netlify** for comparison.  
+- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages). 
+- Test alternative deployment on **Vercel/Netlify** for comparison.
 - Create a **professional timeline page** (experience, certifications, goals).  
 
 ---
