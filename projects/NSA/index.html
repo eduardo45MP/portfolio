@@ -1,44 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en-GB">
   <head>
+    <!-- Meta configuration -->
     <meta charset="UTF-8" />
+    <!-- Ensures responsive behaviour across devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="NSA (Network Security Assistant) auxilia na avaliação de redes Wi-Fi com scans, análises e relatórios."
+      content="NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
     />
-    <title>NSA · Network Security Assistant</title>
+    <title>NSA | Network Security Assistant</title>
+
+    <!-- Google Fonts preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font families: Fira Code (monospace), Poppins (headings), Roboto (body text) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="../../css/main.css" />
   </head>
   <body>
+    <!-- ========== HEADER ========== -->
     <header class="top-bar">
       <div class="container">
+        <!-- Brand / Logo link to portfolio projects -->
         <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
-        <nav aria-label="Navegação do projeto">
+
+        <!-- Primary navigation menu with accessibility label -->
+        <nav aria-label="Project navigation">
           <ul>
-            <li><a href="#visao-geral">Visão geral</a></li>
+            <li><a href="#overview">Overview</a></li>
             <li><a href="#stack">Stack</a></li>
-            <li><a href="#instalacao">Instalação</a></li>
-            <li><a href="#contribuicoes">Contribuições</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#contributions">Contributions</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- ========== MAIN CONTENT ========== -->
     <main>
+      <!-- ===== HERO SECTION ===== -->
       <section class="hero">
         <div class="container hero-grid">
           <div>
-            <span class="badge">Segurança de redes</span>
-            <h1>NSA – Network Security Assistant</h1>
+            <!-- Badge highlighting role -->
+            <span class="badge">Network security</span>
+            <h1>NSA | Network Security Assistant</h1>
             <p>
-              Toolkit modular que testa, analisa e fortalece redes Wi-Fi com fluxos claros para scan, avaliação e geração de relatórios.
+              A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.
             </p>
             <div class="cta-group">
               <a
@@ -46,69 +62,72 @@
                 href="https://github.com/eduardo45MP/NSA"
                 target="_blank"
                 rel="noopener"
-              >Ver no GitHub</a>
-              <a class="btn ghost" href="#instalacao">Checklist de uso</a>
+              >View on GitHub</a>
+              <a class="btn ghost" href="#installation">Usage checklist</a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Escopo</dt>
-                <dd>Auditorias educativas em redes próprias, com foco em detecção de vulnerabilidades comuns.</dd>
+                <dt>Scope</dt>
+                <dd>Educational audits on owned networks, focused on common vulnerability detection.</dd>
               </div>
               <div>
-                <dt>Acesso</dt>
-                <dd>Scripts escritos em Python, executados localmente com privilégios administrativos quando necessário.</dd>
+                <dt>Access</dt>
+                <dd>Python scripts executed locally, with administrative privileges when required.</dd>
               </div>
             </dl>
           </div>
-          <aside class="hero-card" aria-label="Informações rápidas">
+          <!-- Quick info card aligned to hero -->
+          <aside class="hero-card" aria-label="Quick highlights">
             <div>
-              <h3>Módulos principais</h3>
-              <p>Scanner Wi-Fi, análise de segurança, relatório PDF e gestão de perfis configuráveis.</p>
+              <h3>Core modules</h3>
+              <p>Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.</p>
             </div>
             <div>
-              <h3>Plataforma alvo</h3>
-              <p>Ambientes Linux; alguns recursos exigem acesso <code>sudo</code> e bibliotecas de rede específicas.</p>
+              <h3>Target platform</h3>
+              <p>Linux environments; some features require <code>sudo</code> access and specific network libraries.</p>
             </div>
             <div>
-              <h3>Licença</h3>
-              <p>MIT · Respeite o aviso legal: use apenas em redes com autorização explícita.</p>
+              <h3>License</h3>
+              <p>MIT · Respect the legal notice: use only on networks with explicit authorisation.</p>
             </div>
           </aside>
         </div>
       </section>
 
-      <section id="visao-geral" class="section">
+      <!-- ===== OVERVIEW SECTION ===== -->
+      <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Visão geral</span>
-            <h2>Auditoria prática para redes Wi-Fi domésticas e corporativas</h2>
+            <span>Overview</span>
+            <h2>Practical auditing for home and corporate Wi-Fi networks</h2>
             <p>
-              O NSA surgiu para profissionalizar testes de segurança caseiros, oferecendo scripts claros e documentados que qualquer entusiasta de cibersegurança pode estender.
+              NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Mapeia redes disponíveis com metadados relevantes (BSSID, RSSI, canal, segurança declarada).</li>
-            <li>Avalia configurações de criptografia, força de sinal e riscos comuns.</li>
-            <li>Gera relatórios legíveis, com checklist de recomendações e próximos passos.</li>
-            <li>Permite salvar perfis Wi-Fi para repetir testes em ciclos regulares.</li>
+            <li>Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).</li>
+            <li>Evaluates encryption settings, signal strength, and common risks.</li>
+            <li>Generates readable reports with checklists of recommendations and next steps.</li>
+            <li>Allows saving Wi-Fi profiles to repeat tests in regular cycles.</li>
           </ul>
         </div>
       </section>
 
+      <!-- ===== STACK SECTION ===== -->
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Stack técnica</span>
-            <h2>Python como base para automação de segurança</h2>
+            <span>Technical stack</span>
+            <h2>Python as the base for security automation</h2>
             <p>
-              Bibliotecas de rede e geração de relatórios compõem o núcleo do toolkit, mantendo o setup enxuto e portátil.
+              Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📡</span>
-              <h3>Scan e captura</h3>
-              <p>Uso de <code>scapy</code>, <code>socket</code> e <code>subprocess</code> para obter informações das interfaces disponíveis.</p>
+              <h3>Scanning and capture</h3>
+              <p>Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.</p>
               <div class="metadata">
                 <span>Monitor mode</span>
                 <span>iwlist</span>
@@ -116,87 +135,93 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Análise</h3>
-              <p>Regras customizáveis para verificar tipos de criptografia, senha padrão e boas práticas de proteção.</p>
+              <h3>Analysis</h3>
+              <p>Customisable rules to verify encryption types, default passwords, and protection best practices.</p>
               <div class="metadata">
                 <span>Python ruleset</span>
-                <span>config YAML (futuro)</span>
+                <span>config YAML (future)</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📑</span>
-              <h3>Relatórios</h3>
-              <p>Geração de relatórios amigáveis com <code>pandas</code>, <code>jinja2</code> ou <code>reportlab</code> (dependendo do fluxo).</p>
+              <h3>Reports</h3>
+              <p>Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.</p>
               <div class="metadata">
                 <span>Export PDF/HTML</span>
-                <span>Templates personalizáveis</span>
+                <span>Custom templates</span>
               </div>
             </article>
           </div>
         </div>
       </section>
 
+      <!-- ===== ARCHITECTURE SECTION ===== -->
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Arquitetura</span>
-            <h2>Scripts modulares para cada etapa do processo</h2>
+            <span>Architecture</span>
+            <h2>Modular scripts for each step of the process</h2>
             <p>
-              Separação clara entre coleta, análise, relato e gerenciamento de perfis evita acoplamentos e facilita testes individuais.</p>
+              Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.
+            </p>
           </div>
           <pre><code>NSA/
-├── scan_wifi_networks.py   # Varredura de redes disponíveis
-├── sec_analysis.py         # Regras de avaliação de segurança
-├── sec_report.py           # Geração de relatórios detalhados
-└── wifi_profile.py         # CRUD de perfis Wi-Fi</code></pre>
+├── scan_wifi_networks.py   # Available network scanning
+├── sec_analysis.py         # Security evaluation rules
+├── sec_report.py           # Detailed report generation
+└── wifi_profile.py         # Wi-Fi profile CRUD</code></pre>
         </div>
       </section>
 
-      <section id="instalacao" class="section">
+      <!-- ===== INSTALLATION SECTION ===== -->
+      <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Instalação</span>
-            <h2>Preparando o ambiente de auditoria</h2>
+            <span>Installation</span>
+            <h2>Preparing the audit environment</h2>
             <p>
-              Execute os scripts em máquinas com suporte a modo monitor e privilégios adequados. Testes foram validados em distribuições Linux baseadas em Debian.</p>
+              Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.
+            </p>
           </div>
           <ol>
-            <li>Clone o repositório e crie o ambiente virtual:</li>
+            <li>Clone the repository and create a virtual environment:</li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/NSA.git
 cd NSA
 python3 -m venv venv
 source venv/bin/activate</code></pre>
           <ol start="2">
-            <li>Instale dependências sugeridas:</li>
+            <li>Install suggested dependencies:</li>
           </ol>
-          <pre><code>pip install -r requirements.txt  # quando disponível
+          <pre><code>pip install -r requirements.txt  # when available
 sudo apt install aircrack-ng net-tools wireless-tools</code></pre>
           <ol start="3">
-            <li>Execute os módulos conforme a necessidade:</li>
+            <li>Run modules as needed:</li>
           </ol>
           <pre><code>sudo python scan_wifi_networks.py
 python sec_analysis.py
 python sec_report.py</code></pre>
           <p>
-            Ajuste os comandos para seu ambiente e certifique-se de ter permissão escrita nos diretórios de saída ao gerar relatórios.
+            Adjust commands for your environment and ensure write permissions on output directories when generating reports.
           </p>
         </div>
       </section>
 
-      <section id="contribuicoes" class="section">
+      <!-- ===== CONTRIBUTIONS SECTION ===== -->
+      <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
             <span>Open Source</span>
-            <h2>Boas práticas para colaborar</h2>
+            <h2>Best practices for collaboration</h2>
             <p>
-              Colaboradores podem expandir regras de segurança, formatos de relatório e suporte a novas plataformas.</p>
+              Contributors can expand security rules, report formats, and support for new platforms.
+            </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔍</span>
-              <h3>Novas heurísticas</h3>
-              <p>Adicione checagens avançadas para detectar configurações inseguras frequentes.</p>
+              <h3>New heuristics</h3>
+              <p>Add advanced checks to detect frequent insecure configurations.</p>
               <div class="metadata">
                 <span>WPA3</span>
                 <span>IoT</span>
@@ -204,8 +229,8 @@ python sec_report.py</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧾</span>
-              <h3>Templates de relatório</h3>
-              <p>Crie layouts personalizáveis com gráficos, checklists e orientações por público.</p>
+              <h3>Report templates</h3>
+              <p>Create customisable layouts with charts, checklists, and audience-specific guidance.</p>
               <div class="metadata">
                 <span>Markdown</span>
                 <span>PDF</span>
@@ -213,8 +238,8 @@ python sec_report.py</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>Testes automatizados</h3>
-              <p>Implemente testes unitários e mocks para simular resultados sem acessar hardware real.</p>
+              <h3>Automated tests</h3>
+              <p>Implement unit tests and mocks to simulate results without real hardware access.</p>
               <div class="metadata">
                 <span>pytest</span>
                 <span>tox</span>
@@ -222,18 +247,20 @@ python sec_report.py</code></pre>
             </article>
           </div>
           <p style="margin-top: 2rem; color: var(--color-muted);">
-            Antes de contribuir, leia o aviso legal no README e mantenha a identidade visual alinhada aos guias em <code>portfolio/docs/</code>.
+            Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>.
           </p>
         </div>
       </section>
 
+      <!-- ===== NOTICE SECTION ===== -->
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Aviso</span>
-            <h2>Uso responsável</h2>
+            <span>Notice</span>
+            <h2>Responsible use</h2>
             <p>
-              O toolkit é destinado exclusivamente a ambientes autorizados. Nunca utilize sem consentimento; responsabilidade total do usuário.</p>
+              This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user.
+            </p>
           </div>
         </div>
       </section>

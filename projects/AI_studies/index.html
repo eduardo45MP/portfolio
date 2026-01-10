@@ -1,44 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en-GB">
   <head>
+    <!-- Meta configuration -->
     <meta charset="UTF-8" />
+    <!-- Ensures responsive behaviour across devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="AI_studies é o laboratório público de experimentos em Inteligência Artificial de Eduardo45MP.dev."
+      content="AI_studies is the public lab for Eduardo45MP.dev to explore and document artificial intelligence experiments."
     />
-    <title>AI_studies · Laboratório de IA</title>
+    <title>AI_studies | AI Lab</title>
+
+    <!-- Google Fonts preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font families: Fira Code (monospace), Poppins (headings), Roboto (body text) -->
     <link
       href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="../../css/main.css" />
   </head>
   <body>
+    <!-- ========== HEADER ========== -->
     <header class="top-bar">
       <div class="container">
+        <!-- Brand / Logo link to portfolio projects -->
         <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
-        <nav aria-label="Navegação do projeto">
+
+        <!-- Primary navigation menu with accessibility label -->
+        <nav aria-label="Project navigation">
           <ul>
-            <li><a href="#visao-geral">Visão geral</a></li>
+            <li><a href="#overview">Overview</a></li>
             <li><a href="#stack">Stack</a></li>
-            <li><a href="#instalacao">Instalação</a></li>
-            <li><a href="#contribuicoes">Contribuições</a></li>
+            <li><a href="#installation">Installation</a></li>
+            <li><a href="#contributions">Contributions</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- ========== MAIN CONTENT ========== -->
     <main>
+      <!-- ===== HERO SECTION ===== -->
       <section class="hero">
         <div class="container hero-grid">
           <div>
-            <span class="badge">Laboratório de IA</span>
+            <!-- Badge highlighting role -->
+            <span class="badge">AI lab</span>
             <h1>AI_studies</h1>
             <p>
-              Repositório dedicado a consolidar estudos e protótipos em Inteligência Artificial, explorando de forma prática machine learning, deep learning, PNL, visão computacional e modelos generativos.
+              A repository dedicated to consolidating AI studies and prototypes, exploring machine learning, deep learning, NLP, computer vision, and generative models.
             </p>
             <div class="cta-group">
               <a
@@ -46,79 +62,82 @@
                 href="https://github.com/eduardo45MP/AI_studies"
                 target="_blank"
                 rel="noopener"
-              >Ver no GitHub</a>
-              <a class="btn ghost" href="#instalacao">Guia de início rápido</a>
+              >View on GitHub</a>
+              <a class="btn ghost" href="#installation">Quick start guide</a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Propósito</dt>
-                <dd>Documentar aprendizados contínuos em IA e manter um acervo vivo de notebooks, datasets e scripts utilitários.</dd>
+                <dt>Purpose</dt>
+                <dd>Document continuous AI learning and keep a living archive of notebooks, datasets, and utility scripts.</dd>
               </div>
               <div>
                 <dt>Status</dt>
-                <dd>Aberto para experiências, contribuições e evolução conjunta com a comunidade.</dd>
+                <dd>Open to experiments, contributions, and community-led evolution.</dd>
               </div>
             </dl>
           </div>
-          <aside class="hero-card" aria-label="Informações rápidas">
+          <!-- Quick info card aligned to hero -->
+          <aside class="hero-card" aria-label="Quick highlights">
             <div>
-              <h3>Foco atual</h3>
-              <p>Modelos preditivos, fine-tuning de LLMs compactos e protótipos de automações inteligentes.</p>
+              <h3>Current focus</h3>
+              <p>Predictive models, compact LLM fine-tuning, and prototypes for intelligent automations.</p>
             </div>
             <div>
-              <h3>Organização</h3>
-              <p>Estrutura modular com pastas para notebooks, datasets, modelos treinados e scripts reutilizáveis.</p>
+              <h3>Organisation</h3>
+              <p>Modular structure with folders for notebooks, datasets, trained models, and reusable scripts.</p>
             </div>
             <div>
-              <h3>Licença</h3>
-              <p>MIT · Livre para uso, modificação e distribuição com créditos.</p>
+              <h3>License</h3>
+              <p>MIT · Free to use, modify, and distribute with credit.</p>
             </div>
           </aside>
         </div>
       </section>
 
-      <section id="visao-geral" class="section">
+      <!-- ===== OVERVIEW SECTION ===== -->
+      <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Visão geral</span>
-            <h2>Explorar, testar e documentar Inteligência Artificial</h2>
+            <span>Overview</span>
+            <h2>Explore, test, and document artificial intelligence</h2>
             <p>
-              O AI_studies funciona como um laboratório centralizado de experimentos. Cada ciclo de aprendizado fica documentado para reutilização e compartilhamento com outros desenvolvedores.
+              AI_studies works as a central lab for experiments. Each learning cycle is documented for reuse and sharing with other developers.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Curadoria permanente de notebooks que demonstram técnicas de IA em problemas reais.</li>
-            <li>Datasets versionados para garantir reprodução de resultados e comparações futuras.</li>
-            <li>Scripts utilitários que automatizam pipelines de treino, avaliação e visualização.</li>
-            <li>Roadmap transparente com temas como modelos generativos, séries temporais e recomendações inteligentes.</li>
+            <li>Curated notebooks that demonstrate AI techniques on real-world problems.</li>
+            <li>Versioned datasets to ensure reproducibility and future comparisons.</li>
+            <li>Utility scripts that automate training, evaluation, and visualisation pipelines.</li>
+            <li>Transparent roadmap with topics like generative models, time series, and intelligent recommendations.</li>
           </ul>
         </div>
       </section>
 
+      <!-- ===== STACK SECTION ===== -->
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Stack técnica</span>
-            <h2>Ferramentas modernas para experimentação rápida</h2>
+            <span>Technical stack</span>
+            <h2>Modern tools for rapid experimentation</h2>
             <p>
-              A base combina o ecossistema Python com frameworks consolidados para machine learning, visualização e manipulação de dados.
+              The base combines the Python ecosystem with established frameworks for machine learning, visualisation, and data processing.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🐍</span>
               <h3>Python 3.10+</h3>
-              <p>Ambiente principal para notebooks, scripts e integração de bibliotecas científicas.</p>
+              <p>Main environment for notebooks, scripts, and scientific library integration.</p>
               <div class="metadata">
                 <span>Virtualenv</span>
                 <span>pip</span>
-                <span>Poetry (opcional)</span>
+                <span>Poetry (optional)</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧠</span>
-              <h3>Frameworks de IA</h3>
-              <p>PyTorch, TensorFlow, Hugging Face Transformers e Scikit-learn para treinos supervisionados e generativos.</p>
+              <h3>AI frameworks</h3>
+              <p>PyTorch, TensorFlow, Hugging Face Transformers, and Scikit-learn for supervised and generative training.</p>
               <div class="metadata">
                 <span>torch</span>
                 <span>tensorflow</span>
@@ -127,8 +146,8 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📊</span>
-              <h3>Data & Visualização</h3>
-              <p>Pandas, NumPy e Matplotlib garantem manipulação eficiente de dados e dashboards de análise.</p>
+              <h3>Data & visualisation</h3>
+              <p>Pandas, NumPy, and Matplotlib for efficient data manipulation and analytics dashboards.</p>
               <div class="metadata">
                 <span>pandas</span>
                 <span>numpy</span>
@@ -139,70 +158,72 @@
         </div>
       </section>
 
+      <!-- ===== ARCHITECTURE SECTION ===== -->
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Arquitetura</span>
-            <h2>Estrutura pensada para crescer sem perder organização</h2>
+            <span>Architecture</span>
+            <h2>Structure designed to scale without losing order</h2>
             <p>
-              Cada experimento vive em pastas próprias, facilitando replicações, comparações e publicações futuras.
+              Each experiment lives in its own folder, making replication, comparisons, and future publishing easier.
             </p>
           </div>
           <pre><code>AI_studies/
-├── notebooks/       # Experimentos em Jupyter
-├── datasets/        # Bases de dados utilizadas
-├── models/          # Modelos treinados e checkpoints
-├── scripts/         # Utilitários e pipelines
-└── README.md        # Documentação central</code></pre>
+├── notebooks/       # Jupyter experiments
+├── datasets/        # Datasets used
+├── models/          # Trained models and checkpoints
+├── scripts/         # Utilities and pipelines
+└── README.md        # Central documentation</code></pre>
         </div>
       </section>
 
-      <section id="instalacao" class="section">
+      <!-- ===== INSTALLATION SECTION ===== -->
+      <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Instalação</span>
-            <h2>Inicie seus testes com poucos comandos</h2>
+            <span>Installation</span>
+            <h2>Start your tests with a few commands</h2>
             <p>
-              O repositório é leve e pode ser usado em laboratórios locais, Google Colab ou ambientes em nuvem.
+              The repository is lightweight and can be used locally, in Google Colab, or in cloud environments.
             </p>
           </div>
           <ol>
-            <li>Clone o repositório e acesse a pasta:</li>
+            <li>Clone the repository and enter the folder:</li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/AI_studies.git
 cd AI_studies</code></pre>
           <ol start="2">
-            <li>Crie e ative um ambiente virtual Python:</li>
+            <li>Create and activate a Python virtual environment:</li>
           </ol>
           <pre><code>python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # .\venv\Scripts\activate  # Windows</code></pre>
           <ol start="3">
-            <li>Instale as dependências necessárias para cada notebook ou script:</li>
+            <li>Install the dependencies needed for each notebook or script:</li>
           </ol>
-          <pre><code>pip install -r requirements.txt  # quando disponível
-# ou instale bibliotecas individuais conforme o experimento</code></pre>
+          <pre><code>pip install -r requirements.txt  # when available
+# or install individual libraries per experiment</code></pre>
           <p>
-            Utilize o Google Colab para testes rápidos compartilhando notebooks diretamente do diretório 
-            <code>notebooks/</code>.
+            Use Google Colab for quick tests by sharing notebooks directly from the <code>notebooks/</code> folder.
           </p>
         </div>
       </section>
 
-      <section id="contribuicoes" class="section">
+      <!-- ===== CONTRIBUTIONS SECTION ===== -->
+      <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
             <span>Open Source</span>
-            <h2>Como contribuir com o AI_studies</h2>
+            <h2>How to contribute to AI_studies</h2>
             <p>
-              O projeto valoriza contribuições colaborativas que documentem experimentos, aprimorem datasets ou proponham novos desafios.
+              The project values collaborative contributions that document experiments, improve datasets, or propose new challenges.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>Novos experimentos</h3>
-              <p>Traga notebooks bem documentados com insights e comparativos entre modelos.</p>
+              <h3>New experiments</h3>
+              <p>Bring well-documented notebooks with insights and model comparisons.</p>
               <div class="metadata">
                 <span>Fork + PR</span>
                 <span>Docstring</span>
@@ -210,8 +231,8 @@ source venv/bin/activate  # Linux/macOS
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗂️</span>
-              <h3>Datasets curados</h3>
-              <p>Inclua bases públicas ou sintéticas com README explicando licenças, formato e uso.</p>
+              <h3>Curated datasets</h3>
+              <p>Include public or synthetic datasets with a README covering license, format, and usage.</p>
               <div class="metadata">
                 <span>CC-BY</span>
                 <span>MIT</span>
@@ -219,16 +240,16 @@ source venv/bin/activate  # Linux/macOS
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">⚙️</span>
-              <h3>Scripts utilitários</h3>
-              <p>Automatize fluxos de treino, avaliação ou deploy e compartilhe boas práticas.</p>
+              <h3>Utility scripts</h3>
+              <p>Automate training, evaluation, or deployment flows and share best practices.</p>
               <div class="metadata">
                 <span>CI/CD</span>
-                <span>pytest opcional</span>
+                <span>pytest optional</span>
               </div>
             </article>
           </div>
           <p style="margin-top: 2rem; color: var(--color-muted);">
-            Abra uma issue com o escopo da contribuição antes do PR para alinhamento rápido. Consulte também os documentos em <code>portfolio/docs/</code> para manter o padrão visual e narrativo das páginas.
+            Open an issue with the contribution scope before the PR for quick alignment. Also review the documents in <code>portfolio/docs/</code> to keep the visual and narrative pattern aligned.
           </p>
         </div>
       </section>
