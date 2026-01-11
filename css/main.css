@@ -2,6 +2,7 @@
    THEME VARIABLES
    ========================= */
 :root {
+  color-scheme: light;
   --color-primary: #5a6a7a; /* Azul acinzentado - cor principal (links, botões) */
   --color-secondary: #330010; /* Vinho escuro - usado em títulos e destaques */
   --color-background: #ffffff; /* Fundo padrão (light mode) */
@@ -9,12 +10,61 @@
   --color-text: #333333; /* Texto primário */
   --color-muted: #6c7682; /* Texto secundário e elementos menos importantes */
   --color-accent: #401a00; /* Marrom profundo - usado em detalhes ou destaques */
-  
+
+  --color-border: rgba(51, 0, 16, 0.08);
+  --color-border-strong: rgba(51, 0, 16, 0.18);
+  --color-topbar-bg: rgba(255, 255, 255, 0.92);
+  --color-hero-gradient-start: rgba(90, 106, 122, 0.12);
+  --color-hero-gradient-end: rgba(255, 255, 255, 0.95);
+  --color-badge-bg: rgba(90, 106, 122, 0.12);
+  --color-btn-ghost-hover: rgba(51, 0, 16, 0.08);
+  --color-card-border: rgba(51, 0, 16, 0.1);
+  --color-card-shadow: 0 16px 30px -22px rgba(51, 0, 16, 0.35);
+  --color-card-shadow-hover: 0 24px 42px -20px rgba(51, 0, 16, 0.35);
+  --color-metadata-bg: rgba(90, 106, 122, 0.12);
+  --color-contact-gradient-start: rgba(51, 0, 16, 0.92);
+  --color-contact-gradient-end: rgba(64, 26, 0, 0.88);
+  --color-contact-shadow: 0 30px 70px -40px rgba(64, 26, 0, 0.65);
+  --color-contact-badge-bg: rgba(255, 255, 255, 0.16);
+  --color-btn-primary-shadow: 0 12px 24px rgba(90, 106, 122, 0.26);
+  --color-btn-primary-shadow-hover: 0 18px 36px rgba(90, 106, 122, 0.32);
+
   --shadow-soft: 0 12px 32px rgba(51, 0, 16, 0.08); /* Sombra suave para cards */
-  
+
   --radius-sm: 0.75rem; /* Bordas levemente arredondadas */
   --radius-md: 1rem;    /* Bordas médias */
   --radius-lg: 1.5rem;  /* Bordas grandes (cards principais) */
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-primary: #94a6ba;
+  --color-secondary: #e4c6d0;
+  --color-background: #121212;
+  --color-surface: #1d1d1d;
+  --color-text: #f2f2f2;
+  --color-muted: #b9c0c9;
+  --color-accent: #c8a389;
+
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-strong: rgba(255, 255, 255, 0.22);
+  --color-topbar-bg: rgba(18, 18, 18, 0.92);
+  --color-hero-gradient-start: rgba(90, 106, 122, 0.28);
+  --color-hero-gradient-end: rgba(18, 18, 18, 0.95);
+  --color-badge-bg: rgba(148, 166, 186, 0.2);
+  --color-btn-ghost-hover: rgba(255, 255, 255, 0.08);
+  --color-card-border: rgba(255, 255, 255, 0.12);
+  --color-card-shadow: 0 16px 30px -22px rgba(0, 0, 0, 0.55);
+  --color-card-shadow-hover: 0 24px 42px -20px rgba(0, 0, 0, 0.65);
+  --color-metadata-bg: rgba(148, 166, 186, 0.22);
+  --color-contact-gradient-start: rgba(28, 8, 14, 0.95);
+  --color-contact-gradient-end: rgba(41, 16, 6, 0.92);
+  --color-contact-shadow: 0 30px 70px -40px rgba(0, 0, 0, 0.75);
+  --color-contact-badge-bg: rgba(255, 255, 255, 0.18);
+  --color-btn-primary-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  --color-btn-primary-shadow-hover: 0 18px 36px rgba(0, 0, 0, 0.5);
+
+  --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.45);
 }
 
 /* =========================
@@ -73,9 +123,9 @@ a:focus {
   position: sticky; /* Fixa no topo ao rolar */
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--color-topbar-bg);
   backdrop-filter: blur(8px); /* Efeito vidro fosco */
-  border-bottom: 1px solid rgba(51, 0, 16, 0.08);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .top-bar .container {
@@ -122,7 +172,7 @@ main {
 
 /* ----- HERO SECTION ----- */
 .hero {
-  background: linear-gradient(135deg, rgba(90, 106, 122, 0.12), rgba(255, 255, 255, 0.95));
+  background: linear-gradient(135deg, var(--color-hero-gradient-start), var(--color-hero-gradient-end));
   padding: 3rem 0 6rem;
 }
 
@@ -139,7 +189,7 @@ main {
   align-items: center;
   gap: 0.5rem;
   padding: 0.4rem 0.9rem;
-  background: rgba(90, 106, 122, 0.12);
+  background: var(--color-badge-bg);
   color: var(--color-secondary);
   border-radius: 999px; /* Formato cápsula */
   font-weight: 500;
@@ -182,24 +232,24 @@ main {
 .btn.primary {
   background: var(--color-primary);
   color: #ffffff;
-  box-shadow: 0 12px 24px rgba(90, 106, 122, 0.26);
+  box-shadow: var(--color-btn-primary-shadow);
 }
 
 .btn.primary:hover,
 .btn.primary:focus {
   transform: translateY(-3px);
-  box-shadow: 0 18px 36px rgba(90, 106, 122, 0.32);
+  box-shadow: var(--color-btn-primary-shadow-hover);
 }
 
 .btn.ghost {
-  border: 1px solid rgba(51, 0, 16, 0.18);
+  border: 1px solid var(--color-border-strong);
   color: var(--color-secondary);
   background: transparent;
 }
 
 .btn.ghost:hover,
 .btn.ghost:focus {
-  background: rgba(51, 0, 16, 0.08);
+  background: var(--color-btn-ghost-hover);
 }
 
 /* ----- HERO HIGHLIGHTS ----- */
@@ -223,8 +273,8 @@ main {
 
 /* ----- HERO SIDE CARD ----- */
 .hero-card {
-  background: var(--color-background);
-  border: 1px solid rgba(51, 0, 16, 0.08);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: 2rem;
   box-shadow: var(--shadow-soft);
@@ -238,8 +288,8 @@ main {
 
 /* ----- CODE STYLING ----- */
 pre {
-  background: var(--color-background);
-  border: 1px solid rgba(51, 0, 16, 0.08);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   padding: 1.1rem 1.4rem;
   overflow-x: auto;
@@ -313,11 +363,11 @@ code {
 }
 
 .card {
-  background: var(--color-background);
+  background: var(--color-surface);
   border-radius: var(--radius-md);
   padding: 1.8rem;
-  border: 1px solid rgba(51, 0, 16, 0.1);
-  box-shadow: 0 16px 30px -22px rgba(51, 0, 16, 0.35);
+  border: 1px solid var(--color-card-border);
+  box-shadow: var(--color-card-shadow);
   display: grid;
   gap: 1rem;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -326,7 +376,7 @@ code {
 .card:hover,
 .card:focus-within {
   transform: translateY(-6px);
-  box-shadow: 0 24px 42px -20px rgba(51, 0, 16, 0.35);
+  box-shadow: var(--color-card-shadow-hover);
 }
 
 .card span.icon {
@@ -353,7 +403,7 @@ code {
 .metadata span {
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
-  background: rgba(90, 106, 122, 0.12);
+  background: var(--color-metadata-bg);
 }
 
 /* ----- CONTACT SECTION ----- */
@@ -362,13 +412,13 @@ code {
   gap: 1rem;
   padding: 2.5rem;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, rgba(51, 0, 16, 0.92), rgba(64, 26, 0, 0.88));
+  background: linear-gradient(135deg, var(--color-contact-gradient-start), var(--color-contact-gradient-end));
   color: #ffffff;
-  box-shadow: 0 30px 70px -40px rgba(64, 26, 0, 0.65);
+  box-shadow: var(--color-contact-shadow);
 }
 
 .contact-card .badge {
-  background: rgba(255, 255, 255, 0.16);
+  background: var(--color-contact-badge-bg);
   color: #ffffff;
 }
 
@@ -397,7 +447,30 @@ code {
 footer {
   padding: 3rem 0;
   background: var(--color-background);
-  border-top: 1px solid rgba(51, 0, 16, 0.08);
+  border-top: 1px solid var(--color-border);
+}
+
+/* ----- THEME TOGGLE ----- */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background: var(--color-btn-ghost-hover);
+  transform: translateY(-1px);
 }
 
 footer .container {

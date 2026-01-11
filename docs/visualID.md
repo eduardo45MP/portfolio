@@ -52,8 +52,8 @@ Guidelines:
 ## 🌓 Light & Dark Mode
 
 - **Light Mode (default):** White background, dark grey text.  
-- **Dark Mode (planned):** Black/near-black background, light grey text, accent colours remain.  
-- Theme switcher planned as part of future updates.  
+- **Dark Mode:** Black/near-black background, light grey text, accent colours remain.  
+- Theme switcher available in the header and stored in the browser.  
 
 ---
 

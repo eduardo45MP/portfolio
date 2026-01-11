@@ -13,12 +13,13 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - Organisation of public repositories.
 - Improve the **Projects** section with visual cards and direct GitHub links.  
 - Create a fully responsive layout (Home, Projects, About, Contact).
-- Configure **consistent visual identity**.  
+- Configure **consistent visual identity**. 
+- Implement **dark mode**. 
 
 ---
 
 ## 🔜 Short Term
-- Implement **dark mode**. 
+- Create AGENTS.md at root
 - Expand to **full multilingual support** (English and Portuguese side by side).
 - Configure **favicon**.  
 - Include `ROADMAP.md` as an evolution reference.
