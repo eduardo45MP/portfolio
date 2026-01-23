@@ -34,8 +34,8 @@ Alguns dos repositórios em destaque no meu GitHub público:
 ---
 
 ## 📬 Contato
-- 🌍 Website: [eduardo45MP.dev](https://eduardo45MP.dev)
-- 💼 LinkedIn: [linkedin.com/in/eduardo](https://linkedin.com/in/eduardo)
+- 🌍 Website: [https://eduardo45mp.github.io/portfolio/](https://eduardo45mp.github.io/portfolio/)
+- 💼 LinkedIn: [linkedin.com/in/eduardo](https://www.linkedin.com/in/eduardo-peixoto45/)
 - 🐙 GitHub: [github.com/eduardo45MP](https://github.com/eduardo45MP)
 - ✉️ Email: eduardopeixoto45@outlook.com
 
