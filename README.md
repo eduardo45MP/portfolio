@@ -6,6 +6,12 @@ The site is built to be **simple, responsive, and easy to navigate**, serving as
 
 ---
 
+## 🌍 Multilingual strategy
+This portfolio follows a **bilingual-by-structure** convention: English (en-GB) and Portuguese (pt-BR) appear together in every page, with language tags on each text block for accessibility and clarity.  
+See the full convention in [docs/language-strategy.md](docs/language-strategy.md).
+
+---
+
 ## 👨‍💻 About Me
 I am **Eduardo Peixoto**, CEO at [Innoforge.tech](https://innoforge.tech) and a developer with interests in **AI, automation, cybersecurity, and web solutions**.  
 My mission is to integrate **technological innovation** with **real-world applications** that have a direct impact.  

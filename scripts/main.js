@@ -17,7 +17,10 @@ if (themeToggle) {
   themeToggle.setAttribute('aria-pressed', initialTheme === 'dark');
 }
 if (themeLabel) {
-  themeLabel.textContent = initialTheme === 'dark' ? 'Light mode' : 'Dark mode';
+  themeLabel.textContent =
+    initialTheme === 'dark'
+      ? 'Light mode / Modo claro'
+      : 'Dark mode / Modo escuro';
 }
 
 if (themeToggle) {
@@ -29,7 +32,10 @@ if (themeToggle) {
     localStorage.setItem('theme', nextTheme);
     themeToggle.setAttribute('aria-pressed', nextTheme === 'dark');
     if (themeLabel) {
-      themeLabel.textContent = nextTheme === 'dark' ? 'Light mode' : 'Dark mode';
+      themeLabel.textContent =
+        nextTheme === 'dark'
+          ? 'Light mode / Modo claro'
+          : 'Dark mode / Modo escuro';
     }
   });
 }

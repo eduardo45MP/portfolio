@@ -6,10 +6,16 @@ O site foi desenvolvido para ser simples, responsivo e fácil de navegar, servin
 
 ---
 
+## 🌍 Estratégia multilíngue
+Este portfólio segue uma convenção **bilíngue por estrutura**: inglês (en-GB) e português (pt-BR) aparecem juntos em cada página, com tags de idioma em cada bloco de texto para acessibilidade e clareza.  
+Veja a convenção completa em [docs/language-strategy.md](docs/language-strategy.md).
+
+---
+
 ## 👨‍💻 Sobre Mim
 Sou **Eduardo Peixoto**, CEO da [Innoforge.tech](https://innoforge.tech) e desenvolvedor com interesses em **IA, automação, segurança cibernética e soluções web**.
 Minha missão é integrar **inovação tecnológica** e **aplicações reais** em projetos que tenham impacto direto no mundo.
-mais em [Sobre_mim]{sobreMim.md}
+Mais em [Sobre mim](sobreMim.md).
 
 ---
 
@@ -42,4 +48,3 @@ Alguns dos repositórios em destaque no meu GitHub público:
 ---
 
 ✨ Criado por **Eduardo45MP.dev** como repositório público de portfólio pessoal.
-```

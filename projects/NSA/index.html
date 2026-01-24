@@ -8,9 +8,9 @@
     <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
+      content="NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports. / NSA (Network Security Assistant) ajuda a avaliar redes Wi-Fi com varreduras, análises e relatórios."
     />
-    <title>NSA | Network Security Assistant</title>
+    <title>NSA | Network Security Assistant / Assistente de Segurança</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -36,15 +36,45 @@
         <!-- Primary navigation menu with accessibility label -->
         <nav aria-label="Project navigation">
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li>
+              <a href="#overview">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Overview</span>
+                  <span lang="pt-BR">Visão geral</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#stack">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Stack</span>
+                  <span lang="pt-BR">Stack</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Installation</span>
+                  <span lang="pt-BR">Instalação</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#contributions">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Contributions</span>
+                  <span lang="pt-BR">Contribuições</span>
+                </span>
+              </a>
+            </li>
           </ul>
         </nav>
 
+        <div class="language-indicator">EN · PT</div>
+
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          <span data-theme-label>Dark mode</span>
+          <span data-theme-label>Dark mode / Modo escuro</span>
         </button>
       </div>
     </header>
@@ -56,10 +86,20 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Network security</span>
+            <span class="badge">
+              <span class="bilingual-text bilingual-text--inline">
+                <span lang="en-GB">Network security</span>
+                <span lang="pt-BR">Segurança de redes</span>
+              </span>
+            </span>
             <h1>NSA | Network Security Assistant</h1>
-            <p>
-              A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.
+              </span>
+              <span lang="pt-BR">
+                Um toolkit modular que testa, analisa e fortalece redes Wi-Fi com fluxos claros de varredura, avaliação e geração de relatórios.
+              </span>
             </p>
             <div class="cta-group">
               <a
@@ -67,33 +107,81 @@
                 href="https://github.com/eduardo45MP/NSA"
                 target="_blank"
                 rel="noopener"
-              >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Usage checklist</a>
+              >
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">View on GitHub</span>
+                  <span lang="pt-BR">Ver no GitHub</span>
+                </span>
+              </a>
+              <a class="btn ghost" href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Usage checklist</span>
+                  <span lang="pt-BR">Checklist de uso</span>
+                </span>
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Scope</dt>
-                <dd>Educational audits on owned networks, focused on common vulnerability detection.</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Scope</span>
+                    <span lang="pt-BR">Escopo</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">Educational audits on owned networks, focused on common vulnerability detection.</span>
+                    <span lang="pt-BR">Auditorias educativas em redes próprias, focadas na detecção de vulnerabilidades comuns.</span>
+                  </span>
+                </dd>
               </div>
               <div>
-                <dt>Access</dt>
-                <dd>Python scripts executed locally, with administrative privileges when required.</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Access</span>
+                    <span lang="pt-BR">Acesso</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">Python scripts executed locally, with administrative privileges when required.</span>
+                    <span lang="pt-BR">Scripts Python executados localmente, com privilégios administrativos quando necessário.</span>
+                  </span>
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
           <aside class="hero-card" aria-label="Quick highlights">
             <div>
-              <h3>Core modules</h3>
-              <p>Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Core modules</span>
+                <span lang="pt-BR">Módulos principais</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.</span>
+                <span lang="pt-BR">Scanner Wi-Fi, análise de segurança, relatórios PDF e gestão de perfis configurável.</span>
+              </p>
             </div>
             <div>
-              <h3>Target platform</h3>
-              <p>Linux environments; some features require <code>sudo</code> access and specific network libraries.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Target platform</span>
+                <span lang="pt-BR">Plataforma alvo</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Linux environments; some features require <code>sudo</code> access and specific network libraries.</span>
+                <span lang="pt-BR">Ambientes Linux; alguns recursos exigem acesso <code>sudo</code> e bibliotecas específicas de rede.</span>
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Respect the legal notice: use only on networks with explicit authorisation.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">License</span>
+                <span lang="pt-BR">Licença</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">MIT · Respect the legal notice: use only on networks with explicit authorisation.</span>
+                <span lang="pt-BR">MIT · Respeite o aviso legal: use apenas em redes com autorização explícita.</span>
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +191,48 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>Practical auditing for home and corporate Wi-Fi networks</h2>
-            <p>
-              NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Overview</span>
+              <span lang="pt-BR">Visão geral</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Practical auditing for home and corporate Wi-Fi networks</span>
+              <span lang="pt-BR">Auditoria prática para redes Wi-Fi residenciais e corporativas</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.
+              </span>
+              <span lang="pt-BR">
+                O NSA foi criado para profissionalizar testes de segurança domésticos, oferecendo scripts claros e documentados que qualquer entusiasta de cibersegurança pode estender.
+              </span>
             </p>
           </div>
           <ul class="feature-list">
-            <li>Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).</li>
-            <li>Evaluates encryption settings, signal strength, and common risks.</li>
-            <li>Generates readable reports with checklists of recommendations and next steps.</li>
-            <li>Allows saving Wi-Fi profiles to repeat tests in regular cycles.</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).</span>
+                <span lang="pt-BR">Mapeia redes disponíveis com metadados relevantes (BSSID, RSSI, canal, segurança declarada).</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Evaluates encryption settings, signal strength, and common risks.</span>
+                <span lang="pt-BR">Avalia configurações de criptografia, força do sinal e riscos comuns.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Generates readable reports with checklists of recommendations and next steps.</span>
+                <span lang="pt-BR">Gera relatórios legíveis com checklists de recomendações e próximos passos.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Allows saving Wi-Fi profiles to repeat tests in regular cycles.</span>
+                <span lang="pt-BR">Permite salvar perfis Wi-Fi para repetir testes em ciclos regulares.</span>
+              </span>
+            </li>
           </ul>
         </div>
       </section>
@@ -122,38 +241,82 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Python as the base for security automation</h2>
-            <p>
-              Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Technical stack</span>
+              <span lang="pt-BR">Stack técnico</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Python as the base for security automation</span>
+              <span lang="pt-BR">Python como base para automação de segurança</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.
+              </span>
+              <span lang="pt-BR">
+                Bibliotecas de rede e geração de relatórios formam o núcleo do toolkit, mantendo a configuração enxuta e portátil.
+              </span>
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📡</span>
-              <h3>Scanning and capture</h3>
-              <p>Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Scanning and capture</span>
+                <span lang="pt-BR">Varredura e captura</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.</span>
+                <span lang="pt-BR">Usa <code>scapy</code>, <code>socket</code> e <code>subprocess</code> para coletar informações da interface.</span>
+              </p>
               <div class="metadata">
-                <span>Monitor mode</span>
+                <span>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Monitor mode</span>
+                    <span lang="pt-BR">Modo monitor</span>
+                  </span>
+                </span>
                 <span>iwlist</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Analysis</h3>
-              <p>Customisable rules to verify encryption types, default passwords, and protection best practices.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Analysis</span>
+                <span lang="pt-BR">Análise</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Customisable rules to verify encryption types, default passwords, and protection best practices.</span>
+                <span lang="pt-BR">Regras customizáveis para verificar tipos de criptografia, senhas padrão e boas práticas de proteção.</span>
+              </p>
               <div class="metadata">
                 <span>Python ruleset</span>
-                <span>config YAML (future)</span>
+                <span>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">config YAML (future)</span>
+                    <span lang="pt-BR">config YAML (futuro)</span>
+                  </span>
+                </span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📑</span>
-              <h3>Reports</h3>
-              <p>Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Reports</span>
+                <span lang="pt-BR">Relatórios</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.</span>
+                <span lang="pt-BR">Gera relatórios amigáveis com <code>pandas</code>, <code>jinja2</code> ou <code>reportlab</code> dependendo do fluxo.</span>
+              </p>
               <div class="metadata">
                 <span>Export PDF/HTML</span>
-                <span>Custom templates</span>
+                <span>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Custom templates</span>
+                    <span lang="pt-BR">Templates customizados</span>
+                  </span>
+                </span>
               </div>
             </article>
           </div>
@@ -164,10 +327,21 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Modular scripts for each step of the process</h2>
-            <p>
-              Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Architecture</span>
+              <span lang="pt-BR">Arquitetura</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Modular scripts for each step of the process</span>
+              <span lang="pt-BR">Scripts modulares para cada etapa do processo</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.
+              </span>
+              <span lang="pt-BR">
+                A separação clara entre coleta, análise, relatórios e gestão de perfis evita acoplamento e permite testes isolados.
+              </span>
             </p>
           </div>
           <pre><code>NSA/
@@ -182,32 +356,63 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Preparing the audit environment</h2>
-            <p>
-              Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Installation</span>
+              <span lang="pt-BR">Instalação</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Preparing the audit environment</span>
+              <span lang="pt-BR">Preparando o ambiente de auditoria</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.
+              </span>
+              <span lang="pt-BR">
+                Execute os scripts em máquinas que suportam modo monitor e tenham privilégios necessários. Testes foram validados em distribuições Linux baseadas em Debian.
+              </span>
             </p>
           </div>
           <ol>
-            <li>Clone the repository and create a virtual environment:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Clone the repository and create a virtual environment:</span>
+                <span lang="pt-BR">Clone o repositório e crie um ambiente virtual:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/NSA.git
 cd NSA
 python3 -m venv venv
 source venv/bin/activate</code></pre>
           <ol start="2">
-            <li>Install suggested dependencies:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Install suggested dependencies:</span>
+                <span lang="pt-BR">Instale as dependências sugeridas:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>pip install -r requirements.txt  # when available
 sudo apt install aircrack-ng net-tools wireless-tools</code></pre>
           <ol start="3">
-            <li>Run modules as needed:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Run modules as needed:</span>
+                <span lang="pt-BR">Execute módulos conforme necessário:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>sudo python scan_wifi_networks.py
 python sec_analysis.py
 python sec_report.py</code></pre>
-          <p>
-            Adjust commands for your environment and ensure write permissions on output directories when generating reports.
+          <p class="bilingual-text">
+            <span lang="en-GB">
+              Adjust commands for your environment and ensure write permissions on output directories when generating reports.
+            </span>
+            <span lang="pt-BR">
+              Ajuste comandos para seu ambiente e garanta permissões de escrita nos diretórios de saída ao gerar relatórios.
+            </span>
           </p>
         </div>
       </section>
@@ -216,17 +421,34 @@ python sec_report.py</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Best practices for collaboration</h2>
-            <p>
-              Contributors can expand security rules, report formats, and support for new platforms.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Open Source</span>
+              <span lang="pt-BR">Código aberto</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Best practices for collaboration</span>
+              <span lang="pt-BR">Boas práticas para colaboração</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Contributors can expand security rules, report formats, and support for new platforms.
+              </span>
+              <span lang="pt-BR">
+                Contribuidores podem expandir regras de segurança, formatos de relatório e suporte a novas plataformas.
+              </span>
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔍</span>
-              <h3>New heuristics</h3>
-              <p>Add advanced checks to detect frequent insecure configurations.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">New heuristics</span>
+                <span lang="pt-BR">Novas heurísticas</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Add advanced checks to detect frequent insecure configurations.</span>
+                <span lang="pt-BR">Adicione verificações avançadas para detectar configurações inseguras frequentes.</span>
+              </p>
               <div class="metadata">
                 <span>WPA3</span>
                 <span>IoT</span>
@@ -234,8 +456,14 @@ python sec_report.py</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧾</span>
-              <h3>Report templates</h3>
-              <p>Create customisable layouts with charts, checklists, and audience-specific guidance.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Report templates</span>
+                <span lang="pt-BR">Modelos de relatório</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Create customisable layouts with charts, checklists, and audience-specific guidance.</span>
+                <span lang="pt-BR">Crie layouts customizáveis com gráficos, checklists e orientações específicas por público.</span>
+              </p>
               <div class="metadata">
                 <span>Markdown</span>
                 <span>PDF</span>
@@ -243,16 +471,27 @@ python sec_report.py</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>Automated tests</h3>
-              <p>Implement unit tests and mocks to simulate results without real hardware access.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Automated tests</span>
+                <span lang="pt-BR">Testes automatizados</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Implement unit tests and mocks to simulate results without real hardware access.</span>
+                <span lang="pt-BR">Implemente testes unitários e mocks para simular resultados sem acesso a hardware real.</span>
+              </p>
               <div class="metadata">
                 <span>pytest</span>
                 <span>tox</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
-            Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>.
+          <p style="margin-top: 2rem; color: var(--color-muted);" class="bilingual-text">
+            <span lang="en-GB">
+              Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>.
+            </span>
+            <span lang="pt-BR">
+              Antes de contribuir, leia o aviso legal no README e mantenha a identidade visual alinhada com os guias em <code>portfolio/docs/</code>.
+            </span>
           </p>
         </div>
       </section>
@@ -261,10 +500,21 @@ python sec_report.py</code></pre>
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Notice</span>
-            <h2>Responsible use</h2>
-            <p>
-              This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Notice</span>
+              <span lang="pt-BR">Aviso</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Responsible use</span>
+              <span lang="pt-BR">Uso responsável</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user.
+              </span>
+              <span lang="pt-BR">
+                Este toolkit é destinado exclusivamente a ambientes autorizados. Nunca use sem consentimento; a responsabilidade é totalmente do usuário.
+              </span>
             </p>
           </div>
         </div>

@@ -8,9 +8,9 @@
     <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations."
+      content="EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations. / EduAssistant é um assistente de voz pessoal com memória local, automações leves e integrações sob medida."
     />
-    <title>edu_assistant | Voice Ops Companion</title>
+    <title>edu_assistant | Voice Ops Companion / Assistente de Voz</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -36,15 +36,45 @@
         <!-- Primary navigation menu with accessibility label -->
         <nav aria-label="Project navigation">
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li>
+              <a href="#overview">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Overview</span>
+                  <span lang="pt-BR">Visão geral</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#stack">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Stack</span>
+                  <span lang="pt-BR">Stack</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Installation</span>
+                  <span lang="pt-BR">Instalação</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#contributions">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Contributions</span>
+                  <span lang="pt-BR">Contribuições</span>
+                </span>
+              </a>
+            </li>
           </ul>
         </nav>
 
+        <div class="language-indicator">EN · PT</div>
+
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          <span data-theme-label>Dark mode</span>
+          <span data-theme-label>Dark mode / Modo escuro</span>
         </button>
       </div>
     </header>
@@ -56,10 +86,20 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Personal assistant</span>
+            <span class="badge">
+              <span class="bilingual-text bilingual-text--inline">
+                <span lang="en-GB">Personal assistant</span>
+                <span lang="pt-BR">Assistente pessoal</span>
+              </span>
+            </span>
             <h1>edu_assistant</h1>
-            <p>
-              A local voice assistant with contextual memory and bespoke integrations for routines, projects, and personal automations.
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                A local voice assistant with contextual memory and bespoke integrations for routines, projects, and personal automations.
+              </span>
+              <span lang="pt-BR">
+                Um assistente de voz local com memória contextual e integrações sob medida para rotinas, projetos e automações pessoais.
+              </span>
             </p>
             <div class="cta-group">
               <a
@@ -67,33 +107,81 @@
                 href="https://github.com/eduardo45MP/edu_assistant"
                 target="_blank"
                 rel="noopener"
-              >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Run it locally</a>
+              >
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">View on GitHub</span>
+                  <span lang="pt-BR">Ver no GitHub</span>
+                </span>
+              </a>
+              <a class="btn ghost" href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Run it locally</span>
+                  <span lang="pt-BR">Executar localmente</span>
+                </span>
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Differential</dt>
-                <dd>Privacy-first, local control, and low-cost APIs for everyday automation.</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Differential</span>
+                    <span lang="pt-BR">Diferencial</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">Privacy-first, local control, and low-cost APIs for everyday automation.</span>
+                    <span lang="pt-BR">Privacidade em primeiro lugar, controle local e APIs de baixo custo para automações do dia a dia.</span>
+                  </span>
+                </dd>
               </div>
               <div>
-                <dt>Status</dt>
-                <dd>Active roadmap with new flows, integrations, and offline mode in progress.</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Status</span>
+                    <span lang="pt-BR">Status</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">Active roadmap with new flows, integrations, and offline mode in progress.</span>
+                    <span lang="pt-BR">Roadmap ativo com novos fluxos, integrações e modo offline em andamento.</span>
+                  </span>
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
           <aside class="hero-card" aria-label="Quick highlights">
             <div>
-              <h3>Interactions</h3>
-              <p>Voice input via Whisper, spoken answers with Edge TTS, conversational processing with GPT-3.5.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Interactions</span>
+                <span lang="pt-BR">Interações</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Voice input via Whisper, spoken answers with Edge TTS, conversational processing with GPT-3.5.</span>
+                <span lang="pt-BR">Entrada de voz via Whisper, respostas faladas com Edge TTS, processamento conversacional com GPT-3.5.</span>
+              </p>
             </div>
             <div>
-              <h3>Lightweight memory</h3>
-              <p>Local JSON for preferences, agenda, and quick history, with FAISS planned next.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Lightweight memory</span>
+                <span lang="pt-BR">Memória leve</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Local JSON for preferences, agenda, and quick history, with FAISS planned next.</span>
+                <span lang="pt-BR">JSON local para preferências, agenda e histórico rápido, com FAISS planejado na sequência.</span>
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · contributions welcome for automation modules, UX, and offline support.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">License</span>
+                <span lang="pt-BR">Licença</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">MIT · contributions welcome for automation modules, UX, and offline support.</span>
+                <span lang="pt-BR">MIT · contribuições bem-vindas para módulos de automação, UX e suporte offline.</span>
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +191,48 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>A home copilot connected to your local ecosystem</h2>
-            <p>
-              The project was created to manage routines, calendars, and projects without exposing sensitive data to external services. Everything runs on the user machine.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Overview</span>
+              <span lang="pt-BR">Visão geral</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">A home copilot connected to your local ecosystem</span>
+              <span lang="pt-BR">Um copiloto doméstico conectado ao seu ecossistema local</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                The project was created to manage routines, calendars, and projects without exposing sensitive data to external services. Everything runs on the user machine.
+              </span>
+              <span lang="pt-BR">
+                O projeto foi criado para gerenciar rotinas, calendários e projetos sem expor dados sensíveis a serviços externos. Tudo roda na máquina do usuário.
+              </span>
             </p>
           </div>
           <ul class="feature-list">
-            <li>Natural voice commands with fast, accurate transcription.</li>
-            <li>Spoken responses ready for continuous, accessible interaction.</li>
-            <li>Persistent memory of preferences, recurring tasks, and important files.</li>
-            <li>Extensible codebase for custom automations via Python scripts.</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Natural voice commands with fast, accurate transcription.</span>
+                <span lang="pt-BR">Comandos de voz naturais com transcrição rápida e precisa.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Spoken responses ready for continuous, accessible interaction.</span>
+                <span lang="pt-BR">Respostas faladas prontas para interação contínua e acessível.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Persistent memory of preferences, recurring tasks, and important files.</span>
+                <span lang="pt-BR">Memória persistente de preferências, tarefas recorrentes e arquivos importantes.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Extensible codebase for custom automations via Python scripts.</span>
+                <span lang="pt-BR">Base de código extensível para automações personalizadas via scripts Python.</span>
+              </span>
+            </li>
           </ul>
         </div>
       </section>
@@ -122,17 +241,34 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Lean infrastructure built to evolve</h2>
-            <p>
-              Decoupled components allow future swaps (local LLMs, new TTS, external agendas) without rewriting the project.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Technical stack</span>
+              <span lang="pt-BR">Stack técnico</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Lean infrastructure built to evolve</span>
+              <span lang="pt-BR">Infraestrutura enxuta feita para evoluir</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Decoupled components allow future swaps (local LLMs, new TTS, external agendas) without rewriting the project.
+              </span>
+              <span lang="pt-BR">
+                Componentes desacoplados permitem futuras trocas (LLMs locais, nova TTS, agendas externas) sem reescrever o projeto.
+              </span>
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🐍</span>
-              <h3>Python core</h3>
-              <p>Modules organised by responsibility, following best practices and ready for future test coverage.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Python core</span>
+                <span lang="pt-BR">Core em Python</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Modules organised by responsibility, following best practices and ready for future test coverage.</span>
+                <span lang="pt-BR">Módulos organizados por responsabilidade, seguindo boas práticas e prontos para futura cobertura de testes.</span>
+              </p>
               <div class="metadata">
                 <span>3.10+</span>
                 <span>venv</span>
@@ -141,8 +277,14 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗣️</span>
-              <h3>Voice input and output</h3>
-              <p>Transcription with Whisper API and synthesis via Edge TTS, keeping operational costs low.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Voice input and output</span>
+                <span lang="pt-BR">Entrada e saída de voz</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Transcription with Whisper API and synthesis via Edge TTS, keeping operational costs low.</span>
+                <span lang="pt-BR">Transcrição com API Whisper e síntese via Edge TTS, mantendo custos operacionais baixos.</span>
+              </p>
               <div class="metadata">
                 <span>openai</span>
                 <span>edge-tts</span>
@@ -150,8 +292,14 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧠</span>
-              <h3>Smart context</h3>
-              <p>GPT-3.5-turbo integration with vector memory plans via FAISS.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Smart context</span>
+                <span lang="pt-BR">Contexto inteligente</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">GPT-3.5-turbo integration with vector memory plans via FAISS.</span>
+                <span lang="pt-BR">Integração GPT-3.5-turbo com planos de memória vetorial via FAISS.</span>
+              </p>
               <div class="metadata">
                 <span>gpt_client.py</span>
                 <span>faiss</span>
@@ -165,10 +313,21 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Componentised by responsibility</h2>
-            <p>
-              Each folder holds an isolated layer (input, output, memory, data), simplifying maintenance and extensions.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Architecture</span>
+              <span lang="pt-BR">Arquitetura</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Componentised by responsibility</span>
+              <span lang="pt-BR">Componentizado por responsabilidade</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Each folder holds an isolated layer (input, output, memory, data), simplifying maintenance and extensions.
+              </span>
+              <span lang="pt-BR">
+                Cada pasta guarda uma camada isolada (entrada, saída, memória, dados), simplificando manutenção e extensões.
+              </span>
             </p>
           </div>
           <pre><code>edu_assistant/
@@ -191,14 +350,30 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Set up your assistant in minutes</h2>
-            <p>
-              Follow the steps to prepare your environment, credentials, and start the conversational flow on desktop.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Installation</span>
+              <span lang="pt-BR">Instalação</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Set up your assistant in minutes</span>
+              <span lang="pt-BR">Configure seu assistente em minutos</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Follow the steps to prepare your environment, credentials, and start the conversational flow on desktop.
+              </span>
+              <span lang="pt-BR">
+                Siga os passos para preparar seu ambiente, credenciais e iniciar o fluxo conversacional no desktop.
+              </span>
             </p>
           </div>
           <ol>
-            <li>Clone the repository and create a virtual environment:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Clone the repository and create a virtual environment:</span>
+                <span lang="pt-BR">Clone o repositório e crie um ambiente virtual:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/edu_assistant.git
 cd edu_assistant
@@ -206,20 +381,40 @@ python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # .\venv\Scripts\activate  # Windows</code></pre>
           <ol start="2">
-            <li>Install dependencies:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Install dependencies:</span>
+                <span lang="pt-BR">Instale as dependências:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>pip install -r requirements.txt</code></pre>
           <ol start="3">
-            <li>Copy the example file and add your keys:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Copy the example file and add your keys:</span>
+                <span lang="pt-BR">Copie o arquivo de exemplo e adicione suas chaves:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>cp config.example.json config.json
 # Fill in API keys, preferences, and local paths</code></pre>
           <ol start="4">
-            <li>Run the assistant:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Run the assistant:</span>
+                <span lang="pt-BR">Execute o assistente:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>python main.py</code></pre>
-          <p>
-            Switch to text-only mode by replacing audio capture with CLI input if you do not have a microphone available.
+          <p class="bilingual-text">
+            <span lang="en-GB">
+              Switch to text-only mode by replacing audio capture with CLI input if you do not have a microphone available.
+            </span>
+            <span lang="pt-BR">
+              Alterne para o modo somente texto substituindo a captura de áudio por entrada via CLI se você não tiver microfone disponível.
+            </span>
           </p>
         </div>
       </section>
@@ -228,16 +423,34 @@ source venv/bin/activate  # Linux/macOS
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Contribute new modules and automations</h2>
-            <p>
-              Suggestions and PRs are welcome, especially for offline support, new integrations, and UX.</p>
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Open Source</span>
+              <span lang="pt-BR">Código aberto</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Contribute new modules and automations</span>
+              <span lang="pt-BR">Contribua com novos módulos e automações</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Suggestions and PRs are welcome, especially for offline support, new integrations, and UX.
+              </span>
+              <span lang="pt-BR">
+                Sugestões e PRs são bem-vindos, especialmente para suporte offline, novas integrações e UX.
+              </span>
+            </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔌</span>
-              <h3>Integrations</h3>
-              <p>Connect external calendars, email services, or productivity platforms.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Integrations</span>
+                <span lang="pt-BR">Integrações</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Connect external calendars, email services, or productivity platforms.</span>
+                <span lang="pt-BR">Conecte calendários externos, serviços de email ou plataformas de produtividade.</span>
+              </p>
               <div class="metadata">
                 <span>Google Calendar</span>
                 <span>Notion</span>
@@ -245,8 +458,14 @@ source venv/bin/activate  # Linux/macOS
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Offline mode</h3>
-              <p>Explore local LLMs (Ollama, LM Studio) and open-source STT/TTS options.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Offline mode</span>
+                <span lang="pt-BR">Modo offline</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Explore local LLMs (Ollama, LM Studio) and open-source STT/TTS options.</span>
+                <span lang="pt-BR">Explore LLMs locais (Ollama, LM Studio) e opções open-source de STT/TTS.</span>
+              </p>
               <div class="metadata">
                 <span>Whisper.cpp</span>
                 <span>Coqui TTS</span>
@@ -254,16 +473,27 @@ source venv/bin/activate  # Linux/macOS
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🎛️</span>
-              <h3>User experience</h3>
-              <p>Build desktop/mobile interfaces or web dashboards to monitor the assistant in real time.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">User experience</span>
+                <span lang="pt-BR">Experiência do usuário</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Build desktop/mobile interfaces or web dashboards to monitor the assistant in real time.</span>
+                <span lang="pt-BR">Crie interfaces desktop/mobile ou dashboards web para monitorar o assistente em tempo real.</span>
+              </p>
               <div class="metadata">
                 <span>Electron</span>
                 <span>Next.js</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
-            Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities.
+          <p style="margin-top: 2rem; color: var(--color-muted);" class="bilingual-text">
+            <span lang="en-GB">
+              Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities.
+            </span>
+            <span lang="pt-BR">
+              Mantenha os padrões de identidade visual descritos em <code>portfolio/docs/visualID.md</code> e siga o <code>ROADMAP.md</code> para alinhar contribuições às prioridades atuais.
+            </span>
           </p>
         </div>
       </section>

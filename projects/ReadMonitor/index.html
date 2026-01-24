@@ -8,9 +8,9 @@
     <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation."
+      content="ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation. / ReadMonitor é um ecossistema full-stack para gerenciar listas de leitura e bibliotecas pessoais com separação MVC clara."
     />
-    <title>ReadMonitor | Smart library</title>
+    <title>ReadMonitor | Smart library / Biblioteca inteligente</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -36,15 +36,45 @@
         <!-- Primary navigation menu with accessibility label -->
         <nav aria-label="Project navigation">
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li>
+              <a href="#overview">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Overview</span>
+                  <span lang="pt-BR">Visão geral</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#stack">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Stack</span>
+                  <span lang="pt-BR">Stack</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Installation</span>
+                  <span lang="pt-BR">Instalação</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#contributions">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Contributions</span>
+                  <span lang="pt-BR">Contribuições</span>
+                </span>
+              </a>
+            </li>
           </ul>
         </nav>
 
+        <div class="language-indicator">EN · PT</div>
+
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          <span data-theme-label>Dark mode</span>
+          <span data-theme-label>Dark mode / Modo escuro</span>
         </button>
       </div>
     </header>
@@ -56,10 +86,20 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Reading tracker</span>
+            <span class="badge">
+              <span class="bilingual-text bilingual-text--inline">
+                <span lang="en-GB">Reading tracker</span>
+                <span lang="pt-BR">Monitor de leitura</span>
+              </span>
+            </span>
             <h1>ReadMonitor</h1>
-            <p>
-              A platform to track completed, in-progress, and planned reading, with detailed control over a personal library.
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                A platform to track completed, in-progress, and planned reading, with detailed control over a personal library.
+              </span>
+              <span lang="pt-BR">
+                Uma plataforma para acompanhar leituras concluídas, em andamento e planejadas, com controle detalhado da biblioteca pessoal.
+              </span>
             </p>
             <div class="cta-group">
               <a
@@ -67,33 +107,81 @@
                 href="https://github.com/eduardo45MP/ReadMonitor"
                 target="_blank"
                 rel="noopener"
-              >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Full setup</a>
+              >
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">View on GitHub</span>
+                  <span lang="pt-BR">Ver no GitHub</span>
+                </span>
+              </a>
+              <a class="btn ghost" href="#installation">
+                <span class="bilingual-text bilingual-text--inline">
+                  <span lang="en-GB">Full setup</span>
+                  <span lang="pt-BR">Configuração completa</span>
+                </span>
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Approach</dt>
-                <dd>MVC architecture distributed across Controller (Next.js), Model (Node + Sequelize), and View (Expo).</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Approach</span>
+                    <span lang="pt-BR">Abordagem</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">MVC architecture distributed across Controller (Next.js), Model (Node + Sequelize), and View (Expo).</span>
+                    <span lang="pt-BR">Arquitetura MVC distribuída entre Controller (Next.js), Model (Node + Sequelize) e View (Expo).</span>
+                  </span>
+                </dd>
               </div>
               <div>
-                <dt>Goal</dt>
-                <dd>Deliver a 360° view of reading progress with rich cataloguing and future reports.</dd>
+                <dt>
+                  <span class="bilingual-text bilingual-text--inline">
+                    <span lang="en-GB">Goal</span>
+                    <span lang="pt-BR">Objetivo</span>
+                  </span>
+                </dt>
+                <dd>
+                  <span class="bilingual-text">
+                    <span lang="en-GB">Deliver a 360° view of reading progress with rich cataloguing and future reports.</span>
+                    <span lang="pt-BR">Entregar uma visão 360° do progresso de leitura com catalogação rica e relatórios futuros.</span>
+                  </span>
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
           <aside class="hero-card" aria-label="Quick highlights">
             <div>
-              <h3>Core features</h3>
-              <p>Status management, full book metadata, and SQLite-backed synchronisation.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Core features</span>
+                <span lang="pt-BR">Funcionalidades principais</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Status management, full book metadata, and SQLite-backed synchronisation.</span>
+                <span lang="pt-BR">Gestão de status, metadados completos dos livros e sincronização via SQLite.</span>
+              </p>
             </div>
             <div>
-              <h3>Experience</h3>
-              <p>Web for administration, mobile for daily use via Expo.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Experience</span>
+                <span lang="pt-BR">Experiência</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Web for administration, mobile for daily use via Expo.</span>
+                <span lang="pt-BR">Web para administração, mobile para uso diário via Expo.</span>
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Collaborative contributions are encouraged.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">License</span>
+                <span lang="pt-BR">Licença</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">MIT · Collaborative contributions are encouraged.</span>
+                <span lang="pt-BR">MIT · Contribuições colaborativas são incentivadas.</span>
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +191,48 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>A digital library aligned with reading routines</h2>
-            <p>
-              ReadMonitor centralises book tracking with a focus on quick lookups and detailed cataloguing.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Overview</span>
+              <span lang="pt-BR">Visão geral</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">A digital library aligned with reading routines</span>
+              <span lang="pt-BR">Uma biblioteca digital alinhada às rotinas de leitura</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                ReadMonitor centralises book tracking with a focus on quick lookups and detailed cataloguing.
+              </span>
+              <span lang="pt-BR">
+                ReadMonitor centraliza o acompanhamento de livros com foco em consultas rápidas e catalogação detalhada.
+              </span>
             </p>
           </div>
           <ul class="feature-list">
-            <li>Dashboard with filtered lists by status: read, in progress, and want to read.</li>
-            <li>Full form with bibliographic details (ISBN, CDD, CDU, type, and availability).</li>
-            <li>Planned statistics and personalised recommendations.</li>
-            <li>Architecture ready for integration with external services or dashboards.</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Dashboard with filtered lists by status: read, in progress, and want to read.</span>
+                <span lang="pt-BR">Dashboard com listas filtradas por status: lido, em andamento e quero ler.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Full form with bibliographic details (ISBN, CDD, CDU, type, and availability).</span>
+                <span lang="pt-BR">Formulário completo com detalhes bibliográficos (ISBN, CDD, CDU, tipo e disponibilidade).</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Planned statistics and personalised recommendations.</span>
+                <span lang="pt-BR">Estatísticas planejadas e recomendações personalizadas.</span>
+              </span>
+            </li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Architecture ready for integration with external services or dashboards.</span>
+                <span lang="pt-BR">Arquitetura pronta para integração com serviços externos ou dashboards.</span>
+              </span>
+            </li>
           </ul>
         </div>
       </section>
@@ -122,17 +241,34 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Layered separation to scale with confidence</h2>
-            <p>
-              Each component owns specific responsibilities, enabling independent testing and incremental evolution.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Technical stack</span>
+              <span lang="pt-BR">Stack técnico</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Layered separation to scale with confidence</span>
+              <span lang="pt-BR">Separação em camadas para escalar com confiança</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Each component owns specific responsibilities, enabling independent testing and incremental evolution.
+              </span>
+              <span lang="pt-BR">
+                Cada componente possui responsabilidades específicas, permitindo testes independentes e evolução incremental.
+              </span>
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🕸️</span>
-              <h3>Controller · Next.js</h3>
-              <p>Layer responsible for routes, REST APIs, and the admin dashboard.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Controller · Next.js</span>
+                <span lang="pt-BR">Controlador · Next.js</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Layer responsible for routes, REST APIs, and the admin dashboard.</span>
+                <span lang="pt-BR">Camada responsável por rotas, APIs REST e o painel administrativo.</span>
+              </p>
               <div class="metadata">
                 <span>express</span>
                 <span>cors</span>
@@ -141,8 +277,14 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗃️</span>
-              <h3>Model · Node + Sequelize</h3>
-              <p>Orchestrates persistence in SQLite and the business rules layer.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Model · Node + Sequelize</span>
+                <span lang="pt-BR">Modelo · Node + Sequelize</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Orchestrates persistence in SQLite and the business rules layer.</span>
+                <span lang="pt-BR">Orquestra a persistência em SQLite e a camada de regras de negócio.</span>
+              </p>
               <div class="metadata">
                 <span>sqlite3</span>
                 <span>ORM</span>
@@ -151,8 +293,14 @@
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📱</span>
-              <h3>View · Expo</h3>
-              <p>Mobile interface to add, browse, and update books quickly.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">View · Expo</span>
+                <span lang="pt-BR">Visão · Expo</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Mobile interface to add, browse, and update books quickly.</span>
+                <span lang="pt-BR">Interface mobile para adicionar, navegar e atualizar livros rapidamente.</span>
+              </p>
               <div class="metadata">
                 <span>React Native</span>
                 <span>Android</span>
@@ -166,10 +314,21 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Directory organisation</h2>
-            <p>
-              The structure reinforces layer separation and simplifies independent deployments.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Architecture</span>
+              <span lang="pt-BR">Arquitetura</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Directory organisation</span>
+              <span lang="pt-BR">Organização de diretórios</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                The structure reinforces layer separation and simplifies independent deployments.
+              </span>
+              <span lang="pt-BR">
+                A estrutura reforça a separação em camadas e simplifica deploys independentes.
+              </span>
             </p>
           </div>
           <pre><code>ReadMonitor/
@@ -185,40 +344,76 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Layer-by-layer setup flow</h2>
-            <p>
-              Prepare each module in its corresponding directory, ensuring environment variables and dependencies are correct.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Installation</span>
+              <span lang="pt-BR">Instalação</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Layer-by-layer setup flow</span>
+              <span lang="pt-BR">Fluxo de configuração por camada</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                Prepare each module in its corresponding directory, ensuring environment variables and dependencies are correct.
+              </span>
+              <span lang="pt-BR">
+                Prepare cada módulo em seu diretório correspondente, garantindo variáveis de ambiente e dependências corretas.
+              </span>
             </p>
           </div>
           <ol>
-            <li>Clone the repository:</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Clone the repository:</span>
+                <span lang="pt-BR">Clone o repositório:</span>
+              </span>
+            </li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/ReadMonitor.git
 cd ReadMonitor</code></pre>
           <ol start="2">
-            <li>Configure the Controller (Next.js):</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Configure the Controller (Next.js):</span>
+                <span lang="pt-BR">Configure o Controller (Next.js):</span>
+              </span>
+            </li>
           </ol>
           <pre><code>cd Controller
 npm install
 npm run dev  # Default port 3000
 cd ..</code></pre>
           <ol start="3">
-            <li>Configure the Model (Node + Sequelize):</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Configure the Model (Node + Sequelize):</span>
+                <span lang="pt-BR">Configure o Model (Node + Sequelize):</span>
+              </span>
+            </li>
           </ol>
           <pre><code>cd Model
 npm install
 npm start     # Starts API + SQLite
 cd ..</code></pre>
           <ol start="4">
-            <li>Configure the View (Expo):</li>
+            <li>
+              <span class="bilingual-text">
+                <span lang="en-GB">Configure the View (Expo):</span>
+                <span lang="pt-BR">Configure a View (Expo):</span>
+              </span>
+            </li>
           </ol>
           <pre><code>cd View
 npm install
 npm start    # Open the Expo app on your device
 cd ..</code></pre>
-          <p>
-            Align each layer configuration to the same database/endpoint. Consider seed scripts to populate initial data.
+          <p class="bilingual-text">
+            <span lang="en-GB">
+              Align each layer configuration to the same database/endpoint. Consider seed scripts to populate initial data.
+            </span>
+            <span lang="pt-BR">
+              Alinhe a configuração de cada camada ao mesmo banco/endpoint. Considere scripts de seed para popular dados iniciais.
+            </span>
           </p>
         </div>
       </section>
@@ -227,17 +422,34 @@ cd ..</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Ideas to evolve ReadMonitor</h2>
-            <p>
-              There is room for new features, integrations, and UX improvements across the web panel and the mobile app.
+            <span class="bilingual-text bilingual-text--inline">
+              <span lang="en-GB">Open Source</span>
+              <span lang="pt-BR">Código aberto</span>
+            </span>
+            <h2 class="bilingual-text">
+              <span lang="en-GB">Ideas to evolve ReadMonitor</span>
+              <span lang="pt-BR">Ideias para evoluir o ReadMonitor</span>
+            </h2>
+            <p class="bilingual-text">
+              <span lang="en-GB">
+                There is room for new features, integrations, and UX improvements across the web panel and the mobile app.
+              </span>
+              <span lang="pt-BR">
+                Há espaço para novas funcionalidades, integrações e melhorias de UX no painel web e no app mobile.
+              </span>
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📈</span>
-              <h3>Statistics</h3>
-              <p>Dashboards with reading time, favourite genres, and milestone tracking.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Statistics</span>
+                <span lang="pt-BR">Estatísticas</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Dashboards with reading time, favourite genres, and milestone tracking.</span>
+                <span lang="pt-BR">Dashboards com tempo de leitura, gêneros favoritos e acompanhamento de marcos.</span>
+              </p>
               <div class="metadata">
                 <span>Charts</span>
                 <span>Analytics</span>
@@ -245,8 +457,14 @@ cd ..</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔄</span>
-              <h3>Sync and backups</h3>
-              <p>Integrations with cloud services and automated library exports.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Sync and backups</span>
+                <span lang="pt-BR">Sincronização e backups</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Integrations with cloud services and automated library exports.</span>
+                <span lang="pt-BR">Integrações com serviços em nuvem e exportações automatizadas da biblioteca.</span>
+              </p>
               <div class="metadata">
                 <span>Supabase</span>
                 <span>Drive</span>
@@ -254,16 +472,27 @@ cd ..</code></pre>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧭</span>
-              <h3>Mobile UX</h3>
-              <p>Optimised flows for adding books with barcode scan or cover capture.</p>
+              <h3 class="bilingual-text">
+                <span lang="en-GB">Mobile UX</span>
+                <span lang="pt-BR">UX mobile</span>
+              </h3>
+              <p class="bilingual-text">
+                <span lang="en-GB">Optimised flows for adding books with barcode scan or cover capture.</span>
+                <span lang="pt-BR">Fluxos otimizados para adicionar livros com leitura de código de barras ou captura de capa.</span>
+              </p>
               <div class="metadata">
                 <span>Camera</span>
                 <span>Vision</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
-            Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visualID.md</code>.
+          <p style="margin-top: 2rem; color: var(--color-muted);" class="bilingual-text">
+            <span lang="en-GB">
+              Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visualID.md</code>.
+            </span>
+            <span lang="pt-BR">
+              Revise <code>portfolio/docs/ROADMAP.md</code> para alinhar prioridades e manter consistência visual com o guia em <code>portfolio/docs/visualID.md</code>.
+            </span>
           </p>
         </div>
       </section>
