@@ -21,7 +21,7 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 ---
 
 ## 🔜 Short Term
-- Expand to **full multilingual support** (English and Portuguese side by side).
+- Expand to **full multilingual support** (change English <=> Portuguese in a button).
 - Create Projects' ROADMAP (at their repos)
 - Include `ROADMAP.md` as an evolution reference.
 
