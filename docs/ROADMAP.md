@@ -15,13 +15,14 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - Create a fully responsive layout (Home, Projects, About, Contact).
 - Configure **consistent visual identity**. 
 - Implement **dark mode**. 
+- Configure **favicon**.  
+- Create AGENTS.md at root
 
 ---
 
 ## 🔜 Short Term
-- Create AGENTS.md at root
 - Expand to **full multilingual support** (English and Portuguese side by side).
-- Configure **favicon**.  
+- Create Projects' ROADMAP (at their repos)
 - Include `ROADMAP.md` as an evolution reference.
 
 ---
