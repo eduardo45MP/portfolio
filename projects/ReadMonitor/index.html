@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-i18n-base="../../i18n">
   <head>
     <!-- Meta configuration -->
     <meta charset="UTF-8" />
@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation."
+      data-i18n="meta.description.readmonitor"
+      data-i18n-attr="content"
     />
-    <title>ReadMonitor | Smart library</title>
+    <title data-i18n="title.readmonitor">ReadMonitor | Smart library</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -31,17 +33,49 @@
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to portfolio projects -->
-        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <a class="brand" href="../../index.html#projects" data-i18n="brand.name">Eduardo45MP.dev</a>
 
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Project navigation">
+        <nav
+          aria-label="Project navigation"
+          data-i18n="nav.project.label"
+          data-i18n-attr="aria-label"
+        >
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#overview" data-i18n="nav.project.overview">Overview</a></li>
+            <li><a href="#stack" data-i18n="nav.project.stack">Stack</a></li>
+            <li><a href="#installation" data-i18n="nav.project.installation">Installation</a></li>
+            <li><a href="#contributions" data-i18n="nav.project.contributions">Contributions</a></li>
           </ul>
         </nav>
+
+        <div
+          class="language-switcher"
+          role="group"
+          aria-label="Language selection"
+          data-i18n="language.selector"
+          data-i18n-attr="aria-label"
+        >
+          <button
+            type="button"
+            data-lang="en-GB"
+            aria-pressed="true"
+            data-i18n="language.english"
+            data-i18n-attr="aria-label"
+          >
+            EN
+          </button>
+          <span aria-hidden="true">|</span>
+          <button
+            type="button"
+            data-lang="pt-BR"
+            aria-pressed="false"
+            data-i18n="language.portuguese"
+            data-i18n-attr="aria-label"
+          >
+            PT-BR
+          </button>
+        </div>
 
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
           <span data-theme-label>Dark mode</span>
@@ -56,9 +90,9 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Reading tracker</span>
-            <h1>ReadMonitor</h1>
-            <p>
+            <span class="badge" data-i18n="projects.readmonitor.hero.badge">Reading tracker</span>
+            <h1 data-i18n="projects.readmonitor.hero.title">ReadMonitor</h1>
+            <p data-i18n="projects.readmonitor.hero.description">
               A platform to track completed, in-progress, and planned reading, with detailed control over a personal library.
             </p>
             <div class="cta-group">
@@ -67,33 +101,51 @@
                 href="https://github.com/eduardo45MP/ReadMonitor"
                 target="_blank"
                 rel="noopener"
+                data-i18n="projects.readmonitor.hero.cta.github"
               >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Full setup</a>
+              <a class="btn ghost" href="#installation" data-i18n="projects.readmonitor.hero.cta.installation">
+                Full setup
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Approach</dt>
-                <dd>MVC architecture distributed across Controller (Next.js), Model (Node + Sequelize), and View (Expo).</dd>
+                <dt data-i18n="projects.readmonitor.hero.highlights.approach.label">Approach</dt>
+                <dd data-i18n="projects.readmonitor.hero.highlights.approach.value">
+                  MVC architecture distributed across Controller (Next.js), Model (Node + Sequelize), and View (Expo).
+                </dd>
               </div>
               <div>
-                <dt>Goal</dt>
-                <dd>Deliver a 360° view of reading progress with rich cataloguing and future reports.</dd>
+                <dt data-i18n="projects.readmonitor.hero.highlights.goal.label">Goal</dt>
+                <dd data-i18n="projects.readmonitor.hero.highlights.goal.value">
+                  Deliver a 360° view of reading progress with rich cataloguing and future reports.
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside
+            class="hero-card"
+            aria-label="Quick highlights"
+            data-i18n="projects.readmonitor.hero.card.label"
+            data-i18n-attr="aria-label"
+          >
             <div>
-              <h3>Core features</h3>
-              <p>Status management, full book metadata, and SQLite-backed synchronisation.</p>
+              <h3 data-i18n="projects.readmonitor.hero.card.features.title">Core features</h3>
+              <p data-i18n="projects.readmonitor.hero.card.features.description">
+                Status management, full book metadata, and SQLite-backed synchronisation.
+              </p>
             </div>
             <div>
-              <h3>Experience</h3>
-              <p>Web for administration, mobile for daily use via Expo.</p>
+              <h3 data-i18n="projects.readmonitor.hero.card.experience.title">Experience</h3>
+              <p data-i18n="projects.readmonitor.hero.card.experience.description">
+                Web for administration, mobile for daily use via Expo.
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Collaborative contributions are encouraged.</p>
+              <h3 data-i18n="projects.readmonitor.hero.card.license.title">License</h3>
+              <p data-i18n="projects.readmonitor.hero.card.license.description">
+                MIT · Collaborative contributions are encouraged.
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +155,25 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>A digital library aligned with reading routines</h2>
-            <p>
+            <span data-i18n="projects.readmonitor.overview.eyebrow">Overview</span>
+            <h2 data-i18n="projects.readmonitor.overview.title">A digital library aligned with reading routines</h2>
+            <p data-i18n="projects.readmonitor.overview.description">
               ReadMonitor centralises book tracking with a focus on quick lookups and detailed cataloguing.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Dashboard with filtered lists by status: read, in progress, and want to read.</li>
-            <li>Full form with bibliographic details (ISBN, CDD, CDU, type, and availability).</li>
-            <li>Planned statistics and personalised recommendations.</li>
-            <li>Architecture ready for integration with external services or dashboards.</li>
+            <li data-i18n="projects.readmonitor.overview.items.dashboard">
+              Dashboard with filtered lists by status: read, in progress, and want to read.
+            </li>
+            <li data-i18n="projects.readmonitor.overview.items.details">
+              Full form with bibliographic details (ISBN, CDD, CDU, type, and availability).
+            </li>
+            <li data-i18n="projects.readmonitor.overview.items.stats">
+              Planned statistics and personalised recommendations.
+            </li>
+            <li data-i18n="projects.readmonitor.overview.items.integrations">
+              Architecture ready for integration with external services or dashboards.
+            </li>
           </ul>
         </div>
       </section>
@@ -122,40 +182,46 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Layered separation to scale with confidence</h2>
-            <p>
+            <span data-i18n="projects.readmonitor.stack.eyebrow">Technical stack</span>
+            <h2 data-i18n="projects.readmonitor.stack.title">Layered separation to scale with confidence</h2>
+            <p data-i18n="projects.readmonitor.stack.description">
               Each component owns specific responsibilities, enabling independent testing and incremental evolution.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🕸️</span>
-              <h3>Controller · Next.js</h3>
-              <p>Layer responsible for routes, REST APIs, and the admin dashboard.</p>
+              <h3 data-i18n="projects.readmonitor.stack.cards.controller.title">Controller · Next.js</h3>
+              <p data-i18n="projects.readmonitor.stack.cards.controller.description">
+                Layer responsible for routes, REST APIs, and the admin dashboard.
+              </p>
               <div class="metadata">
-                <span>express</span>
-                <span>cors</span>
-                <span>dotenv</span>
+                <span data-i18n="projects.readmonitor.stack.cards.controller.meta.primary">express</span>
+                <span data-i18n="projects.readmonitor.stack.cards.controller.meta.secondary">cors</span>
+                <span data-i18n="projects.readmonitor.stack.cards.controller.meta.tertiary">dotenv</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗃️</span>
-              <h3>Model · Node + Sequelize</h3>
-              <p>Orchestrates persistence in SQLite and the business rules layer.</p>
+              <h3 data-i18n="projects.readmonitor.stack.cards.model.title">Model · Node + Sequelize</h3>
+              <p data-i18n="projects.readmonitor.stack.cards.model.description">
+                Orchestrates persistence in SQLite and the business rules layer.
+              </p>
               <div class="metadata">
-                <span>sqlite3</span>
-                <span>ORM</span>
-                <span>Seeder</span>
+                <span data-i18n="projects.readmonitor.stack.cards.model.meta.primary">sqlite3</span>
+                <span data-i18n="projects.readmonitor.stack.cards.model.meta.secondary">ORM</span>
+                <span data-i18n="projects.readmonitor.stack.cards.model.meta.tertiary">Seeder</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📱</span>
-              <h3>View · Expo</h3>
-              <p>Mobile interface to add, browse, and update books quickly.</p>
+              <h3 data-i18n="projects.readmonitor.stack.cards.view.title">View · Expo</h3>
+              <p data-i18n="projects.readmonitor.stack.cards.view.description">
+                Mobile interface to add, browse, and update books quickly.
+              </p>
               <div class="metadata">
-                <span>React Native</span>
-                <span>Android</span>
+                <span data-i18n="projects.readmonitor.stack.cards.view.meta.primary">React Native</span>
+                <span data-i18n="projects.readmonitor.stack.cards.view.meta.secondary">Android</span>
               </div>
             </article>
           </div>
@@ -166,13 +232,13 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Directory organisation</h2>
-            <p>
+            <span data-i18n="projects.readmonitor.architecture.eyebrow">Architecture</span>
+            <h2 data-i18n="projects.readmonitor.architecture.title">Directory organisation</h2>
+            <p data-i18n="projects.readmonitor.architecture.description">
               The structure reinforces layer separation and simplifies independent deployments.
             </p>
           </div>
-          <pre><code>ReadMonitor/
+          <pre><code data-i18n="projects.readmonitor.architecture.tree">ReadMonitor/
 ├── Controller/   # Next.js for routes/admin
 ├── Model/        # Node.js + Sequelize + SQLite
 ├── View/         # Mobile app via Expo
@@ -185,39 +251,39 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Layer-by-layer setup flow</h2>
-            <p>
+            <span data-i18n="projects.readmonitor.installation.eyebrow">Installation</span>
+            <h2 data-i18n="projects.readmonitor.installation.title">Layer-by-layer setup flow</h2>
+            <p data-i18n="projects.readmonitor.installation.description">
               Prepare each module in its corresponding directory, ensuring environment variables and dependencies are correct.
             </p>
           </div>
           <ol>
-            <li>Clone the repository:</li>
+            <li data-i18n="projects.readmonitor.installation.steps.clone">Clone the repository:</li>
           </ol>
-          <pre><code>git clone https://github.com/eduardo45MP/ReadMonitor.git
+          <pre><code data-i18n="projects.readmonitor.installation.commands.clone">git clone https://github.com/eduardo45MP/ReadMonitor.git
 cd ReadMonitor</code></pre>
           <ol start="2">
-            <li>Configure the Controller (Next.js):</li>
+            <li data-i18n="projects.readmonitor.installation.steps.controller">Configure the Controller (Next.js):</li>
           </ol>
-          <pre><code>cd Controller
+          <pre><code data-i18n="projects.readmonitor.installation.commands.controller">cd Controller
 npm install
 npm run dev  # Default port 3000
 cd ..</code></pre>
           <ol start="3">
-            <li>Configure the Model (Node + Sequelize):</li>
+            <li data-i18n="projects.readmonitor.installation.steps.model">Configure the Model (Node + Sequelize):</li>
           </ol>
-          <pre><code>cd Model
+          <pre><code data-i18n="projects.readmonitor.installation.commands.model">cd Model
 npm install
 npm start     # Starts API + SQLite
 cd ..</code></pre>
           <ol start="4">
-            <li>Configure the View (Expo):</li>
+            <li data-i18n="projects.readmonitor.installation.steps.view">Configure the View (Expo):</li>
           </ol>
-          <pre><code>cd View
+          <pre><code data-i18n="projects.readmonitor.installation.commands.view">cd View
 npm install
 npm start    # Open the Expo app on your device
 cd ..</code></pre>
-          <p>
+          <p data-i18n="projects.readmonitor.installation.note">
             Align each layer configuration to the same database/endpoint. Consider seed scripts to populate initial data.
           </p>
         </div>
@@ -227,47 +293,59 @@ cd ..</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Ideas to evolve ReadMonitor</h2>
-            <p>
+            <span data-i18n="projects.readmonitor.contributions.eyebrow">Open Source</span>
+            <h2 data-i18n="projects.readmonitor.contributions.title">Ideas to evolve ReadMonitor</h2>
+            <p data-i18n="projects.readmonitor.contributions.description">
               There is room for new features, integrations, and UX improvements across the web panel and the mobile app.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📈</span>
-              <h3>Statistics</h3>
-              <p>Dashboards with reading time, favourite genres, and milestone tracking.</p>
+              <h3 data-i18n="projects.readmonitor.contributions.cards.statistics.title">Statistics</h3>
+              <p data-i18n="projects.readmonitor.contributions.cards.statistics.description">
+                Dashboards with reading time, favourite genres, and milestone tracking.
+              </p>
               <div class="metadata">
-                <span>Charts</span>
-                <span>Analytics</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.statistics.meta.primary">Charts</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.statistics.meta.secondary">Analytics</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔄</span>
-              <h3>Sync and backups</h3>
-              <p>Integrations with cloud services and automated library exports.</p>
+              <h3 data-i18n="projects.readmonitor.contributions.cards.sync.title">Sync and backups</h3>
+              <p data-i18n="projects.readmonitor.contributions.cards.sync.description">
+                Integrations with cloud services and automated library exports.
+              </p>
               <div class="metadata">
-                <span>Supabase</span>
-                <span>Drive</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.sync.meta.primary">Supabase</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.sync.meta.secondary">Drive</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧭</span>
-              <h3>Mobile UX</h3>
-              <p>Optimised flows for adding books with barcode scan or cover capture.</p>
+              <h3 data-i18n="projects.readmonitor.contributions.cards.mobile.title">Mobile UX</h3>
+              <p data-i18n="projects.readmonitor.contributions.cards.mobile.description">
+                Optimised flows for adding books with barcode scan or cover capture.
+              </p>
               <div class="metadata">
-                <span>Camera</span>
-                <span>Vision</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.mobile.meta.primary">Camera</span>
+                <span data-i18n="projects.readmonitor.contributions.cards.mobile.meta.secondary">Vision</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
+          <p
+            style="margin-top: 2rem; color: var(--color-muted);"
+            data-i18n="projects.readmonitor.contributions.note"
+            data-i18n-html="true"
+          >
             Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visualID.md</code>.
           </p>
         </div>
       </section>
     </main>
+    <script src="../../scripts/i18n-data.js"></script>
+    <script src="../../scripts/i18n.js"></script>
     <script src="../../scripts/main.js"></script>
   </body>
 </html>

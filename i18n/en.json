@@ -1,0 +1,896 @@
+{
+  "brand": {
+    "name": "Eduardo45MP.dev"
+  },
+  "language": {
+    "selector": "Language selection",
+    "english": "English",
+    "portuguese": "Portuguese (Brazil)"
+  },
+  "nav": {
+    "main": {
+      "label": "Main navigation",
+      "home": "Home",
+      "projects": "Projects",
+      "about": "About",
+      "stack": "Stack",
+      "contact": "Contact"
+    },
+    "project": {
+      "label": "Project navigation",
+      "overview": "Overview",
+      "stack": "Stack",
+      "installation": "Installation",
+      "contributions": "Contributions",
+      "modules": "Modules"
+    }
+  },
+  "theme": {
+    "dark": "Dark mode",
+    "light": "Light mode"
+  },
+  "meta": {
+    "description": {
+      "home": "Portfolio of Eduardo Peixoto (Eduardo45MP.dev), developer focused on AI, automation, cybersecurity and web solutions.",
+      "ai_studies": "AI_studies is the public lab for Eduardo45MP.dev to explore and document artificial intelligence experiments.",
+      "edu_assistant": "EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations.",
+      "readmonitor": "ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation.",
+      "russian": "Russian Training Hub (RTH) is a mini-game hub for Russian literacy with modular content and offline support.",
+      "nsa": "NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
+    }
+  },
+  "title": {
+    "home": "Eduardo45MP.dev | Portfolio",
+    "ai_studies": "AI_studies | AI Lab",
+    "edu_assistant": "edu_assistant | Voice Ops Companion",
+    "readmonitor": "ReadMonitor | Smart library",
+    "russian": "Russian Training Hub | Russian learning",
+    "nsa": "NSA | Network Security Assistant"
+  },
+  "hero": {
+    "badge": "CEO @Innoforge.tech · Developer",
+    "title": "Entrepreneurship driven by technology",
+    "description": "I am Eduardo Peixoto, integrating technological innovation, automation and cybersecurity into digital projects that solve real-world challenges and deliver immediate impact.",
+    "cta": {
+      "projects": "View projects",
+      "contact": "Get in touch"
+    },
+    "highlights": {
+      "mission": {
+        "label": "Mission",
+        "value": "Transform ambitious ideas into scalable solutions by connecting strategy, product, and technology."
+      },
+      "expertise": {
+        "label": "Expertise",
+        "value": "AI, automation, cybersecurity and responsive web experiences."
+      }
+    },
+    "card": {
+      "label": "Quick highlights",
+      "stack": {
+        "title": "Core Stack",
+        "tools": "React · Laravel · Python",
+        "description": "Functional and pretty UX with secure servers and criative solutions."
+      },
+      "languages": {
+        "title": "Languages & Networking",
+        "description": "Portuguese (native), English (fluent), and Spanish (conversational). Expanding into Mandarin, French, German, Russian, and Arabic."
+      },
+      "focus": {
+        "title": "Current Focus",
+        "description": "Testing intelligent automations and scalable digital experiences for new partnerships and products."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "From programming logic to collaborative entrepreneurship",
+    "description": "My journey combines problem-solving through software, strategic business vision, and a passion for creating solutions that connect people and technology.",
+    "items": {
+      "adapt": "I adapt languages, frameworks, and databases to the needs of each project, always focused on delivering value.",
+      "lab": "I see each initiative as a living lab: improving technical skills and the ability to solve complex problems.",
+      "partners": "I seek partners with complementary strengths to turn ambitious ideas into real digital products.",
+      "balance": "I balance technology with personal interests such as languages, spirituality, the arts, and the vastness of the sea."
+    }
+  },
+  "stack": {
+    "eyebrow": "Skills & stack",
+    "title": "Building complete experiences with clean technology",
+    "description": "Minimalist and scalable stack, ready to evolve from static pages to full applications with automation, security, and data.",
+    "cards": {
+      "ai": {
+        "title": "AI & Automation",
+        "description": "Continuous experiments with personal assistants, automated flows, and solutions that boost productivity.",
+        "meta": {
+          "primary": "edu_assistant",
+          "secondary": "Automated Ops"
+        }
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Research and testing in Wi-Fi networks, prioritising protection and reliability from the ground up.",
+        "meta": {
+          "primary": "NSA toolkit",
+          "secondary": "Network Hardening"
+        }
+      },
+      "web": {
+        "title": "Web Experiences",
+        "description": "Responsive interfaces, intuitive navigation, and a consistent visual identity with Poppins + Roboto.",
+        "meta": {
+          "primary": "Flexbox & Grid",
+          "secondary": "Design Systems"
+        }
+      },
+      "languages": {
+        "title": "Languages & Culture",
+        "description": "Fluent communication in different languages to expand opportunities and global collaborations.",
+        "meta": {
+          "primary": "PT · EN · ES",
+          "secondary": "Global Mindset"
+        }
+      }
+    }
+  },
+  "projects": {
+    "eyebrow": "Featured projects",
+    "title": "Applied innovation across different domains",
+    "description": "A selection of public initiatives showcasing the combination of AI, automation, education, and security built throughout my journey.",
+    "cards": {
+      "edu_assistant": {
+        "title": "edu_assistant",
+        "description": "Voice assistant with local memory and smart flows to organise routines and research insights.",
+        "link": "See more",
+        "github": "View on GitHub"
+      },
+      "ai_studies": {
+        "title": "AI_studies",
+        "description": "Laboratory repository to study, test and document experiments in artificial intelligence.",
+        "link": "See more",
+        "github": "View on GitHub"
+      },
+      "readmonitor": {
+        "title": "ReadMonitor",
+        "description": "Mobile/web app that tracks reading habits with a focus on continuous improvement.",
+        "link": "See more",
+        "github": "View on GitHub"
+      },
+      "russian": {
+        "title": "RussianTrainingHub",
+        "description": "Gamified educational games platform to make learning Russian more accessible.",
+        "link": "See more",
+        "app": "View App",
+        "github": "View on GitHub"
+      },
+      "nsa": {
+        "title": "NSA",
+        "description": "System for Wi-Fi testing and audits, strengthening security layers.",
+        "link": "See more",
+        "github": "View on GitHub"
+      },
+      "more": {
+        "title": "More projects",
+        "description": "Explore other open solutions, automations, and proof of concepts directly on my public GitHub.",
+        "link": "View all repositories"
+      }
+    },
+    "ai_studies": {
+      "hero": {
+        "badge": "AI lab",
+        "title": "AI_studies",
+        "description": "A repository dedicated to consolidating AI studies and prototypes, exploring machine learning, deep learning, NLP, computer vision, and generative models.",
+        "cta": {
+          "github": "View on GitHub",
+          "installation": "Quick start guide"
+        },
+        "highlights": {
+          "purpose": {
+            "label": "Purpose",
+            "value": "Document continuous AI learning and keep a living archive of notebooks, datasets, and utility scripts."
+          },
+          "status": {
+            "label": "Status",
+            "value": "Open to experiments, contributions, and community-led evolution."
+          }
+        },
+        "card": {
+          "label": "Quick highlights",
+          "focus": {
+            "title": "Current focus",
+            "description": "Predictive models, compact LLM fine-tuning, and prototypes for intelligent automations."
+          },
+          "structure": {
+            "title": "Organisation",
+            "description": "Modular structure with folders for notebooks, datasets, trained models, and reusable scripts."
+          },
+          "license": {
+            "title": "License",
+            "description": "MIT · Free to use, modify, and distribute with credit."
+          }
+        }
+      },
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "Explore, test, and document artificial intelligence",
+        "description": "AI_studies works as a central lab for experiments. Each learning cycle is documented for reuse and sharing with other developers.",
+        "items": {
+          "notebooks": "Curated notebooks that demonstrate AI techniques on real-world problems.",
+          "datasets": "Versioned datasets to ensure reproducibility and future comparisons.",
+          "scripts": "Utility scripts that automate training, evaluation, and visualisation pipelines.",
+          "roadmap": "Transparent roadmap with topics like generative models, time series, and intelligent recommendations."
+        }
+      },
+      "stack": {
+        "eyebrow": "Technical stack",
+        "title": "Modern tools for rapid experimentation",
+        "description": "The base combines the Python ecosystem with established frameworks for machine learning, visualisation, and data processing.",
+        "cards": {
+          "python": {
+            "title": "Python 3.10+",
+            "description": "Main environment for notebooks, scripts, and scientific library integration.",
+            "meta": {
+              "virtualenv": "Virtualenv",
+              "pip": "pip",
+              "poetry": "Poetry (optional)"
+            }
+          },
+          "frameworks": {
+            "title": "AI frameworks",
+            "description": "PyTorch, TensorFlow, Hugging Face Transformers, and Scikit-learn for supervised and generative training.",
+            "meta": {
+              "torch": "torch",
+              "tensorflow": "tensorflow",
+              "transformers": "transformers"
+            }
+          },
+          "data": {
+            "title": "Data & visualisation",
+            "description": "Pandas, NumPy, and Matplotlib for efficient data manipulation and analytics dashboards.",
+            "meta": {
+              "pandas": "pandas",
+              "numpy": "numpy",
+              "matplotlib": "matplotlib"
+            }
+          }
+        }
+      },
+      "architecture": {
+        "eyebrow": "Architecture",
+        "title": "Structure designed to scale without losing order",
+        "description": "Each experiment lives in its own folder, making replication, comparisons, and future publishing easier.",
+        "tree": "AI_studies/\n├── notebooks/       # Jupyter experiments\n├── datasets/        # Datasets used\n├── models/          # Trained models and checkpoints\n├── scripts/         # Utilities and pipelines\n└── README.md        # Central documentation"
+      },
+      "installation": {
+        "eyebrow": "Installation",
+        "title": "Start your tests with a few commands",
+        "description": "The repository is lightweight and can be used locally, in Google Colab, or in cloud environments.",
+        "steps": {
+          "clone": "Clone the repository and enter the folder:",
+          "venv": "Create and activate a Python virtual environment:",
+          "dependencies": "Install the dependencies needed for each notebook or script:"
+        },
+        "commands": {
+          "clone": "git clone https://github.com/eduardo45MP/AI_studies.git\ncd AI_studies",
+          "venv": "python3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
+          "dependencies": "pip install -r requirements.txt  # when available\n# or install individual libraries per experiment"
+        },
+        "note": "Use Google Colab for quick tests by sharing notebooks directly from the <code>notebooks/</code> folder."
+      },
+      "contributions": {
+        "eyebrow": "Open Source",
+        "title": "How to contribute to AI_studies",
+        "description": "The project values collaborative contributions that document experiments, improve datasets, or propose new challenges.",
+        "cards": {
+          "experiments": {
+            "title": "New experiments",
+            "description": "Bring well-documented notebooks with insights and model comparisons.",
+            "meta": {
+              "primary": "Fork + PR",
+              "secondary": "Docstring"
+            }
+          },
+          "datasets": {
+            "title": "Curated datasets",
+            "description": "Include public or synthetic datasets with a README covering license, format, and usage.",
+            "meta": {
+              "primary": "CC-BY",
+              "secondary": "MIT"
+            }
+          },
+          "scripts": {
+            "title": "Utility scripts",
+            "description": "Automate training, evaluation, or deployment flows and share best practices.",
+            "meta": {
+              "primary": "CI/CD",
+              "secondary": "pytest optional"
+            }
+          }
+        },
+        "note": "Open an issue with the contribution scope before the PR for quick alignment. Also review the documents in <code>portfolio/docs/</code> to keep the visual and narrative pattern aligned."
+      }
+    },
+    "edu_assistant": {
+      "hero": {
+        "badge": "Personal assistant",
+        "title": "edu_assistant",
+        "description": "A local voice assistant with contextual memory and bespoke integrations for routines, projects, and personal automations.",
+        "cta": {
+          "github": "View on GitHub",
+          "installation": "Run it locally"
+        },
+        "highlights": {
+          "differential": {
+            "label": "Differential",
+            "value": "Privacy-first, local control, and low-cost APIs for everyday automation."
+          },
+          "status": {
+            "label": "Status",
+            "value": "Active roadmap with new flows, integrations, and offline mode in progress."
+          }
+        },
+        "card": {
+          "label": "Quick highlights",
+          "interactions": {
+            "title": "Interactions",
+            "description": "Voice input via Whisper, spoken answers with Edge TTS, conversational processing with GPT-3.5."
+          },
+          "memory": {
+            "title": "Lightweight memory",
+            "description": "Local JSON for preferences, agenda, and quick history, with FAISS planned next."
+          },
+          "license": {
+            "title": "License",
+            "description": "MIT · contributions welcome for automation modules, UX, and offline support."
+          }
+        }
+      },
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "A home copilot connected to your local ecosystem",
+        "description": "The project was created to manage routines, calendars, and projects without exposing sensitive data to external services. Everything runs on the user machine.",
+        "items": {
+          "commands": "Natural voice commands with fast, accurate transcription.",
+          "responses": "Spoken responses ready for continuous, accessible interaction.",
+          "memory": "Persistent memory of preferences, recurring tasks, and important files.",
+          "automations": "Extensible codebase for custom automations via Python scripts."
+        }
+      },
+      "stack": {
+        "eyebrow": "Technical stack",
+        "title": "Lean infrastructure built to evolve",
+        "description": "Decoupled components allow future swaps (local LLMs, new TTS, external agendas) without rewriting the project.",
+        "cards": {
+          "python": {
+            "title": "Python core",
+            "description": "Modules organised by responsibility, following best practices and ready for future test coverage.",
+            "meta": {
+              "primary": "3.10+",
+              "secondary": "venv",
+              "tertiary": "CLI"
+            }
+          },
+          "voice": {
+            "title": "Voice input and output",
+            "description": "Transcription with Whisper API and synthesis via Edge TTS, keeping operational costs low.",
+            "meta": {
+              "primary": "openai",
+              "secondary": "edge-tts"
+            }
+          },
+          "context": {
+            "title": "Smart context",
+            "description": "GPT-3.5-turbo integration with vector memory plans via FAISS.",
+            "meta": {
+              "primary": "gpt_client.py",
+              "secondary": "faiss"
+            }
+          }
+        }
+      },
+      "architecture": {
+        "eyebrow": "Architecture",
+        "title": "Componentised by responsibility",
+        "description": "Each folder holds an isolated layer (input, output, memory, data), simplifying maintenance and extensions.",
+        "tree": "edu_assistant/\n├── main.py              # Voice/text interface\n├── config.json          # Credentials and preferences\n├── memory/              # Local memory, agenda, and vectors\n├── data/projects/       # Project metadata\n├── modules/\n│   ├── voice_input.py   # Whisper API\n│   ├── voice_output.py  # Edge TTS\n│   ├── gpt_client.py    # Model calls\n│   ├── context_loader.py# Context inputs\n│   ├── agenda.py        # Daily routine\n│   └── actions.py       # Automation actions\n└── requirements.txt     # Main dependencies"
+      },
+      "installation": {
+        "eyebrow": "Installation",
+        "title": "Set up your assistant in minutes",
+        "description": "Follow the steps to prepare your environment, credentials, and start the conversational flow on desktop.",
+        "steps": {
+          "clone": "Clone the repository and create a virtual environment:",
+          "dependencies": "Install dependencies:",
+          "config": "Copy the example file and add your keys:",
+          "run": "Run the assistant:"
+        },
+        "commands": {
+          "clone": "git clone https://github.com/eduardo45MP/edu_assistant.git\ncd edu_assistant\npython3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
+          "dependencies": "pip install -r requirements.txt",
+          "config": "cp config.example.json config.json\n# Fill in API keys, preferences, and local paths",
+          "run": "python main.py"
+        },
+        "note": "Switch to text-only mode by replacing audio capture with CLI input if you do not have a microphone available."
+      },
+      "contributions": {
+        "eyebrow": "Open Source",
+        "title": "Contribute new modules and automations",
+        "description": "Suggestions and PRs are welcome, especially for offline support, new integrations, and UX.",
+        "cards": {
+          "integrations": {
+            "title": "Integrations",
+            "description": "Connect external calendars, email services, or productivity platforms.",
+            "meta": {
+              "primary": "Google Calendar",
+              "secondary": "Notion"
+            }
+          },
+          "offline": {
+            "title": "Offline mode",
+            "description": "Explore local LLMs (Ollama, LM Studio) and open-source STT/TTS options.",
+            "meta": {
+              "primary": "Whisper.cpp",
+              "secondary": "Coqui TTS"
+            }
+          },
+          "ux": {
+            "title": "User experience",
+            "description": "Build desktop/mobile interfaces or web dashboards to monitor the assistant in real time.",
+            "meta": {
+              "primary": "Electron",
+              "secondary": "Next.js"
+            }
+          }
+        },
+        "note": "Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities."
+      }
+    },
+    "readmonitor": {
+      "hero": {
+        "badge": "Reading tracker",
+        "title": "ReadMonitor",
+        "description": "A platform to track completed, in-progress, and planned reading, with detailed control over a personal library.",
+        "cta": {
+          "github": "View on GitHub",
+          "installation": "Full setup"
+        },
+        "highlights": {
+          "approach": {
+            "label": "Approach",
+            "value": "MVC architecture distributed across Controller (Next.js), Model (Node + Sequelize), and View (Expo)."
+          },
+          "goal": {
+            "label": "Goal",
+            "value": "Deliver a 360° view of reading progress with rich cataloguing and future reports."
+          }
+        },
+        "card": {
+          "label": "Quick highlights",
+          "features": {
+            "title": "Core features",
+            "description": "Status management, full book metadata, and SQLite-backed synchronisation."
+          },
+          "experience": {
+            "title": "Experience",
+            "description": "Web for administration, mobile for daily use via Expo."
+          },
+          "license": {
+            "title": "License",
+            "description": "MIT · Collaborative contributions are encouraged."
+          }
+        }
+      },
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "A digital library aligned with reading routines",
+        "description": "ReadMonitor centralises book tracking with a focus on quick lookups and detailed cataloguing.",
+        "items": {
+          "dashboard": "Dashboard with filtered lists by status: read, in progress, and want to read.",
+          "details": "Full form with bibliographic details (ISBN, CDD, CDU, type, and availability).",
+          "stats": "Planned statistics and personalised recommendations.",
+          "integrations": "Architecture ready for integration with external services or dashboards."
+        }
+      },
+      "stack": {
+        "eyebrow": "Technical stack",
+        "title": "Layered separation to scale with confidence",
+        "description": "Each component owns specific responsibilities, enabling independent testing and incremental evolution.",
+        "cards": {
+          "controller": {
+            "title": "Controller · Next.js",
+            "description": "Layer responsible for routes, REST APIs, and the admin dashboard.",
+            "meta": {
+              "primary": "express",
+              "secondary": "cors",
+              "tertiary": "dotenv"
+            }
+          },
+          "model": {
+            "title": "Model · Node + Sequelize",
+            "description": "Orchestrates persistence in SQLite and the business rules layer.",
+            "meta": {
+              "primary": "sqlite3",
+              "secondary": "ORM",
+              "tertiary": "Seeder"
+            }
+          },
+          "view": {
+            "title": "View · Expo",
+            "description": "Mobile interface to add, browse, and update books quickly.",
+            "meta": {
+              "primary": "React Native",
+              "secondary": "Android"
+            }
+          }
+        }
+      },
+      "architecture": {
+        "eyebrow": "Architecture",
+        "title": "Directory organisation",
+        "description": "The structure reinforces layer separation and simplifies independent deployments.",
+        "tree": "ReadMonitor/\n├── Controller/   # Next.js for routes/admin\n├── Model/        # Node.js + Sequelize + SQLite\n├── View/         # Mobile app via Expo\n├── db.sqlite3    # Local database\n└── README.md     # Full documentation"
+      },
+      "installation": {
+        "eyebrow": "Installation",
+        "title": "Layer-by-layer setup flow",
+        "description": "Prepare each module in its corresponding directory, ensuring environment variables and dependencies are correct.",
+        "steps": {
+          "clone": "Clone the repository:",
+          "controller": "Configure the Controller (Next.js):",
+          "model": "Configure the Model (Node + Sequelize):",
+          "view": "Configure the View (Expo):"
+        },
+        "commands": {
+          "clone": "git clone https://github.com/eduardo45MP/ReadMonitor.git\ncd ReadMonitor",
+          "controller": "cd Controller\nnpm install\nnpm run dev  # Default port 3000\ncd ..",
+          "model": "cd Model\nnpm install\nnpm start     # Starts API + SQLite\ncd ..",
+          "view": "cd View\nnpm install\nnpm start    # Open the Expo app on your device\ncd .."
+        },
+        "note": "Align each layer configuration to the same database/endpoint. Consider seed scripts to populate initial data."
+      },
+      "contributions": {
+        "eyebrow": "Open Source",
+        "title": "Ideas to evolve ReadMonitor",
+        "description": "There is room for new features, integrations, and UX improvements across the web panel and the mobile app.",
+        "cards": {
+          "statistics": {
+            "title": "Statistics",
+            "description": "Dashboards with reading time, favourite genres, and milestone tracking.",
+            "meta": {
+              "primary": "Charts",
+              "secondary": "Analytics"
+            }
+          },
+          "sync": {
+            "title": "Sync and backups",
+            "description": "Integrations with cloud services and automated library exports.",
+            "meta": {
+              "primary": "Supabase",
+              "secondary": "Drive"
+            }
+          },
+          "mobile": {
+            "title": "Mobile UX",
+            "description": "Optimised flows for adding books with barcode scan or cover capture.",
+            "meta": {
+              "primary": "Camera",
+              "secondary": "Vision"
+            }
+          }
+        },
+        "note": "Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visualID.md</code>."
+      }
+    },
+    "russian": {
+      "hero": {
+        "badge": "Language learning",
+        "title": "Russian Training Hub",
+        "description": "A lightweight, modular web experience to train the Cyrillic alphabet, vocabulary, and Russian grammar directly in the browser.",
+        "cta": {
+          "github": "View on GitHub",
+          "app": "Try it now"
+        },
+        "highlights": {
+          "experience": {
+            "label": "Experience",
+            "value": "SPA interface with no backend, ready to run offline with a service worker."
+          },
+          "design": {
+            "label": "Design",
+            "value": "Visuals aligned with the identity defined in <code>assets/css/style.css</code>, keeping accessibility intact."
+          }
+        },
+        "card": {
+          "label": "Quick highlights",
+          "status": {
+            "title": "Module status",
+            "description": "Typing and Vocabulary complete; Conjugation and Declension in progress."
+          },
+          "offline": {
+            "title": "Offline ready",
+            "description": "The service worker preloads essential assets and keeps the game available without a connection."
+          },
+          "license": {
+            "title": "License",
+            "description": "MIT · Ideal for forks and re-theming into other languages."
+          }
+        }
+      },
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "Accessible gamification for Russian literacy",
+        "description": "RTH provides independent mini-games with immediate feedback, adjusting difficulty based on user progress.",
+        "items": {
+          "accessibility": "Responsive typography and keyboard navigation with ARIA elements and visible focus.",
+          "dataset": "Centralised dataset for characters, words, and verbs, easing translation and customisation.",
+          "architecture": "Modular architecture with ES modules and no build step.",
+          "documentation": "Detailed documentation in <code>docs/</code> to help contributors extend the project."
+        }
+      },
+      "modules": {
+        "eyebrow": "Modules",
+        "title": "Games and experiences available",
+        "description": "Each folder in <code>pages/</code> represents an independent module. Below is the current status.",
+        "cards": {
+          "typing": {
+            "title": "Typing",
+            "description": "Typing drills for characters and words, with Latin↔Cyrillic switching and scoring.",
+            "meta": {
+              "primary": "char-map.js",
+              "secondary": "Active"
+            }
+          },
+          "vocabulary": {
+            "title": "Vocabulary",
+            "description": "Typing + multiple-choice quiz mode, with configurable levels and shuffled distractors.",
+            "meta": {
+              "primary": "char-map.js",
+              "secondary": "Operational"
+            }
+          },
+          "conjugation": {
+            "title": "Conjugation",
+            "description": "Interface ready while waiting for verb datasets. Ideal for contributions with regular and irregular verbs.",
+            "meta": {
+              "primary": "verbs.js",
+              "secondary": "In progress"
+            }
+          },
+          "declension": {
+            "title": "Declension",
+            "description": "Structured placeholder for case exercises and contextual phrases.",
+            "meta": {
+              "primary": "cases.js",
+              "secondary": "Planned"
+            }
+          }
+        }
+      },
+      "architecture": {
+        "eyebrow": "Architecture",
+        "title": "Structure designed for quick extensions",
+        "description": "Folders organised by responsibility ensure new modules can be added without side effects.",
+        "tree": "RussianTrainingHub/\n├── assets/         # Styles, images, and visual components\n├── data/           # Character, word, and verb datasets\n├── pages/          # Mini-games (typing, vocabulary, conjugation...)\n├── utils/          # Shared functions\n├── docs/           # Development guides\n├── index.html      # Main SPA\n└── sw.js           # Service worker for offline"
+      },
+      "installation": {
+        "eyebrow": "Installation",
+        "title": "Host in minutes",
+        "description": "As a 100% frontend project, you only need to serve the static files on any host.",
+        "steps": {
+          "clone": "Clone the repository or fork it:",
+          "deploy": "Deploy to a static server (e.g. GitHub Pages):",
+          "local": "For local development:"
+        },
+        "commands": {
+          "clone": "git clone https://github.com/eduardo45MP/RussianTrainingHub.git\ncd RussianTrainingHub",
+          "deploy": "git checkout main\n# Configure GitHub Pages: Settings ▸ Pages ▸ Branch main /root\n# or use surge, vercel, netlify for static deploys",
+          "local": "npx serve .  # Or use a Live Server extension"
+        },
+        "note": "The service worker activates automatically in production (HTTPS). Clear cache via DevTools when updating datasets."
+      },
+      "contributions": {
+        "eyebrow": "Open Source",
+        "title": "How to strengthen Russian Training Hub",
+        "description": "The community can expand datasets, create new game modes, and improve accessibility.",
+        "cards": {
+          "datasets": {
+            "title": "Datasets",
+            "description": "Add verbs, phrases, and audio organised by difficulty level and theme.",
+            "meta": {
+              "primary": "JSON",
+              "secondary": "Open licenses"
+            }
+          },
+          "feedback": {
+            "title": "Instant feedback",
+            "description": "Create animations and sounds that reinforce hits/misses without impacting performance.",
+            "meta": {
+              "primary": "Web Audio",
+              "secondary": "CSS Animations"
+            }
+          },
+          "languages": {
+            "title": "New languages",
+            "description": "Reuse the structure for Spanish, German, or Mandarin by swapping datasets.",
+            "meta": {
+              "primary": "I18n",
+              "secondary": "Config JSON"
+            }
+          }
+        },
+        "note": "Review <code>pages/pages.md</code> and <code>docs/architectureRTH.md</code> to align content, visual identity, and accessibility guidelines."
+      }
+    },
+    "nsa": {
+      "hero": {
+        "badge": "Network security",
+        "title": "NSA | Network Security Assistant",
+        "description": "A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.",
+        "cta": {
+          "github": "View on GitHub",
+          "installation": "Usage checklist"
+        },
+        "highlights": {
+          "scope": {
+            "label": "Scope",
+            "value": "Educational audits on owned networks, focused on common vulnerability detection."
+          },
+          "access": {
+            "label": "Access",
+            "value": "Python scripts executed locally, with administrative privileges when required."
+          }
+        },
+        "card": {
+          "label": "Quick highlights",
+          "modules": {
+            "title": "Core modules",
+            "description": "Wi-Fi scanner, security analysis, PDF reports, and configurable profile management."
+          },
+          "platform": {
+            "title": "Target platform",
+            "description": "Linux environments; some features require <code>sudo</code> access and specific network libraries."
+          },
+          "license": {
+            "title": "License",
+            "description": "MIT · Respect the legal notice: use only on networks with explicit authorisation."
+          }
+        }
+      },
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "Practical auditing for home and corporate Wi-Fi networks",
+        "description": "NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.",
+        "items": {
+          "networks": "Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).",
+          "analysis": "Evaluates encryption settings, signal strength, and common risks.",
+          "reports": "Generates readable reports with checklists of recommendations and next steps.",
+          "profiles": "Allows saving Wi-Fi profiles to repeat tests in regular cycles."
+        }
+      },
+      "stack": {
+        "eyebrow": "Technical stack",
+        "title": "Python as the base for security automation",
+        "description": "Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.",
+        "cards": {
+          "scanning": {
+            "title": "Scanning and capture",
+            "description": "Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.",
+            "meta": {
+              "primary": "Monitor mode",
+              "secondary": "iwlist"
+            }
+          },
+          "analysis": {
+            "title": "Analysis",
+            "description": "Customisable rules to verify encryption types, default passwords, and protection best practices.",
+            "meta": {
+              "primary": "Python ruleset",
+              "secondary": "config YAML (future)"
+            }
+          },
+          "reports": {
+            "title": "Reports",
+            "description": "Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.",
+            "meta": {
+              "primary": "Export PDF/HTML",
+              "secondary": "Custom templates"
+            }
+          }
+        }
+      },
+      "architecture": {
+        "eyebrow": "Architecture",
+        "title": "Modular scripts for each step of the process",
+        "description": "Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.",
+        "tree": "NSA/\n├── scan_wifi_networks.py   # Available network scanning\n├── sec_analysis.py         # Security evaluation rules\n├── sec_report.py           # Detailed report generation\n└── wifi_profile.py         # Wi-Fi profile CRUD"
+      },
+      "installation": {
+        "eyebrow": "Installation",
+        "title": "Preparing the audit environment",
+        "description": "Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.",
+        "steps": {
+          "clone": "Clone the repository and create a virtual environment:",
+          "dependencies": "Install suggested dependencies:",
+          "run": "Run modules as needed:"
+        },
+        "commands": {
+          "clone": "git clone https://github.com/eduardo45MP/NSA.git\ncd NSA\npython3 -m venv venv\nsource venv/bin/activate",
+          "dependencies": "pip install -r requirements.txt  # when available\nsudo apt install aircrack-ng net-tools wireless-tools",
+          "run": "sudo python scan_wifi_networks.py\npython sec_analysis.py\npython sec_report.py"
+        },
+        "note": "Adjust commands for your environment and ensure write permissions on output directories when generating reports."
+      },
+      "contributions": {
+        "eyebrow": "Open Source",
+        "title": "Best practices for collaboration",
+        "description": "Contributors can expand security rules, report formats, and support for new platforms.",
+        "cards": {
+          "heuristics": {
+            "title": "New heuristics",
+            "description": "Add advanced checks to detect frequent insecure configurations.",
+            "meta": {
+              "primary": "WPA3",
+              "secondary": "IoT"
+            }
+          },
+          "templates": {
+            "title": "Report templates",
+            "description": "Create customisable layouts with charts, checklists, and audience-specific guidance.",
+            "meta": {
+              "primary": "Markdown",
+              "secondary": "PDF"
+            }
+          },
+          "tests": {
+            "title": "Automated tests",
+            "description": "Implement unit tests and mocks to simulate results without real hardware access.",
+            "meta": {
+              "primary": "pytest",
+              "secondary": "tox"
+            }
+          }
+        },
+        "note": "Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>."
+      },
+      "notice": {
+        "eyebrow": "Notice",
+        "title": "Responsible use",
+        "description": "This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user."
+      }
+    }
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap & vision",
+    "title": "Continuous evolution of the portfolio",
+    "description": "The roadmap guides frequent updates to keep the portfolio aligned with strategic initiatives and partnerships.",
+    "cards": {
+      "short": {
+        "title": "Short term",
+        "description": "Full responsive layout, visual project cards, favicon and consistent visual identity."
+      },
+      "medium": {
+        "title": "Medium term",
+        "description": "Integrated blog, dynamic stats, dark mode, and deployment comparison between GitHub Pages, Vercel and Netlify."
+      },
+      "long": {
+        "title": "Long term",
+        "description": "Transform the portfolio into a SPA with React/Next.js, real contact form, and full multilingual support."
+      }
+    }
+  },
+  "contact": {
+    "badge": "Let's create together",
+    "title": "Open to collaborations and new partnerships",
+    "description": "Count on me to build digital solutions that connect technology, business, and real impact. Send a message, share an idea, or schedule a chat.",
+    "items": {
+      "email": "eduardopeixoto45@outlook.com",
+      "phone": "+55 81 99935-0771 (whatsapp only)",
+      "linkedin": "linkedin.com/in/eduardo-peixoto45",
+      "github": "github.com/eduardo45MP",
+      "site": "eduardo45mp.github.io/portfolio"
+    }
+  },
+  "footer": {
+    "copyright": "© <span id=\"year\">2024</span> Eduardo Peixoto · eduardo45MP.dev",
+    "docs": "Full documentation available in <a href=\"./docs/archtecture.md\">Architecture</a>, <a href=\"./docs/visualID.md\">Visual Identity</a> and <a href=\"./docs/ROADMAP.md\">Roadmap</a>."
+  }
+}

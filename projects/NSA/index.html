@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-i18n-base="../../i18n">
   <head>
     <!-- Meta configuration -->
     <meta charset="UTF-8" />
@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
+      data-i18n="meta.description.nsa"
+      data-i18n-attr="content"
     />
-    <title>NSA | Network Security Assistant</title>
+    <title data-i18n="title.nsa">NSA | Network Security Assistant</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -31,17 +33,49 @@
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to portfolio projects -->
-        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <a class="brand" href="../../index.html#projects" data-i18n="brand.name">Eduardo45MP.dev</a>
 
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Project navigation">
+        <nav
+          aria-label="Project navigation"
+          data-i18n="nav.project.label"
+          data-i18n-attr="aria-label"
+        >
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#overview" data-i18n="nav.project.overview">Overview</a></li>
+            <li><a href="#stack" data-i18n="nav.project.stack">Stack</a></li>
+            <li><a href="#installation" data-i18n="nav.project.installation">Installation</a></li>
+            <li><a href="#contributions" data-i18n="nav.project.contributions">Contributions</a></li>
           </ul>
         </nav>
+
+        <div
+          class="language-switcher"
+          role="group"
+          aria-label="Language selection"
+          data-i18n="language.selector"
+          data-i18n-attr="aria-label"
+        >
+          <button
+            type="button"
+            data-lang="en-GB"
+            aria-pressed="true"
+            data-i18n="language.english"
+            data-i18n-attr="aria-label"
+          >
+            EN
+          </button>
+          <span aria-hidden="true">|</span>
+          <button
+            type="button"
+            data-lang="pt-BR"
+            aria-pressed="false"
+            data-i18n="language.portuguese"
+            data-i18n-attr="aria-label"
+          >
+            PT-BR
+          </button>
+        </div>
 
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
           <span data-theme-label>Dark mode</span>
@@ -56,9 +90,9 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Network security</span>
-            <h1>NSA | Network Security Assistant</h1>
-            <p>
+            <span class="badge" data-i18n="projects.nsa.hero.badge">Network security</span>
+            <h1 data-i18n="projects.nsa.hero.title">NSA | Network Security Assistant</h1>
+            <p data-i18n="projects.nsa.hero.description">
               A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.
             </p>
             <div class="cta-group">
@@ -67,33 +101,51 @@
                 href="https://github.com/eduardo45MP/NSA"
                 target="_blank"
                 rel="noopener"
+                data-i18n="projects.nsa.hero.cta.github"
               >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Usage checklist</a>
+              <a class="btn ghost" href="#installation" data-i18n="projects.nsa.hero.cta.installation">
+                Usage checklist
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Scope</dt>
-                <dd>Educational audits on owned networks, focused on common vulnerability detection.</dd>
+                <dt data-i18n="projects.nsa.hero.highlights.scope.label">Scope</dt>
+                <dd data-i18n="projects.nsa.hero.highlights.scope.value">
+                  Educational audits on owned networks, focused on common vulnerability detection.
+                </dd>
               </div>
               <div>
-                <dt>Access</dt>
-                <dd>Python scripts executed locally, with administrative privileges when required.</dd>
+                <dt data-i18n="projects.nsa.hero.highlights.access.label">Access</dt>
+                <dd data-i18n="projects.nsa.hero.highlights.access.value">
+                  Python scripts executed locally, with administrative privileges when required.
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside
+            class="hero-card"
+            aria-label="Quick highlights"
+            data-i18n="projects.nsa.hero.card.label"
+            data-i18n-attr="aria-label"
+          >
             <div>
-              <h3>Core modules</h3>
-              <p>Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.</p>
+              <h3 data-i18n="projects.nsa.hero.card.modules.title">Core modules</h3>
+              <p data-i18n="projects.nsa.hero.card.modules.description">
+                Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.
+              </p>
             </div>
             <div>
-              <h3>Target platform</h3>
-              <p>Linux environments; some features require <code>sudo</code> access and specific network libraries.</p>
+              <h3 data-i18n="projects.nsa.hero.card.platform.title">Target platform</h3>
+              <p data-i18n="projects.nsa.hero.card.platform.description" data-i18n-html="true">
+                Linux environments; some features require <code>sudo</code> access and specific network libraries.
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Respect the legal notice: use only on networks with explicit authorisation.</p>
+              <h3 data-i18n="projects.nsa.hero.card.license.title">License</h3>
+              <p data-i18n="projects.nsa.hero.card.license.description">
+                MIT · Respect the legal notice: use only on networks with explicit authorisation.
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +155,25 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>Practical auditing for home and corporate Wi-Fi networks</h2>
-            <p>
+            <span data-i18n="projects.nsa.overview.eyebrow">Overview</span>
+            <h2 data-i18n="projects.nsa.overview.title">Practical auditing for home and corporate Wi-Fi networks</h2>
+            <p data-i18n="projects.nsa.overview.description">
               NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).</li>
-            <li>Evaluates encryption settings, signal strength, and common risks.</li>
-            <li>Generates readable reports with checklists of recommendations and next steps.</li>
-            <li>Allows saving Wi-Fi profiles to repeat tests in regular cycles.</li>
+            <li data-i18n="projects.nsa.overview.items.networks">
+              Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).
+            </li>
+            <li data-i18n="projects.nsa.overview.items.analysis">
+              Evaluates encryption settings, signal strength, and common risks.
+            </li>
+            <li data-i18n="projects.nsa.overview.items.reports">
+              Generates readable reports with checklists of recommendations and next steps.
+            </li>
+            <li data-i18n="projects.nsa.overview.items.profiles">
+              Allows saving Wi-Fi profiles to repeat tests in regular cycles.
+            </li>
           </ul>
         </div>
       </section>
@@ -122,38 +182,44 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Python as the base for security automation</h2>
-            <p>
+            <span data-i18n="projects.nsa.stack.eyebrow">Technical stack</span>
+            <h2 data-i18n="projects.nsa.stack.title">Python as the base for security automation</h2>
+            <p data-i18n="projects.nsa.stack.description">
               Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📡</span>
-              <h3>Scanning and capture</h3>
-              <p>Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.</p>
+              <h3 data-i18n="projects.nsa.stack.cards.scanning.title">Scanning and capture</h3>
+              <p data-i18n="projects.nsa.stack.cards.scanning.description" data-i18n-html="true">
+                Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.
+              </p>
               <div class="metadata">
-                <span>Monitor mode</span>
-                <span>iwlist</span>
+                <span data-i18n="projects.nsa.stack.cards.scanning.meta.primary">Monitor mode</span>
+                <span data-i18n="projects.nsa.stack.cards.scanning.meta.secondary">iwlist</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Analysis</h3>
-              <p>Customisable rules to verify encryption types, default passwords, and protection best practices.</p>
+              <h3 data-i18n="projects.nsa.stack.cards.analysis.title">Analysis</h3>
+              <p data-i18n="projects.nsa.stack.cards.analysis.description">
+                Customisable rules to verify encryption types, default passwords, and protection best practices.
+              </p>
               <div class="metadata">
-                <span>Python ruleset</span>
-                <span>config YAML (future)</span>
+                <span data-i18n="projects.nsa.stack.cards.analysis.meta.primary">Python ruleset</span>
+                <span data-i18n="projects.nsa.stack.cards.analysis.meta.secondary">config YAML (future)</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📑</span>
-              <h3>Reports</h3>
-              <p>Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.</p>
+              <h3 data-i18n="projects.nsa.stack.cards.reports.title">Reports</h3>
+              <p data-i18n="projects.nsa.stack.cards.reports.description" data-i18n-html="true">
+                Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.
+              </p>
               <div class="metadata">
-                <span>Export PDF/HTML</span>
-                <span>Custom templates</span>
+                <span data-i18n="projects.nsa.stack.cards.reports.meta.primary">Export PDF/HTML</span>
+                <span data-i18n="projects.nsa.stack.cards.reports.meta.secondary">Custom templates</span>
               </div>
             </article>
           </div>
@@ -164,13 +230,13 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Modular scripts for each step of the process</h2>
-            <p>
+            <span data-i18n="projects.nsa.architecture.eyebrow">Architecture</span>
+            <h2 data-i18n="projects.nsa.architecture.title">Modular scripts for each step of the process</h2>
+            <p data-i18n="projects.nsa.architecture.description">
               Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.
             </p>
           </div>
-          <pre><code>NSA/
+          <pre><code data-i18n="projects.nsa.architecture.tree">NSA/
 ├── scan_wifi_networks.py   # Available network scanning
 ├── sec_analysis.py         # Security evaluation rules
 ├── sec_report.py           # Detailed report generation
@@ -182,31 +248,33 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Preparing the audit environment</h2>
-            <p>
+            <span data-i18n="projects.nsa.installation.eyebrow">Installation</span>
+            <h2 data-i18n="projects.nsa.installation.title">Preparing the audit environment</h2>
+            <p data-i18n="projects.nsa.installation.description">
               Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.
             </p>
           </div>
           <ol>
-            <li>Clone the repository and create a virtual environment:</li>
+            <li data-i18n="projects.nsa.installation.steps.clone">
+              Clone the repository and create a virtual environment:
+            </li>
           </ol>
-          <pre><code>git clone https://github.com/eduardo45MP/NSA.git
+          <pre><code data-i18n="projects.nsa.installation.commands.clone">git clone https://github.com/eduardo45MP/NSA.git
 cd NSA
 python3 -m venv venv
 source venv/bin/activate</code></pre>
           <ol start="2">
-            <li>Install suggested dependencies:</li>
+            <li data-i18n="projects.nsa.installation.steps.dependencies">Install suggested dependencies:</li>
           </ol>
-          <pre><code>pip install -r requirements.txt  # when available
+          <pre><code data-i18n="projects.nsa.installation.commands.dependencies">pip install -r requirements.txt  # when available
 sudo apt install aircrack-ng net-tools wireless-tools</code></pre>
           <ol start="3">
-            <li>Run modules as needed:</li>
+            <li data-i18n="projects.nsa.installation.steps.run">Run modules as needed:</li>
           </ol>
-          <pre><code>sudo python scan_wifi_networks.py
+          <pre><code data-i18n="projects.nsa.installation.commands.run">sudo python scan_wifi_networks.py
 python sec_analysis.py
 python sec_report.py</code></pre>
-          <p>
+          <p data-i18n="projects.nsa.installation.note">
             Adjust commands for your environment and ensure write permissions on output directories when generating reports.
           </p>
         </div>
@@ -216,42 +284,52 @@ python sec_report.py</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Best practices for collaboration</h2>
-            <p>
+            <span data-i18n="projects.nsa.contributions.eyebrow">Open Source</span>
+            <h2 data-i18n="projects.nsa.contributions.title">Best practices for collaboration</h2>
+            <p data-i18n="projects.nsa.contributions.description">
               Contributors can expand security rules, report formats, and support for new platforms.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔍</span>
-              <h3>New heuristics</h3>
-              <p>Add advanced checks to detect frequent insecure configurations.</p>
+              <h3 data-i18n="projects.nsa.contributions.cards.heuristics.title">New heuristics</h3>
+              <p data-i18n="projects.nsa.contributions.cards.heuristics.description">
+                Add advanced checks to detect frequent insecure configurations.
+              </p>
               <div class="metadata">
-                <span>WPA3</span>
-                <span>IoT</span>
+                <span data-i18n="projects.nsa.contributions.cards.heuristics.meta.primary">WPA3</span>
+                <span data-i18n="projects.nsa.contributions.cards.heuristics.meta.secondary">IoT</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧾</span>
-              <h3>Report templates</h3>
-              <p>Create customisable layouts with charts, checklists, and audience-specific guidance.</p>
+              <h3 data-i18n="projects.nsa.contributions.cards.templates.title">Report templates</h3>
+              <p data-i18n="projects.nsa.contributions.cards.templates.description">
+                Create customisable layouts with charts, checklists, and audience-specific guidance.
+              </p>
               <div class="metadata">
-                <span>Markdown</span>
-                <span>PDF</span>
+                <span data-i18n="projects.nsa.contributions.cards.templates.meta.primary">Markdown</span>
+                <span data-i18n="projects.nsa.contributions.cards.templates.meta.secondary">PDF</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>Automated tests</h3>
-              <p>Implement unit tests and mocks to simulate results without real hardware access.</p>
+              <h3 data-i18n="projects.nsa.contributions.cards.tests.title">Automated tests</h3>
+              <p data-i18n="projects.nsa.contributions.cards.tests.description">
+                Implement unit tests and mocks to simulate results without real hardware access.
+              </p>
               <div class="metadata">
-                <span>pytest</span>
-                <span>tox</span>
+                <span data-i18n="projects.nsa.contributions.cards.tests.meta.primary">pytest</span>
+                <span data-i18n="projects.nsa.contributions.cards.tests.meta.secondary">tox</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
+          <p
+            style="margin-top: 2rem; color: var(--color-muted);"
+            data-i18n="projects.nsa.contributions.note"
+            data-i18n-html="true"
+          >
             Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>.
           </p>
         </div>
@@ -261,15 +339,17 @@ python sec_report.py</code></pre>
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Notice</span>
-            <h2>Responsible use</h2>
-            <p>
+            <span data-i18n="projects.nsa.notice.eyebrow">Notice</span>
+            <h2 data-i18n="projects.nsa.notice.title">Responsible use</h2>
+            <p data-i18n="projects.nsa.notice.description">
               This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user.
             </p>
           </div>
         </div>
       </section>
     </main>
+    <script src="../../scripts/i18n-data.js"></script>
+    <script src="../../scripts/i18n.js"></script>
     <script src="../../scripts/main.js"></script>
   </body>
 </html>
