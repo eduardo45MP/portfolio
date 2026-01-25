@@ -30,14 +30,29 @@ const loadTranslations = async (language) => {
     return translationsCache[language];
   }
 
-  const response = await fetch(`${getBasePath()}/${language}.json`);
-  if (!response.ok) {
-    throw new Error(`Unable to load translations for ${language}.`);
-  }
+  try {
+    const response = await fetch(`${getBasePath()}/${language}.json`);
+    if (!response.ok) {
+      throw new Error(`Unable to load translations for ${language}.`);
+    }
 
-  const data = await response.json();
-  translationsCache[language] = data;
-  return data;
+    const data = await response.json();
+    translationsCache[language] = data;
+    return data;
+  } catch (error) {
+    const inMemoryData = window.I18N_DATA?.[language];
+    if (inMemoryData) {
+      // Fallback for file:// usage where fetch is blocked by CORS on local files.
+      console.warn(
+        'i18n: Falling back to embedded translations because fetch failed. ' +
+          'Use a local server (e.g. `python -m http.server`) for best results.',
+        error
+      );
+      translationsCache[language] = inMemoryData;
+      return inMemoryData;
+    }
+    throw error;
+  }
 };
 
 const applyTranslations = (translations) => {
@@ -132,7 +147,9 @@ const initLanguageSwitcher = () => {
 
 const initI18n = () => {
   initLanguageSwitcher();
-  setLanguage(getInitialLanguage());
+  setLanguage(getInitialLanguage()).catch((error) => {
+    console.error('i18n: Failed to initialize translations.', error);
+  });
 };
 
 if (document.readyState === 'loading') {
