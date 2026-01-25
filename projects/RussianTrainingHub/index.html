@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-i18n-base="../../i18n">
   <head>
     <!-- Meta configuration -->
     <meta charset="UTF-8" />
@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="Russian Training Hub (RTH) is a mini-game hub for Russian literacy with modular content and offline support."
+      data-i18n="meta.description.russian"
+      data-i18n-attr="content"
     />
-    <title>Russian Training Hub | Russian learning</title>
+    <title data-i18n="title.russian">Russian Training Hub | Russian learning</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -31,17 +33,49 @@
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to portfolio projects -->
-        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <a class="brand" href="../../index.html#projects" data-i18n="brand.name">Eduardo45MP.dev</a>
 
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Project navigation">
+        <nav
+          aria-label="Project navigation"
+          data-i18n="nav.project.label"
+          data-i18n-attr="aria-label"
+        >
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#modules">Modules</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#overview" data-i18n="nav.project.overview">Overview</a></li>
+            <li><a href="#modules" data-i18n="nav.project.modules">Modules</a></li>
+            <li><a href="#installation" data-i18n="nav.project.installation">Installation</a></li>
+            <li><a href="#contributions" data-i18n="nav.project.contributions">Contributions</a></li>
           </ul>
         </nav>
+
+        <div
+          class="language-switcher"
+          role="group"
+          aria-label="Language selection"
+          data-i18n="language.selector"
+          data-i18n-attr="aria-label"
+        >
+          <button
+            type="button"
+            data-lang="en-GB"
+            aria-pressed="true"
+            data-i18n="language.english"
+            data-i18n-attr="aria-label"
+          >
+            EN
+          </button>
+          <span aria-hidden="true">|</span>
+          <button
+            type="button"
+            data-lang="pt-BR"
+            aria-pressed="false"
+            data-i18n="language.portuguese"
+            data-i18n-attr="aria-label"
+          >
+            PT-BR
+          </button>
+        </div>
 
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
           <span data-theme-label>Dark mode</span>
@@ -56,9 +90,9 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Language learning</span>
-            <h1>Russian Training Hub</h1>
-            <p>
+            <span class="badge" data-i18n="projects.russian.hero.badge">Language learning</span>
+            <h1 data-i18n="projects.russian.hero.title">Russian Training Hub</h1>
+            <p data-i18n="projects.russian.hero.description">
               A lightweight, modular web experience to train the Cyrillic alphabet, vocabulary, and Russian grammar directly in the browser.
             </p>
             <div class="cta-group">
@@ -67,33 +101,55 @@
                 href="https://github.com/eduardo45MP/RussianTrainingHub"
                 target="_blank"
                 rel="noopener"
+                data-i18n="projects.russian.hero.cta.github"
               >View on GitHub</a>
-              <a class="btn ghost" href="https://eduardo45mp.github.io/RussianTrainingHub/" target="_blank" rel="noopener">Try it now</a>
+              <a
+                class="btn ghost"
+                href="https://eduardo45mp.github.io/RussianTrainingHub/"
+                target="_blank"
+                rel="noopener"
+                data-i18n="projects.russian.hero.cta.app"
+              >Try it now</a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Experience</dt>
-                <dd>SPA interface with no backend, ready to run offline with a service worker.</dd>
+                <dt data-i18n="projects.russian.hero.highlights.experience.label">Experience</dt>
+                <dd data-i18n="projects.russian.hero.highlights.experience.value">
+                  SPA interface with no backend, ready to run offline with a service worker.
+                </dd>
               </div>
               <div>
-                <dt>Design</dt>
-                <dd>Visuals aligned with the identity defined in <code>assets/css/style.css</code>, keeping accessibility intact.</dd>
+                <dt data-i18n="projects.russian.hero.highlights.design.label">Design</dt>
+                <dd data-i18n="projects.russian.hero.highlights.design.value" data-i18n-html="true">
+                  Visuals aligned with the identity defined in <code>assets/css/style.css</code>, keeping accessibility intact.
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside
+            class="hero-card"
+            aria-label="Quick highlights"
+            data-i18n="projects.russian.hero.card.label"
+            data-i18n-attr="aria-label"
+          >
             <div>
-              <h3>Module status</h3>
-              <p>Typing and Vocabulary complete; Conjugation and Declension in progress.</p>
+              <h3 data-i18n="projects.russian.hero.card.status.title">Module status</h3>
+              <p data-i18n="projects.russian.hero.card.status.description">
+                Typing and Vocabulary complete; Conjugation and Declension in progress.
+              </p>
             </div>
             <div>
-              <h3>Offline ready</h3>
-              <p>The service worker preloads essential assets and keeps the game available without a connection.</p>
+              <h3 data-i18n="projects.russian.hero.card.offline.title">Offline ready</h3>
+              <p data-i18n="projects.russian.hero.card.offline.description">
+                The service worker preloads essential assets and keeps the game available without a connection.
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Ideal for forks and re-theming into other languages.</p>
+              <h3 data-i18n="projects.russian.hero.card.license.title">License</h3>
+              <p data-i18n="projects.russian.hero.card.license.description">
+                MIT · Ideal for forks and re-theming into other languages.
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +159,25 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>Accessible gamification for Russian literacy</h2>
-            <p>
+            <span data-i18n="projects.russian.overview.eyebrow">Overview</span>
+            <h2 data-i18n="projects.russian.overview.title">Accessible gamification for Russian literacy</h2>
+            <p data-i18n="projects.russian.overview.description">
               RTH provides independent mini-games with immediate feedback, adjusting difficulty based on user progress.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Responsive typography and keyboard navigation with ARIA elements and visible focus.</li>
-            <li>Centralised dataset for characters, words, and verbs, easing translation and customisation.</li>
-            <li>Modular architecture with ES modules and no build step.</li>
-            <li>Detailed documentation in <code>docs/</code> to help contributors extend the project.</li>
+            <li data-i18n="projects.russian.overview.items.accessibility">
+              Responsive typography and keyboard navigation with ARIA elements and visible focus.
+            </li>
+            <li data-i18n="projects.russian.overview.items.dataset">
+              Centralised dataset for characters, words, and verbs, easing translation and customisation.
+            </li>
+            <li data-i18n="projects.russian.overview.items.architecture">
+              Modular architecture with ES modules and no build step.
+            </li>
+            <li data-i18n="projects.russian.overview.items.documentation" data-i18n-html="true">
+              Detailed documentation in <code>docs/</code> to help contributors extend the project.
+            </li>
           </ul>
         </div>
       </section>
@@ -122,47 +186,55 @@
       <section id="modules" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Modules</span>
-            <h2>Games and experiences available</h2>
-            <p>
+            <span data-i18n="projects.russian.modules.eyebrow">Modules</span>
+            <h2 data-i18n="projects.russian.modules.title">Games and experiences available</h2>
+            <p data-i18n="projects.russian.modules.description" data-i18n-html="true">
               Each folder in <code>pages/</code> represents an independent module. Below is the current status.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">⌨️</span>
-              <h3>Typing</h3>
-              <p>Typing drills for characters and words, with Latin↔Cyrillic switching and scoring.</p>
+              <h3 data-i18n="projects.russian.modules.cards.typing.title">Typing</h3>
+              <p data-i18n="projects.russian.modules.cards.typing.description">
+                Typing drills for characters and words, with Latin↔Cyrillic switching and scoring.
+              </p>
               <div class="metadata">
-                <span>char-map.js</span>
-                <span>Active</span>
+                <span data-i18n="projects.russian.modules.cards.typing.meta.primary">char-map.js</span>
+                <span data-i18n="projects.russian.modules.cards.typing.meta.secondary">Active</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📖</span>
-              <h3>Vocabulary</h3>
-              <p>Typing + multiple-choice quiz mode, with configurable levels and shuffled distractors.</p>
+              <h3 data-i18n="projects.russian.modules.cards.vocabulary.title">Vocabulary</h3>
+              <p data-i18n="projects.russian.modules.cards.vocabulary.description">
+                Typing + multiple-choice quiz mode, with configurable levels and shuffled distractors.
+              </p>
               <div class="metadata">
-                <span>char-map.js</span>
-                <span>Operational</span>
+                <span data-i18n="projects.russian.modules.cards.vocabulary.meta.primary">char-map.js</span>
+                <span data-i18n="projects.russian.modules.cards.vocabulary.meta.secondary">Operational</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔤</span>
-              <h3>Conjugation</h3>
-              <p>Interface ready while waiting for verb datasets. Ideal for contributions with regular and irregular verbs.</p>
+              <h3 data-i18n="projects.russian.modules.cards.conjugation.title">Conjugation</h3>
+              <p data-i18n="projects.russian.modules.cards.conjugation.description">
+                Interface ready while waiting for verb datasets. Ideal for contributions with regular and irregular verbs.
+              </p>
               <div class="metadata">
-                <span>verbs.js</span>
-                <span>In progress</span>
+                <span data-i18n="projects.russian.modules.cards.conjugation.meta.primary">verbs.js</span>
+                <span data-i18n="projects.russian.modules.cards.conjugation.meta.secondary">In progress</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧮</span>
-              <h3>Declension</h3>
-              <p>Structured placeholder for case exercises and contextual phrases.</p>
+              <h3 data-i18n="projects.russian.modules.cards.declension.title">Declension</h3>
+              <p data-i18n="projects.russian.modules.cards.declension.description">
+                Structured placeholder for case exercises and contextual phrases.
+              </p>
               <div class="metadata">
-                <span>cases.js</span>
-                <span>Planned</span>
+                <span data-i18n="projects.russian.modules.cards.declension.meta.primary">cases.js</span>
+                <span data-i18n="projects.russian.modules.cards.declension.meta.secondary">Planned</span>
               </div>
             </article>
           </div>
@@ -173,13 +245,13 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Structure designed for quick extensions</h2>
-            <p>
+            <span data-i18n="projects.russian.architecture.eyebrow">Architecture</span>
+            <h2 data-i18n="projects.russian.architecture.title">Structure designed for quick extensions</h2>
+            <p data-i18n="projects.russian.architecture.description">
               Folders organised by responsibility ensure new modules can be added without side effects.
             </p>
           </div>
-          <pre><code>RussianTrainingHub/
+          <pre><code data-i18n="projects.russian.architecture.tree">RussianTrainingHub/
 ├── assets/         # Styles, images, and visual components
 ├── data/           # Character, word, and verb datasets
 ├── pages/          # Mini-games (typing, vocabulary, conjugation...)
@@ -194,28 +266,30 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Host in minutes</h2>
-            <p>
+            <span data-i18n="projects.russian.installation.eyebrow">Installation</span>
+            <h2 data-i18n="projects.russian.installation.title">Host in minutes</h2>
+            <p data-i18n="projects.russian.installation.description">
               As a 100% frontend project, you only need to serve the static files on any host.
             </p>
           </div>
           <ol>
-            <li>Clone the repository or fork it:</li>
+            <li data-i18n="projects.russian.installation.steps.clone">Clone the repository or fork it:</li>
           </ol>
-          <pre><code>git clone https://github.com/eduardo45MP/RussianTrainingHub.git
+          <pre><code data-i18n="projects.russian.installation.commands.clone">git clone https://github.com/eduardo45MP/RussianTrainingHub.git
 cd RussianTrainingHub</code></pre>
           <ol start="2">
-            <li>Deploy to a static server (e.g. GitHub Pages):</li>
+            <li data-i18n="projects.russian.installation.steps.deploy">
+              Deploy to a static server (e.g. GitHub Pages):
+            </li>
           </ol>
-          <pre><code>git checkout main
+          <pre><code data-i18n="projects.russian.installation.commands.deploy">git checkout main
 # Configure GitHub Pages: Settings ▸ Pages ▸ Branch main /root
 # or use surge, vercel, netlify for static deploys</code></pre>
           <ol start="3">
-            <li>For local development:</li>
+            <li data-i18n="projects.russian.installation.steps.local">For local development:</li>
           </ol>
-          <pre><code>npx serve .  # Or use a Live Server extension</code></pre>
-          <p>
+          <pre><code data-i18n="projects.russian.installation.commands.local">npx serve .  # Or use a Live Server extension</code></pre>
+          <p data-i18n="projects.russian.installation.note">
             The service worker activates automatically in production (HTTPS). Clear cache via DevTools when updating datasets.
           </p>
         </div>
@@ -225,47 +299,58 @@ cd RussianTrainingHub</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>How to strengthen Russian Training Hub</h2>
-            <p>
+            <span data-i18n="projects.russian.contributions.eyebrow">Open Source</span>
+            <h2 data-i18n="projects.russian.contributions.title">How to strengthen Russian Training Hub</h2>
+            <p data-i18n="projects.russian.contributions.description">
               The community can expand datasets, create new game modes, and improve accessibility.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗂️</span>
-              <h3>Datasets</h3>
-              <p>Add verbs, phrases, and audio organised by difficulty level and theme.</p>
+              <h3 data-i18n="projects.russian.contributions.cards.datasets.title">Datasets</h3>
+              <p data-i18n="projects.russian.contributions.cards.datasets.description">
+                Add verbs, phrases, and audio organised by difficulty level and theme.
+              </p>
               <div class="metadata">
-                <span>JSON</span>
-                <span>Open licenses</span>
+                <span data-i18n="projects.russian.contributions.cards.datasets.meta.primary">JSON</span>
+                <span data-i18n="projects.russian.contributions.cards.datasets.meta.secondary">Open licenses</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔔</span>
-              <h3>Instant feedback</h3>
-              <p>Create animations and sounds that reinforce hits/misses without impacting performance.</p>
+              <h3 data-i18n="projects.russian.contributions.cards.feedback.title">Instant feedback</h3>
+              <p data-i18n="projects.russian.contributions.cards.feedback.description">
+                Create animations and sounds that reinforce hits/misses without impacting performance.
+              </p>
               <div class="metadata">
-                <span>Web Audio</span>
-                <span>CSS Animations</span>
+                <span data-i18n="projects.russian.contributions.cards.feedback.meta.primary">Web Audio</span>
+                <span data-i18n="projects.russian.contributions.cards.feedback.meta.secondary">CSS Animations</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🌍</span>
-              <h3>New languages</h3>
-              <p>Reuse the structure for Spanish, German, or Mandarin by swapping datasets.</p>
+              <h3 data-i18n="projects.russian.contributions.cards.languages.title">New languages</h3>
+              <p data-i18n="projects.russian.contributions.cards.languages.description">
+                Reuse the structure for Spanish, German, or Mandarin by swapping datasets.
+              </p>
               <div class="metadata">
-                <span>I18n</span>
-                <span>Config JSON</span>
+                <span data-i18n="projects.russian.contributions.cards.languages.meta.primary">I18n</span>
+                <span data-i18n="projects.russian.contributions.cards.languages.meta.secondary">Config JSON</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
+          <p
+            style="margin-top: 2rem; color: var(--color-muted);"
+            data-i18n="projects.russian.contributions.note"
+            data-i18n-html="true"
+          >
             Review <code>pages/pages.md</code> and <code>docs/architectureRTH.md</code> to align content, visual identity, and accessibility guidelines.
           </p>
         </div>
       </section>
     </main>
+    <script src="../../scripts/i18n.js"></script>
     <script src="../../scripts/main.js"></script>
   </body>
 </html>

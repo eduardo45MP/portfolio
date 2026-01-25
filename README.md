@@ -33,6 +33,16 @@ Some of the repositories highlighted in my public GitHub:
 
 ---
 
+## 🌍 Internationalization (i18n)
+The site now supports **en-GB** and **pt-BR** with a lightweight, framework-free setup:
+
+- Copy is stored in `/i18n/en.json` and `/i18n/pt-BR.json` using semantic keys.
+- `/scripts/i18n.js` loads translations, updates `<html lang>`, and persists the selected language in `localStorage`.
+- Text nodes map via `data-i18n`, while HTML fragments (like inline code or links) use `data-i18n-html`.
+- A language switcher in the header keeps the experience accessible and consistent across pages.
+
+---
+
 ## 📬 Contact
 - 🌍 Website: [https://eduardo45mp.github.io/portfolio/](https://eduardo45mp.github.io/portfolio/)
 - 💼 LinkedIn: [linkedin.com/in/eduardo](https://www.linkedin.com/in/eduardo-peixoto45/)

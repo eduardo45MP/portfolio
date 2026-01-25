@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-GB" data-i18n-base="../../i18n">
   <head>
     <!-- Meta configuration -->
     <meta charset="UTF-8" />
@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="AI_studies is the public lab for Eduardo45MP.dev to explore and document artificial intelligence experiments."
+      data-i18n="meta.description.ai_studies"
+      data-i18n-attr="content"
     />
-    <title>AI_studies | AI Lab</title>
+    <title data-i18n="title.ai_studies">AI_studies | AI Lab</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -31,17 +33,49 @@
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to portfolio projects -->
-        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <a class="brand" href="../../index.html#projects" data-i18n="brand.name">Eduardo45MP.dev</a>
 
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Project navigation">
+        <nav
+          aria-label="Project navigation"
+          data-i18n="nav.project.label"
+          data-i18n-attr="aria-label"
+        >
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#overview" data-i18n="nav.project.overview">Overview</a></li>
+            <li><a href="#stack" data-i18n="nav.project.stack">Stack</a></li>
+            <li><a href="#installation" data-i18n="nav.project.installation">Installation</a></li>
+            <li><a href="#contributions" data-i18n="nav.project.contributions">Contributions</a></li>
           </ul>
         </nav>
+
+        <div
+          class="language-switcher"
+          role="group"
+          aria-label="Language selection"
+          data-i18n="language.selector"
+          data-i18n-attr="aria-label"
+        >
+          <button
+            type="button"
+            data-lang="en-GB"
+            aria-pressed="true"
+            data-i18n="language.english"
+            data-i18n-attr="aria-label"
+          >
+            EN
+          </button>
+          <span aria-hidden="true">|</span>
+          <button
+            type="button"
+            data-lang="pt-BR"
+            aria-pressed="false"
+            data-i18n="language.portuguese"
+            data-i18n-attr="aria-label"
+          >
+            PT-BR
+          </button>
+        </div>
 
         <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
           <span data-theme-label>Dark mode</span>
@@ -56,9 +90,9 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">AI lab</span>
-            <h1>AI_studies</h1>
-            <p>
+            <span class="badge" data-i18n="projects.ai_studies.hero.badge">AI lab</span>
+            <h1 data-i18n="projects.ai_studies.hero.title">AI_studies</h1>
+            <p data-i18n="projects.ai_studies.hero.description">
               A repository dedicated to consolidating AI studies and prototypes, exploring machine learning, deep learning, NLP, computer vision, and generative models.
             </p>
             <div class="cta-group">
@@ -67,33 +101,51 @@
                 href="https://github.com/eduardo45MP/AI_studies"
                 target="_blank"
                 rel="noopener"
+                data-i18n="projects.ai_studies.hero.cta.github"
               >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Quick start guide</a>
+              <a class="btn ghost" href="#installation" data-i18n="projects.ai_studies.hero.cta.installation">
+                Quick start guide
+              </a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Purpose</dt>
-                <dd>Document continuous AI learning and keep a living archive of notebooks, datasets, and utility scripts.</dd>
+                <dt data-i18n="projects.ai_studies.hero.highlights.purpose.label">Purpose</dt>
+                <dd data-i18n="projects.ai_studies.hero.highlights.purpose.value">
+                  Document continuous AI learning and keep a living archive of notebooks, datasets, and utility scripts.
+                </dd>
               </div>
               <div>
-                <dt>Status</dt>
-                <dd>Open to experiments, contributions, and community-led evolution.</dd>
+                <dt data-i18n="projects.ai_studies.hero.highlights.status.label">Status</dt>
+                <dd data-i18n="projects.ai_studies.hero.highlights.status.value">
+                  Open to experiments, contributions, and community-led evolution.
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside
+            class="hero-card"
+            aria-label="Quick highlights"
+            data-i18n="projects.ai_studies.hero.card.label"
+            data-i18n-attr="aria-label"
+          >
             <div>
-              <h3>Current focus</h3>
-              <p>Predictive models, compact LLM fine-tuning, and prototypes for intelligent automations.</p>
+              <h3 data-i18n="projects.ai_studies.hero.card.focus.title">Current focus</h3>
+              <p data-i18n="projects.ai_studies.hero.card.focus.description">
+                Predictive models, compact LLM fine-tuning, and prototypes for intelligent automations.
+              </p>
             </div>
             <div>
-              <h3>Organisation</h3>
-              <p>Modular structure with folders for notebooks, datasets, trained models, and reusable scripts.</p>
+              <h3 data-i18n="projects.ai_studies.hero.card.structure.title">Organisation</h3>
+              <p data-i18n="projects.ai_studies.hero.card.structure.description">
+                Modular structure with folders for notebooks, datasets, trained models, and reusable scripts.
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Free to use, modify, and distribute with credit.</p>
+              <h3 data-i18n="projects.ai_studies.hero.card.license.title">License</h3>
+              <p data-i18n="projects.ai_studies.hero.card.license.description">
+                MIT · Free to use, modify, and distribute with credit.
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +155,25 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>Explore, test, and document artificial intelligence</h2>
-            <p>
+            <span data-i18n="projects.ai_studies.overview.eyebrow">Overview</span>
+            <h2 data-i18n="projects.ai_studies.overview.title">Explore, test, and document artificial intelligence</h2>
+            <p data-i18n="projects.ai_studies.overview.description">
               AI_studies works as a central lab for experiments. Each learning cycle is documented for reuse and sharing with other developers.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Curated notebooks that demonstrate AI techniques on real-world problems.</li>
-            <li>Versioned datasets to ensure reproducibility and future comparisons.</li>
-            <li>Utility scripts that automate training, evaluation, and visualisation pipelines.</li>
-            <li>Transparent roadmap with topics like generative models, time series, and intelligent recommendations.</li>
+            <li data-i18n="projects.ai_studies.overview.items.notebooks">
+              Curated notebooks that demonstrate AI techniques on real-world problems.
+            </li>
+            <li data-i18n="projects.ai_studies.overview.items.datasets">
+              Versioned datasets to ensure reproducibility and future comparisons.
+            </li>
+            <li data-i18n="projects.ai_studies.overview.items.scripts">
+              Utility scripts that automate training, evaluation, and visualisation pipelines.
+            </li>
+            <li data-i18n="projects.ai_studies.overview.items.roadmap">
+              Transparent roadmap with topics like generative models, time series, and intelligent recommendations.
+            </li>
           </ul>
         </div>
       </section>
@@ -122,41 +182,47 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Modern tools for rapid experimentation</h2>
-            <p>
+            <span data-i18n="projects.ai_studies.stack.eyebrow">Technical stack</span>
+            <h2 data-i18n="projects.ai_studies.stack.title">Modern tools for rapid experimentation</h2>
+            <p data-i18n="projects.ai_studies.stack.description">
               The base combines the Python ecosystem with established frameworks for machine learning, visualisation, and data processing.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🐍</span>
-              <h3>Python 3.10+</h3>
-              <p>Main environment for notebooks, scripts, and scientific library integration.</p>
+              <h3 data-i18n="projects.ai_studies.stack.cards.python.title">Python 3.10+</h3>
+              <p data-i18n="projects.ai_studies.stack.cards.python.description">
+                Main environment for notebooks, scripts, and scientific library integration.
+              </p>
               <div class="metadata">
-                <span>Virtualenv</span>
-                <span>pip</span>
-                <span>Poetry (optional)</span>
+                <span data-i18n="projects.ai_studies.stack.cards.python.meta.virtualenv">Virtualenv</span>
+                <span data-i18n="projects.ai_studies.stack.cards.python.meta.pip">pip</span>
+                <span data-i18n="projects.ai_studies.stack.cards.python.meta.poetry">Poetry (optional)</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧠</span>
-              <h3>AI frameworks</h3>
-              <p>PyTorch, TensorFlow, Hugging Face Transformers, and Scikit-learn for supervised and generative training.</p>
+              <h3 data-i18n="projects.ai_studies.stack.cards.frameworks.title">AI frameworks</h3>
+              <p data-i18n="projects.ai_studies.stack.cards.frameworks.description">
+                PyTorch, TensorFlow, Hugging Face Transformers, and Scikit-learn for supervised and generative training.
+              </p>
               <div class="metadata">
-                <span>torch</span>
-                <span>tensorflow</span>
-                <span>transformers</span>
+                <span data-i18n="projects.ai_studies.stack.cards.frameworks.meta.torch">torch</span>
+                <span data-i18n="projects.ai_studies.stack.cards.frameworks.meta.tensorflow">tensorflow</span>
+                <span data-i18n="projects.ai_studies.stack.cards.frameworks.meta.transformers">transformers</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📊</span>
-              <h3>Data & visualisation</h3>
-              <p>Pandas, NumPy, and Matplotlib for efficient data manipulation and analytics dashboards.</p>
+              <h3 data-i18n="projects.ai_studies.stack.cards.data.title">Data & visualisation</h3>
+              <p data-i18n="projects.ai_studies.stack.cards.data.description">
+                Pandas, NumPy, and Matplotlib for efficient data manipulation and analytics dashboards.
+              </p>
               <div class="metadata">
-                <span>pandas</span>
-                <span>numpy</span>
-                <span>matplotlib</span>
+                <span data-i18n="projects.ai_studies.stack.cards.data.meta.pandas">pandas</span>
+                <span data-i18n="projects.ai_studies.stack.cards.data.meta.numpy">numpy</span>
+                <span data-i18n="projects.ai_studies.stack.cards.data.meta.matplotlib">matplotlib</span>
               </div>
             </article>
           </div>
@@ -167,13 +233,13 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Structure designed to scale without losing order</h2>
-            <p>
+            <span data-i18n="projects.ai_studies.architecture.eyebrow">Architecture</span>
+            <h2 data-i18n="projects.ai_studies.architecture.title">Structure designed to scale without losing order</h2>
+            <p data-i18n="projects.ai_studies.architecture.description">
               Each experiment lives in its own folder, making replication, comparisons, and future publishing easier.
             </p>
           </div>
-          <pre><code>AI_studies/
+          <pre><code data-i18n="projects.ai_studies.architecture.tree">AI_studies/
 ├── notebooks/       # Jupyter experiments
 ├── datasets/        # Datasets used
 ├── models/          # Trained models and checkpoints
@@ -186,29 +252,31 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Start your tests with a few commands</h2>
-            <p>
+            <span data-i18n="projects.ai_studies.installation.eyebrow">Installation</span>
+            <h2 data-i18n="projects.ai_studies.installation.title">Start your tests with a few commands</h2>
+            <p data-i18n="projects.ai_studies.installation.description">
               The repository is lightweight and can be used locally, in Google Colab, or in cloud environments.
             </p>
           </div>
           <ol>
-            <li>Clone the repository and enter the folder:</li>
+            <li data-i18n="projects.ai_studies.installation.steps.clone">Clone the repository and enter the folder:</li>
           </ol>
-          <pre><code>git clone https://github.com/eduardo45MP/AI_studies.git
+          <pre><code data-i18n="projects.ai_studies.installation.commands.clone">git clone https://github.com/eduardo45MP/AI_studies.git
 cd AI_studies</code></pre>
           <ol start="2">
-            <li>Create and activate a Python virtual environment:</li>
+            <li data-i18n="projects.ai_studies.installation.steps.venv">Create and activate a Python virtual environment:</li>
           </ol>
-          <pre><code>python3 -m venv venv
+          <pre><code data-i18n="projects.ai_studies.installation.commands.venv">python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # .\venv\Scripts\activate  # Windows</code></pre>
           <ol start="3">
-            <li>Install the dependencies needed for each notebook or script:</li>
+            <li data-i18n="projects.ai_studies.installation.steps.dependencies">
+              Install the dependencies needed for each notebook or script:
+            </li>
           </ol>
-          <pre><code>pip install -r requirements.txt  # when available
+          <pre><code data-i18n="projects.ai_studies.installation.commands.dependencies">pip install -r requirements.txt  # when available
 # or install individual libraries per experiment</code></pre>
-          <p>
+          <p data-i18n="projects.ai_studies.installation.note" data-i18n-html="true">
             Use Google Colab for quick tests by sharing notebooks directly from the <code>notebooks/</code> folder.
           </p>
         </div>
@@ -218,47 +286,58 @@ source venv/bin/activate  # Linux/macOS
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>How to contribute to AI_studies</h2>
-            <p>
+            <span data-i18n="projects.ai_studies.contributions.eyebrow">Open Source</span>
+            <h2 data-i18n="projects.ai_studies.contributions.title">How to contribute to AI_studies</h2>
+            <p data-i18n="projects.ai_studies.contributions.description">
               The project values collaborative contributions that document experiments, improve datasets, or propose new challenges.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>New experiments</h3>
-              <p>Bring well-documented notebooks with insights and model comparisons.</p>
+              <h3 data-i18n="projects.ai_studies.contributions.cards.experiments.title">New experiments</h3>
+              <p data-i18n="projects.ai_studies.contributions.cards.experiments.description">
+                Bring well-documented notebooks with insights and model comparisons.
+              </p>
               <div class="metadata">
-                <span>Fork + PR</span>
-                <span>Docstring</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.experiments.meta.primary">Fork + PR</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.experiments.meta.secondary">Docstring</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🗂️</span>
-              <h3>Curated datasets</h3>
-              <p>Include public or synthetic datasets with a README covering license, format, and usage.</p>
+              <h3 data-i18n="projects.ai_studies.contributions.cards.datasets.title">Curated datasets</h3>
+              <p data-i18n="projects.ai_studies.contributions.cards.datasets.description">
+                Include public or synthetic datasets with a README covering license, format, and usage.
+              </p>
               <div class="metadata">
-                <span>CC-BY</span>
-                <span>MIT</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.datasets.meta.primary">CC-BY</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.datasets.meta.secondary">MIT</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">⚙️</span>
-              <h3>Utility scripts</h3>
-              <p>Automate training, evaluation, or deployment flows and share best practices.</p>
+              <h3 data-i18n="projects.ai_studies.contributions.cards.scripts.title">Utility scripts</h3>
+              <p data-i18n="projects.ai_studies.contributions.cards.scripts.description">
+                Automate training, evaluation, or deployment flows and share best practices.
+              </p>
               <div class="metadata">
-                <span>CI/CD</span>
-                <span>pytest optional</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.scripts.meta.primary">CI/CD</span>
+                <span data-i18n="projects.ai_studies.contributions.cards.scripts.meta.secondary">pytest optional</span>
               </div>
             </article>
           </div>
-          <p style="margin-top: 2rem; color: var(--color-muted);">
+          <p
+            style="margin-top: 2rem; color: var(--color-muted);"
+            data-i18n="projects.ai_studies.contributions.note"
+            data-i18n-html="true"
+          >
             Open an issue with the contribution scope before the PR for quick alignment. Also review the documents in <code>portfolio/docs/</code> to keep the visual and narrative pattern aligned.
           </p>
         </div>
       </section>
     </main>
+    <script src="../../scripts/i18n.js"></script>
     <script src="../../scripts/main.js"></script>
   </body>
 </html>
