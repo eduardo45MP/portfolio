@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="Portfolio of Eduardo Peixoto (Eduardo45MP.dev), developer focused on AI, automation, cybersecurity and web solutions."
+      data-i18n-attr="content"
+      data-i18n-key="meta.description"
     />
-    <title>Eduardo45MP.dev | Portfolio</title>
+    <title data-i18n="meta.title">Eduardo45MP.dev | Portfolio</title>
     <link rel="icon" href="fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -26,27 +28,34 @@
     <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
-  <body>
+  <body data-page="home">
     <!-- ========== HEADER ========== -->
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to hero section -->
-        <a class="brand" href="#hero">Eduardo45MP.dev</a>
+        <a class="brand" href="#hero" data-i18n="brand">Eduardo45MP.dev</a>
         
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Main navigation">
+        <nav aria-label="Main navigation" data-i18n-attr="aria-label" data-i18n-key="nav.label">
           <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+            <li><a href="#about" data-i18n="nav.about">About</a></li>
+            <li><a href="#stack" data-i18n="nav.stack">Stack</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
           </ul>
         </nav>
 
-        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          <span data-theme-label>Dark mode</span>
-        </button>
+        <div class="top-bar-actions">
+          <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+            <span data-lang-option="en">EN</span>
+            <span class="lang-divider" aria-hidden="true">⇄</span>
+            <span data-lang-option="pt">PT</span>
+          </button>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            <span data-theme-label>Dark mode</span>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -58,49 +67,57 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">CEO @Innoforge.tech · Developer</span>
+            <span class="badge" data-i18n="hero.badge">CEO @Innoforge.tech · Developer</span>
             
             <!-- Main heading -->
-            <h1>Entrepreneurship driven by technology</h1>
+            <h1 data-i18n="hero.title">Entrepreneurship driven by technology</h1>
             
             <!-- Intro paragraph -->
             <p>
-              I am Eduardo Peixoto, integrating technological innovation, automation and cybersecurity into digital projects that solve real-world challenges and deliver immediate impact.
+              <span data-i18n="hero.description">
+                I am Eduardo Peixoto, integrating technological innovation, automation and cybersecurity into digital projects that solve real-world challenges and deliver immediate impact.
+              </span>
             </p>
 
             <!-- Call to action buttons -->
             <div class="cta-group">
-              <a class="btn primary" href="#projects">View projects</a>
-              <a class="btn ghost" href="#contact">Get in touch</a>
+              <a class="btn primary" href="#projects" data-i18n="hero.cta.projects">View projects</a>
+              <a class="btn ghost" href="#contact" data-i18n="hero.cta.contact">Get in touch</a>
             </div>
 
             <!-- Highlights: mission & expertise -->
             <dl class="hero-highlights">
               <div>
-                <dt>Mission</dt>
-                <dd>Transform ambitious ideas into scalable solutions by connecting strategy, product, and technology.</dd>
+                <dt data-i18n="hero.mission.title">Mission</dt>
+                <dd data-i18n="hero.mission.body">
+                  Transform ambitious ideas into scalable solutions by connecting strategy, product, and technology.
+                </dd>
               </div>
               <div>
-                <dt>Expertise</dt>
-                <dd>AI, automation, cybersecurity and responsive web experiences.</dd>
+                <dt data-i18n="hero.expertise.title">Expertise</dt>
+                <dd data-i18n="hero.expertise.body">AI, automation, cybersecurity and responsive web experiences.</dd>
               </div>
             </dl>
           </div>
 
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside class="hero-card" aria-label="Quick highlights" data-i18n-attr="aria-label" data-i18n-key="hero.card.label">
             <div>
-              <h3>Core Stack</h3>
+              <h3 data-i18n="hero.card.stack.title">Core Stack</h3>
               <p><code>React · Laravel · Python</code></p>
-              <p>Functional and pretty UX with secure servers and criative solutions.</p>
+              <p data-i18n="hero.card.stack.body">Functional and pretty UX with secure servers and criative solutions.</p>
             </div>
             <div>
-              <h3>Languages & Networking</h3>
-              <p>Portuguese (native), English (fluent), and Spanish (conversational). Expanding into Mandarin, French, German, Russian, and Arabic.</p>
+              <h3 data-i18n="hero.card.languages.title">Languages & Networking</h3>
+              <p data-i18n="hero.card.languages.body">
+                Portuguese (native), English (fluent), and Spanish (conversational). Expanding into Mandarin, French, German, Russian, and Arabic.
+              </p>
             </div>
             <div>
-              <h3>Current Focus</h3>
-              <p>Testing intelligent automations and scalable digital experiences for new partnerships and products.</p>
+              <h3 data-i18n="hero.card.focus.title">Current Focus</h3>
+              <p data-i18n="hero.card.focus.body">
+                Testing intelligent automations and scalable digital experiences for new partnerships and products.
+              </p>
             </div>
           </aside>
         </div>
@@ -110,17 +127,25 @@
       <section id="about" class="section">
         <div class="container">
           <div class="section-header">
-            <span>About me</span>
-            <h2>From programming logic to collaborative entrepreneurship</h2>
-            <p>
+            <span data-i18n="about.eyebrow">About me</span>
+            <h2 data-i18n="about.title">From programming logic to collaborative entrepreneurship</h2>
+            <p data-i18n="about.description">
               My journey combines problem-solving through software, strategic business vision, and a passion for creating solutions that connect people and technology.
             </p>
           </div>
           <ul class="feature-list">
-            <li>I adapt languages, frameworks, and databases to the needs of each project, always focused on delivering value.</li>
-            <li>I see each initiative as a living lab: improving technical skills and the ability to solve complex problems.</li>
-            <li>I seek partners with complementary strengths to turn ambitious ideas into real digital products.</li>
-            <li>I balance technology with personal interests such as languages, spirituality, the arts, and the vastness of the sea.</li>
+            <li data-i18n="about.list.1">
+              I adapt languages, frameworks, and databases to the needs of each project, always focused on delivering value.
+            </li>
+            <li data-i18n="about.list.2">
+              I see each initiative as a living lab: improving technical skills and the ability to solve complex problems.
+            </li>
+            <li data-i18n="about.list.3">
+              I seek partners with complementary strengths to turn ambitious ideas into real digital products.
+            </li>
+            <li data-i18n="about.list.4">
+              I balance technology with personal interests such as languages, spirituality, the arts, and the vastness of the sea.
+            </li>
           </ul>
         </div>
       </section>
@@ -129,9 +154,9 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Skills & stack</span>
-            <h2>Building complete experiences with clean technology</h2>
-            <p>
+            <span data-i18n="stack.eyebrow">Skills & stack</span>
+            <h2 data-i18n="stack.title">Building complete experiences with clean technology</h2>
+            <p data-i18n="stack.description">
               Minimalist and scalable stack, ready to evolve from static pages to full applications with automation, security, and data.
             </p>
           </div>
@@ -140,41 +165,49 @@
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧠</span>
-              <h3>AI & Automation</h3>
-              <p>Continuous experiments with personal assistants, automated flows, and solutions that boost productivity.</p>
+              <h3 data-i18n="stack.cards.ai.title">AI & Automation</h3>
+              <p data-i18n="stack.cards.ai.body">
+                Continuous experiments with personal assistants, automated flows, and solutions that boost productivity.
+              </p>
               <div class="metadata">
-                <span>edu_assistant</span>
-                <span>Automated Ops</span>
+                <span data-i18n="stack.cards.ai.meta1">edu_assistant</span>
+                <span data-i18n="stack.cards.ai.meta2">Automated Ops</span>
               </div>
             </article>
 
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Cybersecurity</h3>
-              <p>Research and testing in Wi-Fi networks, prioritising protection and reliability from the ground up.</p>
+              <h3 data-i18n="stack.cards.security.title">Cybersecurity</h3>
+              <p data-i18n="stack.cards.security.body">
+                Research and testing in Wi-Fi networks, prioritising protection and reliability from the ground up.
+              </p>
               <div class="metadata">
-                <span>NSA toolkit</span>
-                <span>Network Hardening</span>
+                <span data-i18n="stack.cards.security.meta1">NSA toolkit</span>
+                <span data-i18n="stack.cards.security.meta2">Network Hardening</span>
               </div>
             </article>
 
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🎨</span>
-              <h3>Web Experiences</h3>
-              <p>Responsive interfaces, intuitive navigation, and a consistent visual identity with Poppins + Roboto.</p>
+              <h3 data-i18n="stack.cards.web.title">Web Experiences</h3>
+              <p data-i18n="stack.cards.web.body">
+                Responsive interfaces, intuitive navigation, and a consistent visual identity with Poppins + Roboto.
+              </p>
               <div class="metadata">
-                <span>Flexbox & Grid</span>
-                <span>Design Systems</span>
+                <span data-i18n="stack.cards.web.meta1">Flexbox & Grid</span>
+                <span data-i18n="stack.cards.web.meta2">Design Systems</span>
               </div>
             </article>
 
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🌍</span>
-              <h3>Languages & Culture</h3>
-              <p>Fluent communication in different languages to expand opportunities and global collaborations.</p>
+              <h3 data-i18n="stack.cards.languages.title">Languages & Culture</h3>
+              <p data-i18n="stack.cards.languages.body">
+                Fluent communication in different languages to expand opportunities and global collaborations.
+              </p>
               <div class="metadata">
-                <span>PT · EN · ES</span>
-                <span>Global Mindset</span>
+                <span data-i18n="stack.cards.languages.meta1">PT · EN · ES</span>
+                <span data-i18n="stack.cards.languages.meta2">Global Mindset</span>
               </div>
             </article>
           </div>
@@ -185,9 +218,9 @@
       <section id="projects" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Featured projects</span>
-            <h2>Applied innovation across different domains</h2>
-            <p>
+            <span data-i18n="projects.eyebrow">Featured projects</span>
+            <h2 data-i18n="projects.title">Applied innovation across different domains</h2>
+            <p data-i18n="projects.description">
               A selection of public initiatives showcasing the combination of AI, automation, education, and security built throughout my journey.
             </p>
           </div>
@@ -198,44 +231,58 @@
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🤖</span>
               <h3>edu_assistant</h3>
-              <p>Voice assistant with local memory and smart flows to organise routines and research insights.</p>
-              <a href="./projects/edu_assistant/index.html" target="_blank" rel="noopener">See more</a>
-              <a href="https://github.com/eduardo45MP/edu_assistant" target="_blank" rel="noopener">View on GitHub</a>
+              <p data-i18n="projects.cards.edu_assistant.body">
+                Voice assistant with local memory and smart flows to organise routines and research insights.
+              </p>
+              <a href="./projects/edu_assistant/index.html" target="_blank" rel="noopener" data-i18n="projects.cards.see_more">See more</a>
+              <a href="https://github.com/eduardo45MP/edu_assistant" target="_blank" rel="noopener" data-i18n="projects.cards.view_github">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🃏</span>
               <h3>AI_studies</h3>
-              <p>Laboratory repository to study, test and document experiments in artificial intelligence.</p>
-              <a href="./projects/AI_studies/index.html" target="_blank" rel="noopener">See more</a>
-              <a href="https://github.com/eduardo45MP/AI_studies" target="_blank" rel="noopener">View on GitHub</a>
+              <p data-i18n="projects.cards.ai_studies.body">
+                Laboratory repository to study, test and document experiments in artificial intelligence.
+              </p>
+              <a href="./projects/AI_studies/index.html" target="_blank" rel="noopener" data-i18n="projects.cards.see_more">See more</a>
+              <a href="https://github.com/eduardo45MP/AI_studies" target="_blank" rel="noopener" data-i18n="projects.cards.view_github">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📚</span>
               <h3>ReadMonitor</h3>
-              <p>Mobile/web app that tracks reading habits with a focus on continuous improvement.</p>
-              <a href="./projects/ReadMonitor/index.html" target="_blank" rel="noopener">See more</a>
-              <a href="https://github.com/eduardo45MP/ReadMonitor" target="_blank" rel="noopener">View on GitHub</a>
+              <p data-i18n="projects.cards.readmonitor.body">
+                Mobile/web app that tracks reading habits with a focus on continuous improvement.
+              </p>
+              <a href="./projects/ReadMonitor/index.html" target="_blank" rel="noopener" data-i18n="projects.cards.see_more">See more</a>
+              <a href="https://github.com/eduardo45MP/ReadMonitor" target="_blank" rel="noopener" data-i18n="projects.cards.view_github">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🪆</span>
               <h3>RussianTrainingHub</h3>
-              <p>Gamified educational games platform to make learning Russian more accessible.</p>
-              <a href="./projects/RussianTrainingHub/index.html" target="_blank" rel="noopener">See more</a>
-              <a href="https://eduardo45mp.github.io/RussianTrainingHub/" target="_blank" rel="noopener">View App</a>
-              <a href="https://github.com/eduardo45MP/RussianTrainingHub" target="_blank" rel="noopener">View on GitHub</a>
+              <p data-i18n="projects.cards.russian.body">
+                Gamified educational games platform to make learning Russian more accessible.
+              </p>
+              <a href="./projects/RussianTrainingHub/index.html" target="_blank" rel="noopener" data-i18n="projects.cards.see_more">See more</a>
+              <a href="https://eduardo45mp.github.io/RussianTrainingHub/" target="_blank" rel="noopener" data-i18n="projects.cards.view_app">View App</a>
+              <a href="https://github.com/eduardo45MP/RussianTrainingHub" target="_blank" rel="noopener" data-i18n="projects.cards.view_github">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🕶️</span>
               <h3>NSA</h3>
-              <p>System for Wi-Fi testing and audits, strengthening security layers.</p>
-              <a href="./projects/NSA/index.html" target="_blank" rel="noopener">See more</a>
-              <a href="https://github.com/eduardo45MP/NSA" target="_blank" rel="noopener">View on GitHub</a>
+              <p data-i18n="projects.cards.nsa.body">
+                System for Wi-Fi testing and audits, strengthening security layers.
+              </p>
+              <a href="./projects/NSA/index.html" target="_blank" rel="noopener" data-i18n="projects.cards.see_more">See more</a>
+              <a href="https://github.com/eduardo45MP/NSA" target="_blank" rel="noopener" data-i18n="projects.cards.view_github">View on GitHub</a>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📂</span>
               <h3>More projects</h3>
-              <p>Explore other open solutions, automations, and proof of concepts directly on my public GitHub.</p>
-              <a href="https://github.com/eduardo45MP?tab=repositories" target="_blank" rel="noopener">View all repositories</a>
+              <p data-i18n="projects.cards.more.body">
+                Explore other open solutions, automations, and proof of concepts directly on my public GitHub.
+              </p>
+              <a href="https://github.com/eduardo45MP?tab=repositories" target="_blank" rel="noopener" data-i18n="projects.cards.more.link">
+                View all repositories
+              </a>
             </article>
           </div>
         </div>
@@ -245,9 +292,9 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Roadmap & vision</span>
-            <h2>Continuous evolution of the portfolio</h2>
-            <p>
+            <span data-i18n="roadmap.eyebrow">Roadmap & vision</span>
+            <h2 data-i18n="roadmap.title">Continuous evolution of the portfolio</h2>
+            <p data-i18n="roadmap.description">
               The roadmap guides frequent updates to keep the portfolio aligned with strategic initiatives and partnerships.
             </p>
           </div>
@@ -256,18 +303,24 @@
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">⚡</span>
-              <h3>Short term</h3>
-              <p>Full responsive layout, visual project cards, favicon and consistent visual identity.</p>
+              <h3 data-i18n="roadmap.short.title">Short term</h3>
+              <p data-i18n="roadmap.short.body">
+                Full responsive layout, visual project cards, favicon and consistent visual identity.
+              </p>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🚀</span>
-              <h3>Medium term</h3>
-              <p>Integrated blog, dynamic stats, dark mode, and deployment comparison between GitHub Pages, Vercel and Netlify.</p>
+              <h3 data-i18n="roadmap.medium.title">Medium term</h3>
+              <p data-i18n="roadmap.medium.body">
+                Integrated blog, dynamic stats, dark mode, and deployment comparison between GitHub Pages, Vercel and Netlify.
+              </p>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🌐</span>
-              <h3>Long term</h3>
-              <p>Transform the portfolio into a SPA with React/Next.js, real contact form, and full multilingual support.</p>
+              <h3 data-i18n="roadmap.long.title">Long term</h3>
+              <p data-i18n="roadmap.long.body">
+                Transform the portfolio into a SPA with React/Next.js, real contact form, and full multilingual support.
+              </p>
             </article>
           </div>
         </div>
@@ -278,14 +331,16 @@
         <div class="container">
           <div class="contact-card">
             <!-- Badge -->
-            <span class="badge" aria-hidden="true">Let's create together</span>
+            <span class="badge" aria-hidden="true" data-i18n="contact.badge">Let's create together</span>
             
             <!-- Headline -->
-            <h2>Open to collaborations and new partnerships</h2>
+            <h2 data-i18n="contact.title">Open to collaborations and new partnerships</h2>
             
             <!-- Description -->
             <p>
-              Count on me to build digital solutions that connect technology, business, and real impact. Send a message, share an idea, or schedule a chat.
+              <span data-i18n="contact.description">
+                Count on me to build digital solutions that connect technology, business, and real impact. Send a message, share an idea, or schedule a chat.
+              </span>
             </p>
 
             <!-- Contact details -->
@@ -297,7 +352,7 @@
               </li>
               <li>
                 <a href="tel:+5581999350771">
-                  📱 <span>+55 81 99935-0771 (whatsapp only)</span>
+                  📱 <span data-i18n="contact.phone">+55 81 99935-0771 (whatsapp only)</span>
                 </a>
               </li>
               <li>
@@ -325,14 +380,17 @@
     <footer>
       <div class="container">
         <!-- Copyright -->
-        <div>© <span id="year">2024</span> Eduardo Peixoto · eduardo45MP.dev</div>
+        <div>
+          © <span id="year">2024</span> <span data-i18n="footer.brand">Eduardo Peixoto · eduardo45MP.dev</span>
+        </div>
         
         <!-- Links to documentation files -->
         <div>
-          Full documentation available in 
-          <a href="./docs/archtecture.md">Architecture</a>, 
-          <a href="./docs/visualID.md">Visual Identity</a> and 
-          <a href="./docs/ROADMAP.md">Roadmap</a>.
+          <span data-i18n="footer.docs.intro">Full documentation available in</span>
+          <a href="./docs/archtecture.md" data-i18n="footer.docs.architecture">Architecture</a>,
+          <a href="./docs/visualID.md" data-i18n="footer.docs.visual">Visual Identity</a>
+          <span data-i18n="footer.docs.and">and</span>
+          <a href="./docs/ROADMAP.md" data-i18n="footer.docs.roadmap">Roadmap</a>.
         </div>
       </div>
     </footer>

@@ -9,8 +9,10 @@
     <meta
       name="description"
       content="NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
+      data-i18n-attr="content"
+      data-i18n-key="meta.description"
     />
-    <title>NSA | Network Security Assistant</title>
+    <title data-i18n="meta.title">NSA | Network Security Assistant</title>
     <link rel="icon" href="./../../fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
@@ -26,26 +28,33 @@
     <!-- Main CSS stylesheet -->
     <link rel="stylesheet" href="../../css/main.css" />
   </head>
-  <body>
+  <body data-page="nsa">
     <!-- ========== HEADER ========== -->
     <header class="top-bar">
       <div class="container">
         <!-- Brand / Logo link to portfolio projects -->
-        <a class="brand" href="../../index.html#projects">Eduardo45MP.dev</a>
+        <a class="brand" href="../../index.html#projects" data-i18n="brand">Eduardo45MP.dev</a>
 
         <!-- Primary navigation menu with accessibility label -->
-        <nav aria-label="Project navigation">
+        <nav aria-label="Project navigation" data-i18n-attr="aria-label" data-i18n-key="nav.label">
           <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#stack">Stack</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#contributions">Contributions</a></li>
+            <li><a href="#overview" data-i18n="nav.overview">Overview</a></li>
+            <li><a href="#stack" data-i18n="nav.stack">Stack</a></li>
+            <li><a href="#installation" data-i18n="nav.installation">Installation</a></li>
+            <li><a href="#contributions" data-i18n="nav.contributions">Contributions</a></li>
           </ul>
         </nav>
 
-        <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-          <span data-theme-label>Dark mode</span>
-        </button>
+        <div class="top-bar-actions">
+          <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+            <span data-lang-option="en">EN</span>
+            <span class="lang-divider" aria-hidden="true">⇄</span>
+            <span data-lang-option="pt">PT</span>
+          </button>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+            <span data-theme-label>Dark mode</span>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -56,9 +65,9 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge">Network security</span>
-            <h1>NSA | Network Security Assistant</h1>
-            <p>
+            <span class="badge" data-i18n="hero.badge">Network security</span>
+            <h1 data-i18n="hero.title">NSA | Network Security Assistant</h1>
+            <p data-i18n="hero.description">
               A modular toolkit that tests, analyses, and strengthens Wi-Fi networks with clear flows for scanning, assessment, and report generation.
             </p>
             <div class="cta-group">
@@ -67,33 +76,47 @@
                 href="https://github.com/eduardo45MP/NSA"
                 target="_blank"
                 rel="noopener"
-              >View on GitHub</a>
-              <a class="btn ghost" href="#installation">Usage checklist</a>
+              data-i18n="hero.cta.github">View on GitHub</a>
+              <a class="btn ghost" href="#installation" data-i18n="hero.cta.usage">Usage checklist</a>
             </div>
             <dl class="hero-highlights">
               <div>
-                <dt>Scope</dt>
-                <dd>Educational audits on owned networks, focused on common vulnerability detection.</dd>
+                <dt data-i18n="hero.highlights.scope.title">Scope</dt>
+                <dd data-i18n="hero.highlights.scope.body">
+                  Educational audits on owned networks, focused on common vulnerability detection.
+                </dd>
               </div>
               <div>
-                <dt>Access</dt>
-                <dd>Python scripts executed locally, with administrative privileges when required.</dd>
+                <dt data-i18n="hero.highlights.access.title">Access</dt>
+                <dd data-i18n="hero.highlights.access.body">
+                  Python scripts executed locally, with administrative privileges when required.
+                </dd>
               </div>
             </dl>
           </div>
           <!-- Quick info card aligned to hero -->
-          <aside class="hero-card" aria-label="Quick highlights">
+          <aside class="hero-card" aria-label="Quick highlights" data-i18n-attr="aria-label" data-i18n-key="hero.card.label">
             <div>
-              <h3>Core modules</h3>
-              <p>Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.</p>
+              <h3 data-i18n="hero.card.modules.title">Core modules</h3>
+              <p data-i18n="hero.card.modules.body">
+                Wi-Fi scanner, security analysis, PDF reports, and configurable profile management.
+              </p>
             </div>
             <div>
-              <h3>Target platform</h3>
-              <p>Linux environments; some features require <code>sudo</code> access and specific network libraries.</p>
+              <h3 data-i18n="hero.card.platform.title">Target platform</h3>
+              <p>
+                <span data-i18n="hero.card.platform.prefix">
+                  Linux environments; some features require
+                </span>
+                <code>sudo</code>
+                <span data-i18n="hero.card.platform.suffix">access and specific network libraries.</span>
+              </p>
             </div>
             <div>
-              <h3>License</h3>
-              <p>MIT · Respect the legal notice: use only on networks with explicit authorisation.</p>
+              <h3 data-i18n="hero.card.license.title">License</h3>
+              <p data-i18n="hero.card.license.body">
+                MIT · Respect the legal notice: use only on networks with explicit authorisation.
+              </p>
             </div>
           </aside>
         </div>
@@ -103,17 +126,21 @@
       <section id="overview" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Overview</span>
-            <h2>Practical auditing for home and corporate Wi-Fi networks</h2>
-            <p>
+            <span data-i18n="overview.eyebrow">Overview</span>
+            <h2 data-i18n="overview.title">Practical auditing for home and corporate Wi-Fi networks</h2>
+            <p data-i18n="overview.description">
               NSA was created to professionalise home security tests, offering clear, documented scripts that any cybersecurity enthusiast can extend.
             </p>
           </div>
           <ul class="feature-list">
-            <li>Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).</li>
-            <li>Evaluates encryption settings, signal strength, and common risks.</li>
-            <li>Generates readable reports with checklists of recommendations and next steps.</li>
-            <li>Allows saving Wi-Fi profiles to repeat tests in regular cycles.</li>
+            <li data-i18n="overview.list.1">
+              Maps available networks with relevant metadata (BSSID, RSSI, channel, declared security).
+            </li>
+            <li data-i18n="overview.list.2">Evaluates encryption settings, signal strength, and common risks.</li>
+            <li data-i18n="overview.list.3">
+              Generates readable reports with checklists of recommendations and next steps.
+            </li>
+            <li data-i18n="overview.list.4">Allows saving Wi-Fi profiles to repeat tests in regular cycles.</li>
           </ul>
         </div>
       </section>
@@ -122,38 +149,50 @@
       <section id="stack" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Technical stack</span>
-            <h2>Python as the base for security automation</h2>
-            <p>
+            <span data-i18n="stack.eyebrow">Technical stack</span>
+            <h2 data-i18n="stack.title">Python as the base for security automation</h2>
+            <p data-i18n="stack.description">
               Networking libraries and report generation form the core of the toolkit, keeping the setup lean and portable.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📡</span>
-              <h3>Scanning and capture</h3>
-              <p>Uses <code>scapy</code>, <code>socket</code>, and <code>subprocess</code> to gather interface information.</p>
+              <h3 data-i18n="stack.cards.scan.title">Scanning and capture</h3>
+              <p>
+                <span data-i18n="stack.cards.scan.prefix">Uses</span>
+                <code>scapy</code>, <code>socket</code>, <code>subprocess</code>
+                <span data-i18n="stack.cards.scan.suffix">to gather interface information.</span>
+              </p>
               <div class="metadata">
-                <span>Monitor mode</span>
-                <span>iwlist</span>
+                <span data-i18n="stack.cards.scan.meta1">Monitor mode</span>
+                <span data-i18n="stack.cards.scan.meta2">iwlist</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3>Analysis</h3>
-              <p>Customisable rules to verify encryption types, default passwords, and protection best practices.</p>
+              <h3 data-i18n="stack.cards.analysis.title">Analysis</h3>
+              <p data-i18n="stack.cards.analysis.body">
+                Customisable rules to verify encryption types, default passwords, and protection best practices.
+              </p>
               <div class="metadata">
-                <span>Python ruleset</span>
-                <span>config YAML (future)</span>
+                <span data-i18n="stack.cards.analysis.meta1">Python ruleset</span>
+                <span data-i18n="stack.cards.analysis.meta2">config YAML (future)</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">📑</span>
-              <h3>Reports</h3>
-              <p>Generates friendly reports with <code>pandas</code>, <code>jinja2</code>, or <code>reportlab</code> depending on the flow.</p>
+              <h3 data-i18n="stack.cards.reports.title">Reports</h3>
+              <p>
+                <span data-i18n="stack.cards.reports.prefix">Generates friendly reports with</span>
+                <code>pandas</code>, <code>jinja2</code>
+                <span data-i18n="stack.cards.reports.middle">or</span>
+                <code>reportlab</code>
+                <span data-i18n="stack.cards.reports.suffix">depending on the flow.</span>
+              </p>
               <div class="metadata">
-                <span>Export PDF/HTML</span>
-                <span>Custom templates</span>
+                <span data-i18n="stack.cards.reports.meta1">Export PDF/HTML</span>
+                <span data-i18n="stack.cards.reports.meta2">Custom templates</span>
               </div>
             </article>
           </div>
@@ -164,9 +203,9 @@
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Architecture</span>
-            <h2>Modular scripts for each step of the process</h2>
-            <p>
+            <span data-i18n="architecture.eyebrow">Architecture</span>
+            <h2 data-i18n="architecture.title">Modular scripts for each step of the process</h2>
+            <p data-i18n="architecture.description">
               Clear separation between collection, analysis, reporting, and profile management avoids tight coupling and enables isolated tests.
             </p>
           </div>
@@ -182,31 +221,31 @@
       <section id="installation" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Installation</span>
-            <h2>Preparing the audit environment</h2>
-            <p>
+            <span data-i18n="installation.eyebrow">Installation</span>
+            <h2 data-i18n="installation.title">Preparing the audit environment</h2>
+            <p data-i18n="installation.description">
               Run the scripts on machines that support monitor mode and have the required privileges. Tests were validated on Debian-based Linux distributions.
             </p>
           </div>
           <ol>
-            <li>Clone the repository and create a virtual environment:</li>
+            <li data-i18n="installation.step1">Clone the repository and create a virtual environment:</li>
           </ol>
           <pre><code>git clone https://github.com/eduardo45MP/NSA.git
 cd NSA
 python3 -m venv venv
 source venv/bin/activate</code></pre>
           <ol start="2">
-            <li>Install suggested dependencies:</li>
+            <li data-i18n="installation.step2">Install suggested dependencies:</li>
           </ol>
           <pre><code>pip install -r requirements.txt  # when available
 sudo apt install aircrack-ng net-tools wireless-tools</code></pre>
           <ol start="3">
-            <li>Run modules as needed:</li>
+            <li data-i18n="installation.step3">Run modules as needed:</li>
           </ol>
           <pre><code>sudo python scan_wifi_networks.py
 python sec_analysis.py
 python sec_report.py</code></pre>
-          <p>
+          <p data-i18n="installation.note">
             Adjust commands for your environment and ensure write permissions on output directories when generating reports.
           </p>
         </div>
@@ -216,43 +255,53 @@ python sec_report.py</code></pre>
       <section id="contributions" class="section">
         <div class="container">
           <div class="section-header">
-            <span>Open Source</span>
-            <h2>Best practices for collaboration</h2>
-            <p>
+            <span data-i18n="contributions.eyebrow">Open Source</span>
+            <h2 data-i18n="contributions.title">Best practices for collaboration</h2>
+            <p data-i18n="contributions.description">
               Contributors can expand security rules, report formats, and support for new platforms.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔍</span>
-              <h3>New heuristics</h3>
-              <p>Add advanced checks to detect frequent insecure configurations.</p>
+              <h3 data-i18n="contributions.cards.heuristics.title">New heuristics</h3>
+              <p data-i18n="contributions.cards.heuristics.body">
+                Add advanced checks to detect frequent insecure configurations.
+              </p>
               <div class="metadata">
-                <span>WPA3</span>
-                <span>IoT</span>
+                <span data-i18n="contributions.cards.heuristics.meta1">WPA3</span>
+                <span data-i18n="contributions.cards.heuristics.meta2">IoT</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧾</span>
-              <h3>Report templates</h3>
-              <p>Create customisable layouts with charts, checklists, and audience-specific guidance.</p>
+              <h3 data-i18n="contributions.cards.reports.title">Report templates</h3>
+              <p data-i18n="contributions.cards.reports.body">
+                Create customisable layouts with charts, checklists, and audience-specific guidance.
+              </p>
               <div class="metadata">
-                <span>Markdown</span>
-                <span>PDF</span>
+                <span data-i18n="contributions.cards.reports.meta1">Markdown</span>
+                <span data-i18n="contributions.cards.reports.meta2">PDF</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🧪</span>
-              <h3>Automated tests</h3>
-              <p>Implement unit tests and mocks to simulate results without real hardware access.</p>
+              <h3 data-i18n="contributions.cards.tests.title">Automated tests</h3>
+              <p data-i18n="contributions.cards.tests.body">
+                Implement unit tests and mocks to simulate results without real hardware access.
+              </p>
               <div class="metadata">
-                <span>pytest</span>
-                <span>tox</span>
+                <span data-i18n="contributions.cards.tests.meta1">pytest</span>
+                <span data-i18n="contributions.cards.tests.meta2">tox</span>
               </div>
             </article>
           </div>
           <p style="margin-top: 2rem; color: var(--color-muted);">
-            Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in <code>portfolio/docs/</code>.
+            <span data-i18n="contributions.note.prefix">
+              Before contributing, read the legal notice in the README and keep the visual identity aligned with the guides in
+            </span>
+            <code>portfolio/docs/</code>
+            <span data-i18n="contributions.note.suffix">.</span>
           </p>
         </div>
       </section>
@@ -261,9 +310,9 @@ python sec_report.py</code></pre>
       <section class="section">
         <div class="container">
           <div class="section-header">
-            <span>Notice</span>
-            <h2>Responsible use</h2>
-            <p>
+            <span data-i18n="notice.eyebrow">Notice</span>
+            <h2 data-i18n="notice.title">Responsible use</h2>
+            <p data-i18n="notice.description">
               This toolkit is intended exclusively for authorised environments. Never use it without consent; responsibility lies fully with the user.
             </p>
           </div>
