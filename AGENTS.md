@@ -1,4 +1,3 @@
-```markdown
 # AGENTS
 
 ## Overview
@@ -103,4 +102,3 @@ This repository is designed to grow towards an increasingly agent-oriented archi
 
 **Agents are leverage.  
 Humans set the direction.**
-```

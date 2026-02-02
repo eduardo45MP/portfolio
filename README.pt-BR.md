@@ -42,4 +42,3 @@ Alguns dos repositórios em destaque no meu GitHub público:
 ---
 
 ✨ Criado por **Eduardo45MP.dev** como repositório público de portfólio pessoal.
-```

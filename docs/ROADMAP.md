@@ -17,19 +17,18 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 - Implement **dark mode**. 
 - Configure **favicon**.  
 - Create AGENTS.md at root
+- Expand to **full multilingual support** (change English <=> Portuguese in a button).
+- Create Projects' ROADMAP (at their repos)
 
 ---
 
 ## 🔜 Short Term
-- Expand to **full multilingual support** (change English <=> Portuguese in a button).
-- Create Projects' ROADMAP (at their repos)
 - Include `ROADMAP.md` as an evolution reference.
+- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).
 
 ---
 
 ## ⏩ Medium Term
-- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).
-- Test alternative deployment on **Vercel/Netlify** for comparison.
 - Expand to es-LA option.
 - Create a **professional timeline page** (experience, certifications, goals).
 - Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
