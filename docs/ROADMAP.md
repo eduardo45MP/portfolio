@@ -23,21 +23,20 @@ The idea is to maintain continuous growth, aligning **digital presence, project 
 ---
 
 ## 🔜 Short Term
-- Include `ROADMAP.md` as an evolution reference.
 - Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).
+- Expand to es-LA option.
+- Create a **professional timeline page** (experience, certifications, goals).
 
 ---
 
 ## ⏩ Medium Term
-- Expand to es-LA option.
-- Create a **professional timeline page** (experience, certifications, goals).
+- Expand Documentation.
 - Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
+- Create integration with a **real contact form** (Formspree or a simple backend).  
 
 ---
 
 ## 🚀 Long Term
-- Transform the portfolio into a **SPA (Single Page Application)** with React or Next.js.  
-- Create integration with a **real contact form** (Formspree or a simple backend).  
 - Provide an **online demo section** for projects (e.g., RussianTrainingHub, ReadMonitor).  
 - Publish the roadmap publicly and open to community feedback.  
 

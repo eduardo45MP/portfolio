@@ -245,6 +245,59 @@
         </div>
       </section>
 
+      <!-- ===== STATS SECTION ===== -->
+      <section id="stats" class="section stats-section" data-stats-root>
+        <div class="container">
+          <div class="section-header">
+            <span data-i18n="stats.eyebrow">Live activity</span>
+            <h2 data-i18n="stats.title">Dynamic GitHub statistics</h2>
+            <p data-i18n="stats.description">
+              A live snapshot of the work happening across my repositories, updated automatically.
+            </p>
+          </div>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <span class="stat-label" data-i18n="stats.cards.followers.label">Followers</span>
+              <span class="stat-value" data-stat="followers">—</span>
+              <span class="stat-meta" data-i18n="stats.cards.followers.meta">GitHub community</span>
+            </article>
+
+            <article class="stat-card">
+              <span class="stat-label" data-i18n="stats.cards.repos.label">Public repos</span>
+              <span class="stat-value" data-stat="public-repos">—</span>
+              <span class="stat-meta" data-i18n="stats.cards.repos.meta">Active projects</span>
+            </article>
+
+            <article class="stat-card">
+              <span class="stat-label" data-i18n="stats.cards.stars.label">Stars earned</span>
+              <span class="stat-value" data-stat="stars">—</span>
+              <span class="stat-meta" data-i18n="stats.cards.stars.meta">Across repos</span>
+            </article>
+          </div>
+
+          <div class="stats-detail">
+            <div class="stats-panel">
+              <h3 data-i18n="stats.panels.languages.title">Top languages</h3>
+              <ul class="stats-list" data-stat="top-languages">
+                <li class="stats-placeholder" data-i18n="stats.loading">Loading stats...</li>
+              </ul>
+            </div>
+            <div class="stats-panel">
+              <h3 data-i18n="stats.panels.commits.title">Recent commits</h3>
+              <ul class="stats-list" data-stat="recent-commits">
+                <li class="stats-placeholder" data-i18n="stats.loading">Loading stats...</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="stats-updated">
+            <span data-i18n="stats.updated.label">Last updated</span>
+            <span data-stat="updated">—</span>
+          </p>
+        </div>
+      </section>
+
       <!-- ===== PROJECTS SECTION ===== -->
       <section id="projects" class="section">
         <div class="container">

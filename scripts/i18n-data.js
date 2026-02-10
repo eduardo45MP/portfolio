@@ -133,6 +133,40 @@ window.I18N_DATA = {
         }
       }
     },
+    "stats": {
+      "eyebrow": "Live activity",
+      "title": "Dynamic GitHub statistics",
+      "description": "A live snapshot of the work happening across my repositories, updated automatically.",
+      "loading": "Loading stats...",
+      "empty": "No data available yet.",
+      "error": "Unable to load stats right now.",
+      "updated": {
+        "label": "Last updated",
+        "pending": "Pending update"
+      },
+      "cards": {
+        "followers": {
+          "label": "Followers",
+          "meta": "GitHub community"
+        },
+        "repos": {
+          "label": "Public repos",
+          "meta": "Active projects"
+        },
+        "stars": {
+          "label": "Stars earned",
+          "meta": "Across repos"
+        }
+      },
+      "panels": {
+        "languages": {
+          "title": "Top languages"
+        },
+        "commits": {
+          "title": "Recent commits"
+        }
+      }
+    },
     "projects": {
       "eyebrow": "Featured projects",
       "title": "Applied innovation across different domains",
@@ -1026,6 +1060,40 @@ window.I18N_DATA = {
             "primary": "PT · EN · ES",
             "secondary": "Global Mindset"
           }
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Atividade ao vivo",
+      "title": "Estatísticas dinâmicas do GitHub",
+      "description": "Um retrato ao vivo do trabalho nos meus repositórios, atualizado automaticamente.",
+      "loading": "Carregando estatísticas...",
+      "empty": "Sem dados disponíveis ainda.",
+      "error": "Não foi possível carregar as estatísticas agora.",
+      "updated": {
+        "label": "Última atualização",
+        "pending": "Atualização pendente"
+      },
+      "cards": {
+        "followers": {
+          "label": "Seguidores",
+          "meta": "Comunidade GitHub"
+        },
+        "repos": {
+          "label": "Repositórios públicos",
+          "meta": "Projetos ativos"
+        },
+        "stars": {
+          "label": "Estrelas recebidas",
+          "meta": "Somando todos os repos"
+        }
+      },
+      "panels": {
+        "languages": {
+          "title": "Principais linguagens"
+        },
+        "commits": {
+          "title": "Commits recentes"
         }
       }
     },

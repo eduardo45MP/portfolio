@@ -132,6 +132,40 @@
       }
     }
   },
+  "stats": {
+    "eyebrow": "Atividade ao vivo",
+    "title": "Estatísticas dinâmicas do GitHub",
+    "description": "Um retrato ao vivo do trabalho nos meus repositórios, atualizado automaticamente.",
+    "loading": "Carregando estatísticas...",
+    "empty": "Sem dados disponíveis ainda.",
+    "error": "Não foi possível carregar as estatísticas agora.",
+    "updated": {
+      "label": "Última atualização",
+      "pending": "Atualização pendente"
+    },
+    "cards": {
+      "followers": {
+        "label": "Seguidores",
+        "meta": "Comunidade GitHub"
+      },
+      "repos": {
+        "label": "Repositórios públicos",
+        "meta": "Projetos ativos"
+      },
+      "stars": {
+        "label": "Estrelas recebidas",
+        "meta": "Somando todos os repos"
+      }
+    },
+    "panels": {
+      "languages": {
+        "title": "Principais linguagens"
+      },
+      "commits": {
+        "title": "Commits recentes"
+      }
+    }
+  },
   "projects": {
     "eyebrow": "Projetos em destaque",
     "title": "Inovação aplicada em diferentes domínios",

@@ -445,6 +445,132 @@ code {
   background: var(--color-metadata-bg);
 }
 
+/* ----- STATS SECTION ----- */
+.stats-section {
+  position: relative;
+}
+
+.stats-grid {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-bottom: 2.5rem;
+}
+
+.stat-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 1.6rem;
+  border: 1px solid var(--color-card-border);
+  box-shadow: var(--color-card-shadow);
+  display: grid;
+  gap: 0.65rem;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+}
+
+.stat-meta {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.stats-detail {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.stats-panel {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 1.6rem;
+  border: 1px solid var(--color-card-border);
+  box-shadow: var(--color-card-shadow);
+}
+
+.stats-panel h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.stats-list {
+  list-style: none;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.stats-placeholder {
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+.stats-item {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.stats-item-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.stats-item-label {
+  color: var(--color-text);
+}
+
+.stats-item-value {
+  color: var(--color-muted);
+  font-weight: 600;
+}
+
+.stats-bar {
+  height: 0.5rem;
+  background: var(--color-badge-bg);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.stats-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: inherit;
+}
+
+.stats-commit {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.stats-commit strong {
+  font-weight: 600;
+}
+
+.stats-commit small {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.stats-updated {
+  margin-top: 1.6rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
 /* ----- CONTACT SECTION ----- */
 .contact-card {
   display: grid;
