@@ -1,8 +1,96 @@
 {
-  "generated_at": null,
-  "followers": null,
-  "public_repos": null,
-  "stars_total": null,
-  "top_languages": [],
-  "recent_commits": []
+  "generated_at": "2026-02-10T16:24:29.219Z",
+  "followers": 7,
+  "public_repos": 14,
+  "stars_total": 0,
+  "top_languages": [
+    {
+      "name": "JavaScript",
+      "bytes": 148348,
+      "percent": 39
+    },
+    {
+      "name": "HTML",
+      "bytes": 120403,
+      "percent": 32
+    },
+    {
+      "name": "Python",
+      "bytes": 56066,
+      "percent": 15
+    },
+    {
+      "name": "CSS",
+      "bytes": 31354,
+      "percent": 8
+    },
+    {
+      "name": "Dockerfile",
+      "bytes": 8571,
+      "percent": 2
+    },
+    {
+      "name": "Shell",
+      "bytes": 6906,
+      "percent": 2
+    }
+  ],
+  "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "chore: add GitHub stats section with automated updates",
+      "sha": "8dde764",
+      "date": "2026-02-10T15:21:32Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/8dde764c299fcabef44ae77b6062b6bc250091c8"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore(docs): clean markdown fences and reorganize roadmap milestones",
+      "sha": "04c91b4",
+      "date": "2026-02-02T00:22:32Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/04c91b44631971d5f5293ce806e6519a8bc92f30"
+    },
+    {
+      "repo": "NSA",
+      "message": "padronização de documentação conforme portfolio",
+      "sha": "771bb6a",
+      "date": "2026-02-01T13:55:23Z",
+      "url": "https://github.com/eduardo45MP/NSA/commit/771bb6a1e675b4d0be75100dcaca345b28b1ec77"
+    },
+    {
+      "repo": "ReadMonitor",
+      "message": "chore: remover site-packages versionado e ignorar artefatos locais",
+      "sha": "4c5a913",
+      "date": "2026-02-01T02:27:08Z",
+      "url": "https://github.com/eduardo45MP/ReadMonitor/commit/4c5a9137a15762279553a8744a7d8767e658d73e"
+    },
+    {
+      "repo": "AI_studies",
+      "message": "feat: reformular README e documentar visão/roadmap do AI_Studies",
+      "sha": "827ff01",
+      "date": "2026-02-01T02:06:52Z",
+      "url": "https://github.com/eduardo45MP/AI_studies/commit/827ff014b811be9b44a873f0ac8960c840001997"
+    },
+    {
+      "repo": "AI_studies",
+      "message": "remove páginas antigas do predictive_ai e ajusta index",
+      "sha": "72649b1",
+      "date": "2026-01-30T16:17:00Z",
+      "url": "https://github.com/eduardo45MP/AI_studies/commit/72649b1a5f9fa84636fc665fa76ea2d7ff4ab44e"
+    },
+    {
+      "repo": "AI_studies",
+      "message": "Atualiza README para inglês e move site do predictive_ai",
+      "sha": "bc408a9",
+      "date": "2026-01-30T03:44:32Z",
+      "url": "https://github.com/eduardo45MP/AI_studies/commit/bc408a9feb718051c6c911cf109d0a84e06d60b4"
+    },
+    {
+      "repo": "edu_assistant",
+      "message": "docs(architecture): add standardized headers and note interface endpoint split",
+      "sha": "4b20d59",
+      "date": "2026-01-30T03:26:48Z",
+      "url": "https://github.com/eduardo45MP/edu_assistant/commit/4b20d59d4569d87a540d99f1ed16e53e5b205aac"
+    }
+  ]
 }
