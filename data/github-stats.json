@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T16:24:29.219Z",
+  "generated_at": "2026-02-11T05:05:14.741Z",
   "followers": 7,
   "public_repos": 14,
   "stars_total": 0,
@@ -36,6 +36,20 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "gatilho de para update de informações",
+      "sha": "9e51a15",
+      "date": "2026-02-10T17:06:45Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/9e51a158e3b5b5544b97a4731518e165ba41f861"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "5958355",
+      "date": "2026-02-10T16:24:29Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/5958355b518ddcf5a74a07bb8b8d81b9e4f5b82d"
+    },
     {
       "repo": "portfolio",
       "message": "chore: add GitHub stats section with automated updates",
@@ -77,20 +91,6 @@
       "sha": "72649b1",
       "date": "2026-01-30T16:17:00Z",
       "url": "https://github.com/eduardo45MP/AI_studies/commit/72649b1a5f9fa84636fc665fa76ea2d7ff4ab44e"
-    },
-    {
-      "repo": "AI_studies",
-      "message": "Atualiza README para inglês e move site do predictive_ai",
-      "sha": "bc408a9",
-      "date": "2026-01-30T03:44:32Z",
-      "url": "https://github.com/eduardo45MP/AI_studies/commit/bc408a9feb718051c6c911cf109d0a84e06d60b4"
-    },
-    {
-      "repo": "edu_assistant",
-      "message": "docs(architecture): add standardized headers and note interface endpoint split",
-      "sha": "4b20d59",
-      "date": "2026-01-30T03:26:48Z",
-      "url": "https://github.com/eduardo45MP/edu_assistant/commit/4b20d59d4569d87a540d99f1ed16e53e5b205aac"
     }
   ]
 }
