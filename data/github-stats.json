@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T05:05:14.741Z",
+  "generated_at": "2026-02-12T05:00:04.049Z",
   "followers": 7,
   "public_repos": 14,
   "stars_total": 0,
@@ -36,6 +36,13 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "0d72810",
+      "date": "2026-02-11T05:05:14Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/0d72810f70e514e8003c69f065a5c4692fc1b45c"
+    },
     {
       "repo": "portfolio",
       "message": "gatilho de para update de informações",
@@ -84,13 +91,6 @@
       "sha": "827ff01",
       "date": "2026-02-01T02:06:52Z",
       "url": "https://github.com/eduardo45MP/AI_studies/commit/827ff014b811be9b44a873f0ac8960c840001997"
-    },
-    {
-      "repo": "AI_studies",
-      "message": "remove páginas antigas do predictive_ai e ajusta index",
-      "sha": "72649b1",
-      "date": "2026-01-30T16:17:00Z",
-      "url": "https://github.com/eduardo45MP/AI_studies/commit/72649b1a5f9fa84636fc665fa76ea2d7ff4ab44e"
     }
   ]
 }
