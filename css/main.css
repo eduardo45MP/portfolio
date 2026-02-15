@@ -136,6 +136,12 @@ a:focus {
   gap: 1.5rem;
 }
 
+.brand-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .brand {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
