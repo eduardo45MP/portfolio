@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T05:32:00.284Z",
+  "generated_at": "2026-04-20T05:44:24.557Z",
   "followers": 8,
   "public_repos": 14,
   "stars_total": 0,
@@ -7,17 +7,17 @@
     {
       "name": "JavaScript",
       "bytes": 148348,
-      "percent": 39
+      "percent": 36
     },
     {
       "name": "HTML",
       "bytes": 121201,
-      "percent": 32
+      "percent": 29
     },
     {
       "name": "Python",
-      "bytes": 56066,
-      "percent": 15
+      "bytes": 93799,
+      "percent": 23
     },
     {
       "name": "CSS",
@@ -26,16 +26,30 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 8571,
+      "bytes": 8925,
       "percent": 2
     },
     {
       "name": "Shell",
-      "bytes": 6906,
+      "bytes": 7042,
       "percent": 2
     }
   ],
   "recent_commits": [
+    {
+      "repo": "edu_assistant",
+      "message": "feat: adiciona MVP local com orquestração, tool de agenda e testes",
+      "sha": "2e60d8e",
+      "date": "2026-04-20T03:55:31Z",
+      "url": "https://github.com/eduardo45MP/edu_assistant/commit/2e60d8e22c0e2558fcf970dc1daa23d7fbe4b73c"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "a541b29",
+      "date": "2026-04-19T05:32:00Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/a541b29bcc4924f9065479fa16fbfef2f044dfda"
+    },
     {
       "repo": "portfolio",
       "message": "chore: update GitHub stats",
@@ -65,13 +79,6 @@
       "url": "https://github.com/eduardo45MP/portfolio/commit/f5c5f18939a014022d3f993132019d3c13cc972b"
     },
     {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "e9b1a0d",
-      "date": "2026-04-14T05:26:37Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/e9b1a0dc10bb661fd1639353c7735760034c062b"
-    },
-    {
       "repo": "NSA",
       "message": "padronização de documentação conforme portfolio",
       "sha": "771bb6a",
@@ -84,13 +91,6 @@
       "sha": "4c5a913",
       "date": "2026-02-01T02:27:08Z",
       "url": "https://github.com/eduardo45MP/ReadMonitor/commit/4c5a9137a15762279553a8744a7d8767e658d73e"
-    },
-    {
-      "repo": "AI_studies",
-      "message": "feat: reformular README e documentar visão/roadmap do AI_Studies",
-      "sha": "827ff01",
-      "date": "2026-02-01T02:06:52Z",
-      "url": "https://github.com/eduardo45MP/AI_studies/commit/827ff014b811be9b44a873f0ac8960c840001997"
     }
   ]
 }
