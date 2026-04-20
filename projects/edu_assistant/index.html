@@ -8,12 +8,12 @@
     <!-- SEO description: appears in search engines -->
     <meta
       name="description"
-      content="EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations."
+      content="edu_assistant is an intention-driven assistant with explicit human control, auditable execution, and modular interface, orchestration, and tool layers."
       data-i18n="meta.description.edu_assistant"
       data-i18n-attr="content"
     />
-    <title data-i18n="title.edu_assistant">edu_assistant | Voice Ops Companion</title>
-    <link rel="icon" href="./../../fav.ico" />
+    <title data-i18n="title.edu_assistant">edu_assistant | Intent-Driven Assistant</title>
+    <link rel="icon" href="./../../img/fav.ico" />
 
     <!-- Google Fonts preconnect for faster loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -93,10 +93,10 @@
         <div class="container hero-grid">
           <div>
             <!-- Badge highlighting role -->
-            <span class="badge" data-i18n="projects.edu_assistant.hero.badge">Personal assistant</span>
+            <span class="badge" data-i18n="projects.edu_assistant.hero.badge">Experimental assistant</span>
             <h1 data-i18n="projects.edu_assistant.hero.title">edu_assistant</h1>
             <p data-i18n="projects.edu_assistant.hero.description">
-              A local voice assistant with contextual memory and bespoke integrations for routines, projects, and personal automations.
+              An intention-driven assistant with explicit human control, auditable execution, and clear boundaries between interface, orchestration, and tools.
             </p>
             <div class="cta-group">
               <a
@@ -107,20 +107,20 @@
                 data-i18n="projects.edu_assistant.hero.cta.github"
               >View on GitHub</a>
               <a class="btn ghost" href="#installation" data-i18n="projects.edu_assistant.hero.cta.installation">
-                Run it locally
+                See local setup
               </a>
             </div>
             <dl class="hero-highlights">
               <div>
                 <dt data-i18n="projects.edu_assistant.hero.highlights.differential.label">Differential</dt>
                 <dd data-i18n="projects.edu_assistant.hero.highlights.differential.value">
-                  Privacy-first, local control, and low-cost APIs for everyday automation.
+                  Human-in-the-loop by default, with explicit intent before action and traceable execution.
                 </dd>
               </div>
               <div>
                 <dt data-i18n="projects.edu_assistant.hero.highlights.status.label">Status</dt>
                 <dd data-i18n="projects.edu_assistant.hero.highlights.status.value">
-                  Active roadmap with new flows, integrations, and offline mode in progress.
+                  Phase 1 is in progress and already usable for local validation.
                 </dd>
               </div>
             </dl>
@@ -133,21 +133,21 @@
             data-i18n-attr="aria-label"
           >
             <div>
-              <h3 data-i18n="projects.edu_assistant.hero.card.interactions.title">Interactions</h3>
+              <h3 data-i18n="projects.edu_assistant.hero.card.interactions.title">Interface</h3>
               <p data-i18n="projects.edu_assistant.hero.card.interactions.description">
-                Voice input via Whisper, spoken answers with Edge TTS, conversational processing with GPT-3.5.
+                Lightweight text interface exposed through FastAPI on port 8000 for quick local validation.
               </p>
             </div>
             <div>
-              <h3 data-i18n="projects.edu_assistant.hero.card.memory.title">Lightweight memory</h3>
+              <h3 data-i18n="projects.edu_assistant.hero.card.memory.title">Orchestration</h3>
               <p data-i18n="projects.edu_assistant.hero.card.memory.description">
-                Local JSON for preferences, agenda, and quick history, with FAISS planned next.
+                Intent classification and traceable plans through a dedicated orchestrator, with local fallbacks for development.
               </p>
             </div>
             <div>
-              <h3 data-i18n="projects.edu_assistant.hero.card.license.title">License</h3>
+              <h3 data-i18n="projects.edu_assistant.hero.card.license.title">Safety boundary</h3>
               <p data-i18n="projects.edu_assistant.hero.card.license.description">
-                MIT · contributions welcome for automation modules, UX, and offline support.
+                Draft event creation is prepared, but real persistence still requires explicit confirmation.
               </p>
             </div>
           </aside>
@@ -159,23 +159,23 @@
         <div class="container">
           <div class="section-header">
             <span data-i18n="projects.edu_assistant.overview.eyebrow">Overview</span>
-            <h2 data-i18n="projects.edu_assistant.overview.title">A home copilot connected to your local ecosystem</h2>
+            <h2 data-i18n="projects.edu_assistant.overview.title">Built around explicit intent and human approval</h2>
             <p data-i18n="projects.edu_assistant.overview.description">
-              The project was created to manage routines, calendars, and projects without exposing sensitive data to external services. Everything runs on the user machine.
+              The current repository already exposes a small but working local flow with clear separation between interface, orchestration, and tools.
             </p>
           </div>
           <ul class="feature-list">
             <li data-i18n="projects.edu_assistant.overview.items.commands">
-              Natural voice commands with fast, accurate transcription.
+              Lightweight text interface for local interaction and validation.
             </li>
             <li data-i18n="projects.edu_assistant.overview.items.responses">
-              Spoken responses ready for continuous, accessible interaction.
+              Orchestrator service that classifies intent and returns traceable plans.
             </li>
             <li data-i18n="projects.edu_assistant.overview.items.memory">
-              Persistent memory of preferences, recurring tasks, and important files.
+              Calendar tool that answers structured queries over local sample data.
             </li>
             <li data-i18n="projects.edu_assistant.overview.items.automations">
-              Extensible codebase for custom automations via Python scripts.
+              Draft event-creation preparation with mandatory confirmation before any real persistence.
             </li>
           </ul>
         </div>
@@ -186,44 +186,44 @@
         <div class="container">
           <div class="section-header">
             <span data-i18n="projects.edu_assistant.stack.eyebrow">Technical stack</span>
-            <h2 data-i18n="projects.edu_assistant.stack.title">Lean infrastructure built to evolve</h2>
+            <h2 data-i18n="projects.edu_assistant.stack.title">Separate services, simple local flow</h2>
             <p data-i18n="projects.edu_assistant.stack.description">
-              Decoupled components allow future swaps (local LLMs, new TTS, external agendas) without rewriting the project.
+              The MVP is intentionally modular: each service has a clear role, and local fallback paths keep development lightweight.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🐍</span>
-              <h3 data-i18n="projects.edu_assistant.stack.cards.python.title">Python core</h3>
+              <h3 data-i18n="projects.edu_assistant.stack.cards.python.title">Interface client</h3>
               <p data-i18n="projects.edu_assistant.stack.cards.python.description">
-                Modules organised by responsibility, following best practices and ready for future test coverage.
+                FastAPI entrypoint and thin local launcher for the text interface used during development.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.primary">3.10+</span>
-                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.secondary">venv</span>
-                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.tertiary">CLI</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.primary">FastAPI</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.secondary">8000</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.python.meta.tertiary">main.py</span>
               </div>
             </article>
             <article class="card" tabindex="0">
-              <span class="icon" aria-hidden="true">🗣️</span>
-              <h3 data-i18n="projects.edu_assistant.stack.cards.voice.title">Voice input and output</h3>
+              <span class="icon" aria-hidden="true">🧭</span>
+              <h3 data-i18n="projects.edu_assistant.stack.cards.voice.title">Orchestrator</h3>
               <p data-i18n="projects.edu_assistant.stack.cards.voice.description">
-                Transcription with Whisper API and synthesis via Edge TTS, keeping operational costs low.
+                Dedicated service for intent classification, plan generation, and traceable orchestration decisions.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.stack.cards.voice.meta.primary">openai</span>
-                <span data-i18n="projects.edu_assistant.stack.cards.voice.meta.secondary">edge-tts</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.voice.meta.primary">8002</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.voice.meta.secondary">fallback-ready</span>
               </div>
             </article>
             <article class="card" tabindex="0">
-              <span class="icon" aria-hidden="true">🧠</span>
-              <h3 data-i18n="projects.edu_assistant.stack.cards.context.title">Smart context</h3>
+              <span class="icon" aria-hidden="true">📅</span>
+              <h3 data-i18n="projects.edu_assistant.stack.cards.context.title">Calendar tool</h3>
               <p data-i18n="projects.edu_assistant.stack.cards.context.description">
-                GPT-3.5-turbo integration with vector memory plans via FAISS.
+                Structured calendar queries over local sample data, plus draft event-creation preparation.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.stack.cards.context.meta.primary">gpt_client.py</span>
-                <span data-i18n="projects.edu_assistant.stack.cards.context.meta.secondary">faiss</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.context.meta.primary">8003</span>
+                <span data-i18n="projects.edu_assistant.stack.cards.context.meta.secondary">sample data</span>
               </div>
             </article>
           </div>
@@ -235,24 +235,28 @@
         <div class="container">
           <div class="section-header">
             <span data-i18n="projects.edu_assistant.architecture.eyebrow">Architecture</span>
-            <h2 data-i18n="projects.edu_assistant.architecture.title">Componentised by responsibility</h2>
+            <h2 data-i18n="projects.edu_assistant.architecture.title">Repository structure in the current MVP</h2>
             <p data-i18n="projects.edu_assistant.architecture.description">
-              Each folder holds an isolated layer (input, output, memory, data), simplifying maintenance and extensions.
+              The repository is organised by service boundaries so interface, orchestration, speech, and tools can evolve independently.
             </p>
           </div>
           <pre><code data-i18n="projects.edu_assistant.architecture.tree">edu_assistant/
-├── main.py              # Voice/text interface
-├── config.json          # Credentials and preferences
-├── memory/              # Local memory, agenda, and vectors
-├── data/projects/       # Project metadata
-├── modules/
-│   ├── voice_input.py   # Whisper API
-│   ├── voice_output.py  # Edge TTS
-│   ├── gpt_client.py    # Model calls
-│   ├── context_loader.py# Context inputs
-│   ├── agenda.py        # Daily routine
-│   └── actions.py       # Automation actions
-└── requirements.txt     # Main dependencies</code></pre>
+├─ README.md
+├─ README.pt.md
+├─ AGENTS.md
+├─ main.py
+├─ requirements.txt
+├─ docs/
+│  ├─ en-GB/
+│  └─ pt-BR/
+├─ data/
+├─ services/
+│  ├─ interface-client/
+│  ├─ orchestrator/
+│  ├─ speech/
+│  └─ tools/
+├─ scripts/
+└─ tests/</code></pre>
         </div>
       </section>
 
@@ -261,38 +265,48 @@
         <div class="container">
           <div class="section-header">
             <span data-i18n="projects.edu_assistant.installation.eyebrow">Installation</span>
-            <h2 data-i18n="projects.edu_assistant.installation.title">Set up your assistant in minutes</h2>
+            <h2 data-i18n="projects.edu_assistant.installation.title">Run locally, as a stack, or just validate the contracts</h2>
             <p data-i18n="projects.edu_assistant.installation.description">
-              Follow the steps to prepare your environment, credentials, and start the conversational flow on desktop.
+              The README currently documents three practical flows: local launcher, Docker Compose, and automated checks.
             </p>
           </div>
           <ol>
             <li data-i18n="projects.edu_assistant.installation.steps.clone">
-              Clone the repository and create a virtual environment:
+              Create a Python 3.11+ virtual environment and install the root dependencies:
             </li>
           </ol>
-          <pre><code data-i18n="projects.edu_assistant.installation.commands.clone">git clone https://github.com/eduardo45MP/edu_assistant.git
-cd edu_assistant
-python3 -m venv venv
-source venv/bin/activate  # Linux/macOS
-# .\venv\Scripts\activate  # Windows</code></pre>
+          <pre><code data-i18n="projects.edu_assistant.installation.commands.clone">python3 -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt</code></pre>
           <ol start="2">
-            <li data-i18n="projects.edu_assistant.installation.steps.dependencies">Install dependencies:</li>
+            <li data-i18n="projects.edu_assistant.installation.steps.dependencies">Run the thin local launcher:</li>
           </ol>
-          <pre><code data-i18n="projects.edu_assistant.installation.commands.dependencies">pip install -r requirements.txt</code></pre>
+          <pre><code data-i18n="projects.edu_assistant.installation.commands.dependencies">source .venv/bin/activate
+python main.py
+
+# Open http://127.0.0.1:8000</code></pre>
           <ol start="3">
             <li data-i18n="projects.edu_assistant.installation.steps.config">
-              Copy the example file and add your keys:
+              Run the full local stack with Docker Compose:
             </li>
           </ol>
-          <pre><code data-i18n="projects.edu_assistant.installation.commands.config">cp config.example.json config.json
-# Fill in API keys, preferences, and local paths</code></pre>
+          <pre><code data-i18n="projects.edu_assistant.installation.commands.config">docker compose up --build
+
+# 8000 interface-client
+# 8001 speech-stt
+# 8002 orchestrator
+# 8003 tool-calendar</code></pre>
           <ol start="4">
-            <li data-i18n="projects.edu_assistant.installation.steps.run">Run the assistant:</li>
+            <li data-i18n="projects.edu_assistant.installation.steps.run">Run the current automated checks:</li>
           </ol>
-          <pre><code data-i18n="projects.edu_assistant.installation.commands.run">python main.py</code></pre>
+          <pre><code data-i18n="projects.edu_assistant.installation.commands.run">source .venv/bin/activate
+python -m unittest discover -s tests -p "test_*.py"
+
+# or
+./scripts/test.sh</code></pre>
           <p data-i18n="projects.edu_assistant.installation.note">
-            Switch to text-only mode by replacing audio capture with CLI input if you do not have a microphone available.
+            By default, the thin launcher enables the local orchestrator and calendar-tool fallbacks to keep development lightweight without the full stack.
           </p>
         </div>
       </section>
@@ -302,43 +316,43 @@ source venv/bin/activate  # Linux/macOS
         <div class="container">
           <div class="section-header">
             <span data-i18n="projects.edu_assistant.contributions.eyebrow">Open Source</span>
-            <h2 data-i18n="projects.edu_assistant.contributions.title">Contribute new modules and automations</h2>
+            <h2 data-i18n="projects.edu_assistant.contributions.title">Current gaps and contribution opportunities</h2>
             <p data-i18n="projects.edu_assistant.contributions.description">
-              Suggestions and PRs are welcome, especially for offline support, new integrations, and UX.
+              Phase 1 is already useful, but the README still highlights key areas that need implementation before the assistant is more complete.
             </p>
           </div>
           <div class="cards-grid">
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🔌</span>
-              <h3 data-i18n="projects.edu_assistant.contributions.cards.integrations.title">Integrations</h3>
+              <h3 data-i18n="projects.edu_assistant.contributions.cards.integrations.title">Real provider integration</h3>
               <p data-i18n="projects.edu_assistant.contributions.cards.integrations.description">
-                Connect external calendars, email services, or productivity platforms.
+                Replace local sample data with a real calendar provider while keeping explicit confirmation boundaries intact.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.contributions.cards.integrations.meta.primary">Google Calendar</span>
-                <span data-i18n="projects.edu_assistant.contributions.cards.integrations.meta.secondary">Notion</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.integrations.meta.primary">calendar API</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.integrations.meta.secondary">confirmed writes</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🛡️</span>
-              <h3 data-i18n="projects.edu_assistant.contributions.cards.offline.title">Offline mode</h3>
+              <h3 data-i18n="projects.edu_assistant.contributions.cards.offline.title">Memory and context</h3>
               <p data-i18n="projects.edu_assistant.contributions.cards.offline.description">
-                Explore local LLMs (Ollama, LM Studio) and open-source STT/TTS options.
+                Extend the assistant beyond the current MVP with richer memory and stronger multi-turn context handling.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.contributions.cards.offline.meta.primary">Whisper.cpp</span>
-                <span data-i18n="projects.edu_assistant.contributions.cards.offline.meta.secondary">Coqui TTS</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.offline.meta.primary">state</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.offline.meta.secondary">context windows</span>
               </div>
             </article>
             <article class="card" tabindex="0">
               <span class="icon" aria-hidden="true">🎛️</span>
-              <h3 data-i18n="projects.edu_assistant.contributions.cards.ux.title">User experience</h3>
+              <h3 data-i18n="projects.edu_assistant.contributions.cards.ux.title">Broader tool coverage</h3>
               <p data-i18n="projects.edu_assistant.contributions.cards.ux.description">
-                Build desktop/mobile interfaces or web dashboards to monitor the assistant in real time.
+                Add more tools and connectors while preserving auditability, explicit intent, and separation between reasoning and execution.
               </p>
               <div class="metadata">
-                <span data-i18n="projects.edu_assistant.contributions.cards.ux.meta.primary">Electron</span>
-                <span data-i18n="projects.edu_assistant.contributions.cards.ux.meta.secondary">Next.js</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.ux.meta.primary">new tools</span>
+                <span data-i18n="projects.edu_assistant.contributions.cards.ux.meta.secondary">connector layer</span>
               </div>
             </article>
           </div>
@@ -347,7 +361,7 @@ source venv/bin/activate  # Linux/macOS
             data-i18n="projects.edu_assistant.contributions.note"
             data-i18n-html="true"
           >
-            Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities.
+            Documentation already available in English and Portuguese includes setup and roadmap guides. The project principles remain human-in-the-loop by default, explicit intent before action, auditable execution, and incremental evolution over hidden complexity.
           </p>
         </div>
       </section>

@@ -34,7 +34,7 @@ window.I18N_DATA = {
       "description": {
         "home": "Portfolio of Eduardo Peixoto (Eduardo45MP.dev), developer focused on AI, automation, cybersecurity and web solutions.",
         "ai_studies": "AI_studies is the public lab for Eduardo45MP.dev to explore and document artificial intelligence experiments.",
-        "edu_assistant": "EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations.",
+        "edu_assistant": "edu_assistant is an intention-driven assistant with explicit human control, auditable execution, and modular interface, orchestration, and tool layers.",
         "readmonitor": "ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation.",
         "russian": "Russian Training Hub (RTH) is a mini-game hub for Russian literacy with modular content and offline support.",
         "nsa": "NSA (Network Security Assistant) helps assess Wi-Fi networks with scans, analysis, and reports."
@@ -43,7 +43,7 @@ window.I18N_DATA = {
     "title": {
       "home": "Eduardo45MP.dev | Portfolio",
       "ai_studies": "AI_studies | AI Lab",
-      "edu_assistant": "edu_assistant | Voice Ops Companion",
+      "edu_assistant": "edu_assistant | Intent-Driven Assistant",
       "readmonitor": "ReadMonitor | Smart library",
       "russian": "Russian Training Hub | Russian learning",
       "nsa": "NSA | Network Security Assistant"
@@ -346,137 +346,137 @@ window.I18N_DATA = {
       },
       "edu_assistant": {
         "hero": {
-          "badge": "Personal assistant",
+          "badge": "Experimental assistant",
           "title": "edu_assistant",
-          "description": "A local voice assistant with contextual memory and bespoke integrations for routines, projects, and personal automations.",
+          "description": "An intention-driven assistant with explicit human control, auditable execution, and clear boundaries between interface, orchestration, and tools.",
           "cta": {
             "github": "View on GitHub",
-            "installation": "Run it locally"
+            "installation": "See local setup"
           },
           "highlights": {
             "differential": {
               "label": "Differential",
-              "value": "Privacy-first, local control, and low-cost APIs for everyday automation."
+              "value": "Human-in-the-loop by default, with explicit intent before action and traceable execution."
             },
             "status": {
               "label": "Status",
-              "value": "Active roadmap with new flows, integrations, and offline mode in progress."
+              "value": "Phase 1 is in progress and already usable for local validation."
             }
           },
           "card": {
             "label": "Quick highlights",
             "interactions": {
-              "title": "Interactions",
-              "description": "Voice input via Whisper, spoken answers with Edge TTS, conversational processing with GPT-3.5."
+              "title": "Interface",
+              "description": "Lightweight text interface exposed through FastAPI on port 8000 for quick local validation."
             },
             "memory": {
-              "title": "Lightweight memory",
-              "description": "Local JSON for preferences, agenda, and quick history, with FAISS planned next."
+              "title": "Orchestration",
+              "description": "Intent classification and traceable plans through a dedicated orchestrator, with local fallbacks for development."
             },
             "license": {
-              "title": "License",
-              "description": "MIT · contributions welcome for automation modules, UX, and offline support."
+              "title": "Safety boundary",
+              "description": "Draft event creation is prepared, but real persistence still requires explicit confirmation."
             }
           }
         },
         "overview": {
           "eyebrow": "Overview",
-          "title": "A home copilot connected to your local ecosystem",
-          "description": "The project was created to manage routines, calendars, and projects without exposing sensitive data to external services. Everything runs on the user machine.",
+          "title": "Built around explicit intent and human approval",
+          "description": "The current repository already exposes a small but working local flow with clear separation between interface, orchestration, and tools.",
           "items": {
-            "commands": "Natural voice commands with fast, accurate transcription.",
-            "responses": "Spoken responses ready for continuous, accessible interaction.",
-            "memory": "Persistent memory of preferences, recurring tasks, and important files.",
-            "automations": "Extensible codebase for custom automations via Python scripts."
+            "commands": "Lightweight text interface for local interaction and validation.",
+            "responses": "Orchestrator service that classifies intent and returns traceable plans.",
+            "memory": "Calendar tool that answers structured queries over local sample data.",
+            "automations": "Draft event-creation preparation with mandatory confirmation before any real persistence."
           }
         },
         "stack": {
           "eyebrow": "Technical stack",
-          "title": "Lean infrastructure built to evolve",
-          "description": "Decoupled components allow future swaps (local LLMs, new TTS, external agendas) without rewriting the project.",
+          "title": "Separate services, simple local flow",
+          "description": "The MVP is intentionally modular: each service has a clear role, and local fallback paths keep development lightweight.",
           "cards": {
             "python": {
-              "title": "Python core",
-              "description": "Modules organised by responsibility, following best practices and ready for future test coverage.",
+              "title": "Interface client",
+              "description": "FastAPI entrypoint and thin local launcher for the text interface used during development.",
               "meta": {
-                "primary": "3.10+",
-                "secondary": "venv",
-                "tertiary": "CLI"
+                "primary": "FastAPI",
+                "secondary": "8000",
+                "tertiary": "main.py"
               }
             },
             "voice": {
-              "title": "Voice input and output",
-              "description": "Transcription with Whisper API and synthesis via Edge TTS, keeping operational costs low.",
+              "title": "Orchestrator",
+              "description": "Dedicated service for intent classification, plan generation, and traceable orchestration decisions.",
               "meta": {
-                "primary": "openai",
-                "secondary": "edge-tts"
+                "primary": "8002",
+                "secondary": "fallback-ready"
               }
             },
             "context": {
-              "title": "Smart context",
-              "description": "GPT-3.5-turbo integration with vector memory plans via FAISS.",
+              "title": "Calendar tool",
+              "description": "Structured calendar queries over local sample data, plus draft event-creation preparation.",
               "meta": {
-                "primary": "gpt_client.py",
-                "secondary": "faiss"
+                "primary": "8003",
+                "secondary": "sample data"
               }
             }
           }
         },
         "architecture": {
           "eyebrow": "Architecture",
-          "title": "Componentised by responsibility",
-          "description": "Each folder holds an isolated layer (input, output, memory, data), simplifying maintenance and extensions.",
-          "tree": "edu_assistant/\n├── main.py              # Voice/text interface\n├── config.json          # Credentials and preferences\n├── memory/              # Local memory, agenda, and vectors\n├── data/projects/       # Project metadata\n├── modules/\n│   ├── voice_input.py   # Whisper API\n│   ├── voice_output.py  # Edge TTS\n│   ├── gpt_client.py    # Model calls\n│   ├── context_loader.py# Context inputs\n│   ├── agenda.py        # Daily routine\n│   └── actions.py       # Automation actions\n└── requirements.txt     # Main dependencies"
+          "title": "Repository structure in the current MVP",
+          "description": "The repository is organised by service boundaries so interface, orchestration, speech, and tools can evolve independently.",
+          "tree": "edu_assistant/\n├─ README.md\n├─ README.pt.md\n├─ AGENTS.md\n├─ main.py\n├─ requirements.txt\n├─ docs/\n│  ├─ en-GB/\n│  └─ pt-BR/\n├─ data/\n├─ services/\n│  ├─ interface-client/\n│  ├─ orchestrator/\n│  ├─ speech/\n│  └─ tools/\n├─ scripts/\n└─ tests/"
         },
         "installation": {
           "eyebrow": "Installation",
-          "title": "Set up your assistant in minutes",
-          "description": "Follow the steps to prepare your environment, credentials, and start the conversational flow on desktop.",
+          "title": "Run locally, as a stack, or just validate the contracts",
+          "description": "The README currently documents three practical flows: local launcher, Docker Compose, and automated checks.",
           "steps": {
-            "clone": "Clone the repository and create a virtual environment:",
-            "dependencies": "Install dependencies:",
-            "config": "Copy the example file and add your keys:",
-            "run": "Run the assistant:"
+            "clone": "Create a Python 3.11+ virtual environment and install the root dependencies:",
+            "dependencies": "Run the thin local launcher:",
+            "config": "Run the full local stack with Docker Compose:",
+            "run": "Run the current automated checks:"
           },
           "commands": {
-            "clone": "git clone https://github.com/eduardo45MP/edu_assistant.git\ncd edu_assistant\npython3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
-            "dependencies": "pip install -r requirements.txt",
-            "config": "cp config.example.json config.json\n# Fill in API keys, preferences, and local paths",
-            "run": "python main.py"
+            "clone": "python3 -m venv .venv\nsource .venv/bin/activate\npip install -U pip\npip install -r requirements.txt",
+            "dependencies": "source .venv/bin/activate\npython main.py\n\n# Open http://127.0.0.1:8000",
+            "config": "docker compose up --build\n\n# 8000 interface-client\n# 8001 speech-stt\n# 8002 orchestrator\n# 8003 tool-calendar",
+            "run": "source .venv/bin/activate\npython -m unittest discover -s tests -p \"test_*.py\"\n\n# or\n./scripts/test.sh"
           },
-          "note": "Switch to text-only mode by replacing audio capture with CLI input if you do not have a microphone available."
+          "note": "By default, the thin launcher enables the local orchestrator and calendar-tool fallbacks to keep development lightweight without the full stack."
         },
         "contributions": {
           "eyebrow": "Open Source",
-          "title": "Contribute new modules and automations",
-          "description": "Suggestions and PRs are welcome, especially for offline support, new integrations, and UX.",
+          "title": "Current gaps and contribution opportunities",
+          "description": "Phase 1 is already useful, but the README still highlights key areas that need implementation before the assistant is more complete.",
           "cards": {
             "integrations": {
-              "title": "Integrations",
-              "description": "Connect external calendars, email services, or productivity platforms.",
+              "title": "Real provider integration",
+              "description": "Replace local sample data with a real calendar provider while keeping explicit confirmation boundaries intact.",
               "meta": {
-                "primary": "Google Calendar",
-                "secondary": "Notion"
+                "primary": "calendar API",
+                "secondary": "confirmed writes"
               }
             },
             "offline": {
-              "title": "Offline mode",
-              "description": "Explore local LLMs (Ollama, LM Studio) and open-source STT/TTS options.",
+              "title": "Memory and context",
+              "description": "Extend the assistant beyond the current MVP with richer memory and stronger multi-turn context handling.",
               "meta": {
-                "primary": "Whisper.cpp",
-                "secondary": "Coqui TTS"
+                "primary": "state",
+                "secondary": "context windows"
               }
             },
             "ux": {
-              "title": "User experience",
-              "description": "Build desktop/mobile interfaces or web dashboards to monitor the assistant in real time.",
+              "title": "Broader tool coverage",
+              "description": "Add more tools and connectors while preserving auditability, explicit intent, and separation between reasoning and execution.",
               "meta": {
-                "primary": "Electron",
-                "secondary": "Next.js"
+                "primary": "new tools",
+                "secondary": "connector layer"
               }
             }
           },
-          "note": "Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities."
+          "note": "Documentation already available in English and Portuguese includes setup and roadmap guides. The project principles remain human-in-the-loop by default, explicit intent before action, auditable execution, and incremental evolution over hidden complexity."
         }
       },
       "readmonitor": {
@@ -964,7 +964,7 @@ window.I18N_DATA = {
       "description": {
         "home": "Portfólio de Eduardo Peixoto (Eduardo45MP.dev), desenvolvedor focado em IA, automação, cibersegurança e soluções web.",
         "ai_studies": "AI_studies é o laboratório público do Eduardo45MP.dev para explorar e documentar experimentos de inteligência artificial.",
-        "edu_assistant": "EduAssistant é um assistente de voz pessoal com memória local, automações leves e integrações sob medida.",
+        "edu_assistant": "edu_assistant é um assistente orientado por intenção com controle humano explícito, execução auditável e camadas modulares de interface, orquestração e ferramentas.",
         "readmonitor": "ReadMonitor é um ecossistema full-stack para gerenciar listas de leitura e bibliotecas pessoais com clara separação MVC.",
         "russian": "Russian Training Hub (RTH) é um hub de mini-jogos para alfabetização em russo com conteúdo modular e suporte offline.",
         "nsa": "NSA (Network Security Assistant) ajuda a avaliar redes Wi-Fi com varreduras, análises e relatórios."
@@ -973,7 +973,7 @@ window.I18N_DATA = {
     "title": {
       "home": "Eduardo45MP.dev | Portfólio",
       "ai_studies": "AI_studies | Laboratório de IA",
-      "edu_assistant": "edu_assistant | Assistente de Voz",
+      "edu_assistant": "edu_assistant | Assistente Orientado por Intenção",
       "readmonitor": "ReadMonitor | Biblioteca inteligente",
       "russian": "Russian Training Hub | Aprendizado de russo",
       "nsa": "NSA | Assistente de Segurança de Rede"
@@ -1276,137 +1276,137 @@ window.I18N_DATA = {
       },
       "edu_assistant": {
         "hero": {
-          "badge": "Assistente pessoal",
+          "badge": "Assistente experimental",
           "title": "edu_assistant",
-          "description": "Assistente de voz local com memória contextual e integrações sob medida para rotinas, projetos e automações pessoais.",
+          "description": "Um assistente orientado por intenção com controle humano explícito, execução auditável e limites claros entre interface, orquestração e ferramentas.",
           "cta": {
             "github": "Ver no GitHub",
-            "installation": "Executar localmente"
+            "installation": "Ver setup local"
           },
           "highlights": {
             "differential": {
               "label": "Diferencial",
-              "value": "Privacidade em primeiro lugar, controle local e APIs de baixo custo para automações do dia a dia."
+              "value": "Humano no circuito por padrão, com intenção explícita antes da ação e execução rastreável."
             },
             "status": {
               "label": "Status",
-              "value": "Roadmap ativo com novos fluxos, integrações e modo offline em andamento."
+              "value": "A Fase 1 está em andamento e já pode ser usada para validação local."
             }
           },
           "card": {
             "label": "Destaques rápidos",
             "interactions": {
-              "title": "Interações",
-              "description": "Entrada por voz via Whisper, respostas faladas com Edge TTS e processamento conversacional com GPT-3.5."
+              "title": "Interface",
+              "description": "Interface textual leve exposta via FastAPI na porta 8000 para validação local rápida."
             },
             "memory": {
-              "title": "Memória leve",
-              "description": "JSON local para preferências, agenda e histórico rápido, com FAISS planejado."
+              "title": "Orquestração",
+              "description": "Classificação de intenção e planos rastreáveis por meio de um orquestrador dedicado, com fallbacks locais para desenvolvimento."
             },
             "license": {
-              "title": "Licença",
-              "description": "MIT · contribuições são bem-vindas para módulos de automação, UX e suporte offline."
+              "title": "Limite de segurança",
+              "description": "A preparação para criar eventos já existe, mas a persistência real ainda exige confirmação explícita."
             }
           }
         },
         "overview": {
           "eyebrow": "Visão geral",
-          "title": "Um copiloto doméstico conectado ao seu ecossistema local",
-          "description": "O projeto foi criado para gerenciar rotinas, calendários e projetos sem expor dados sensíveis a serviços externos. Tudo roda na máquina do usuário.",
+          "title": "Construído em torno de intenção explícita e aprovação humana",
+          "description": "O repositório atual já expõe um fluxo local pequeno, mas funcional, com separação clara entre interface, orquestração e ferramentas.",
           "items": {
-            "commands": "Comandos de voz naturais com transcrição rápida e precisa.",
-            "responses": "Respostas faladas prontas para interação contínua e acessível.",
-            "memory": "Memória persistente de preferências, tarefas recorrentes e arquivos importantes.",
-            "automations": "Base extensível para automações personalizadas via scripts Python."
+            "commands": "Interface textual leve para interação e validação local.",
+            "responses": "Serviço de orquestração que classifica a intenção e retorna planos rastreáveis.",
+            "memory": "Ferramenta de calendário que responde consultas estruturadas sobre dados locais de exemplo.",
+            "automations": "Preparação para criação de eventos em rascunho com confirmação obrigatória antes de qualquer persistência real."
           }
         },
         "stack": {
           "eyebrow": "Stack técnica",
-          "title": "Infraestrutura enxuta pronta para evoluir",
-          "description": "Componentes desacoplados permitem futuras trocas (LLMs locais, novo TTS, agendas externas) sem reescrever o projeto.",
+          "title": "Serviços separados, fluxo local simples",
+          "description": "O MVP é intencionalmente modular: cada serviço tem um papel claro, e os caminhos de fallback mantêm o desenvolvimento leve.",
           "cards": {
             "python": {
-              "title": "Core em Python",
-              "description": "Módulos organizados por responsabilidade, seguindo boas práticas e prontos para testes futuros.",
+              "title": "Cliente de interface",
+              "description": "Entrypoint FastAPI e launcher local enxuto para a interface textual usada durante o desenvolvimento.",
               "meta": {
-                "primary": "3.10+",
-                "secondary": "venv",
-                "tertiary": "CLI"
+                "primary": "FastAPI",
+                "secondary": "8000",
+                "tertiary": "main.py"
               }
             },
             "voice": {
-              "title": "Entrada e saída de voz",
-              "description": "Transcrição com Whisper API e síntese via Edge TTS, mantendo custos operacionais baixos.",
+              "title": "Orquestrador",
+              "description": "Serviço dedicado à classificação de intenção, geração de planos e decisões de orquestração rastreáveis.",
               "meta": {
-                "primary": "openai",
-                "secondary": "edge-tts"
+                "primary": "8002",
+                "secondary": "pronto para fallback"
               }
             },
             "context": {
-              "title": "Contexto inteligente",
-              "description": "Integração com GPT-3.5-turbo e planos de memória vetorial via FAISS.",
+              "title": "Ferramenta de calendário",
+              "description": "Consultas estruturadas de calendário sobre dados locais de exemplo, além da preparação para criação de eventos em rascunho.",
               "meta": {
-                "primary": "gpt_client.py",
-                "secondary": "faiss"
+                "primary": "8003",
+                "secondary": "dados de exemplo"
               }
             }
           }
         },
         "architecture": {
           "eyebrow": "Arquitetura",
-          "title": "Componentes organizados por responsabilidade",
-          "description": "Cada pasta contém uma camada isolada (entrada, saída, memória, dados), simplificando manutenção e extensões.",
-          "tree": "edu_assistant/\n├── main.py              # Interface voz/texto\n├── config.json          # Credenciais e preferências\n├── memory/              # Memória local, agenda e vetores\n├── data/projects/       # Metadados de projetos\n├── modules/\n│   ├── voice_input.py   # Whisper API\n│   ├── voice_output.py  # Edge TTS\n│   ├── gpt_client.py    # Chamadas ao modelo\n│   ├── context_loader.py# Entradas de contexto\n│   ├── agenda.py        # Rotina diária\n│   └── actions.py       # Ações automatizadas\n└── requirements.txt     # Dependências principais"
+          "title": "Estrutura do repositório no MVP atual",
+          "description": "O repositório é organizado por fronteiras de serviço para que interface, orquestração, fala e ferramentas evoluam de forma independente.",
+          "tree": "edu_assistant/\n├─ README.md\n├─ README.pt.md\n├─ AGENTS.md\n├─ main.py\n├─ requirements.txt\n├─ docs/\n│  ├─ en-GB/\n│  └─ pt-BR/\n├─ data/\n├─ services/\n│  ├─ interface-client/\n│  ├─ orchestrator/\n│  ├─ speech/\n│  └─ tools/\n├─ scripts/\n└─ tests/"
         },
         "installation": {
           "eyebrow": "Instalação",
-          "title": "Configure seu assistente em minutos",
-          "description": "Siga os passos para preparar o ambiente, credenciais e iniciar o fluxo conversacional no desktop.",
+          "title": "Execute localmente, como stack, ou apenas valide os contratos",
+          "description": "O README atualmente documenta três fluxos práticos: launcher local, Docker Compose e verificações automatizadas.",
           "steps": {
-            "clone": "Clone o repositório e crie um ambiente virtual:",
-            "dependencies": "Instale as dependências:",
-            "config": "Copie o arquivo de exemplo e adicione suas chaves:",
-            "run": "Execute o assistente:"
+            "clone": "Crie um ambiente virtual Python 3.11+ e instale as dependências da raiz:",
+            "dependencies": "Execute o launcher local enxuto:",
+            "config": "Suba a stack local completa com Docker Compose:",
+            "run": "Execute as verificações automatizadas atuais:"
           },
           "commands": {
-            "clone": "git clone https://github.com/eduardo45MP/edu_assistant.git\ncd edu_assistant\npython3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
-            "dependencies": "pip install -r requirements.txt",
-            "config": "cp config.example.json config.json\n# Fill in API keys, preferences, and local paths",
-            "run": "python main.py"
+            "clone": "python3 -m venv .venv\nsource .venv/bin/activate\npip install -U pip\npip install -r requirements.txt",
+            "dependencies": "source .venv/bin/activate\npython main.py\n\n# Abra http://127.0.0.1:8000",
+            "config": "docker compose up --build\n\n# 8000 interface-client\n# 8001 speech-stt\n# 8002 orchestrator\n# 8003 tool-calendar",
+            "run": "source .venv/bin/activate\npython -m unittest discover -s tests -p \"test_*.py\"\n\n# ou\n./scripts/test.sh"
           },
-          "note": "Troque a captura de áudio por entrada via CLI se você não tiver microfone disponível."
+          "note": "Por padrão, o launcher enxuto habilita os fallbacks locais do orquestrador e da ferramenta de calendário para manter o desenvolvimento leve sem a stack completa."
         },
         "contributions": {
           "eyebrow": "Open Source",
-          "title": "Contribua com novos módulos e automações",
-          "description": "Sugestões e PRs são bem-vindos, especialmente para suporte offline, novas integrações e UX.",
+          "title": "Lacunas atuais e oportunidades de contribuição",
+          "description": "A Fase 1 já é útil, mas o README ainda destaca áreas-chave que precisam de implementação antes de o assistente ficar mais completo.",
           "cards": {
             "integrations": {
-              "title": "Integrações",
-              "description": "Conecte calendários externos, serviços de e-mail ou plataformas de produtividade.",
+              "title": "Integração com provedores reais",
+              "description": "Substitua os dados locais de exemplo por um provedor real de calendário mantendo intactos os limites de confirmação explícita.",
               "meta": {
-                "primary": "Google Calendar",
-                "secondary": "Notion"
+                "primary": "API de calendário",
+                "secondary": "gravações confirmadas"
               }
             },
             "offline": {
-              "title": "Modo offline",
-              "description": "Explore LLMs locais (Ollama, LM Studio) e opções open-source de STT/TTS.",
+              "title": "Memória e contexto",
+              "description": "Estenda o assistente além do MVP atual com memória mais rica e tratamento mais forte de contexto multi-turno.",
               "meta": {
-                "primary": "Whisper.cpp",
-                "secondary": "Coqui TTS"
+                "primary": "estado",
+                "secondary": "janelas de contexto"
               }
             },
             "ux": {
-              "title": "Experiência do usuário",
-              "description": "Crie interfaces desktop/mobile ou dashboards web para monitorar o assistente em tempo real.",
+              "title": "Cobertura maior de ferramentas",
+              "description": "Adicione mais ferramentas e conectores preservando auditabilidade, intenção explícita e separação entre raciocínio e execução.",
               "meta": {
-                "primary": "Electron",
-                "secondary": "Next.js"
+                "primary": "novas tools",
+                "secondary": "camada de conectores"
               }
             }
           },
-          "note": "Mantenha os padrões de identidade visual descritos em <code>portfolio/docs/visualID.md</code> e siga <code>ROADMAP.md</code> para alinhar contribuições às prioridades atuais."
+          "note": "A documentação já disponível em inglês e português inclui guias de setup e roadmap. Os princípios do projeto continuam sendo humano no circuito por padrão, intenção explícita antes da ação, execução auditável e evolução incremental em vez de complexidade oculta."
         }
       },
       "readmonitor": {
