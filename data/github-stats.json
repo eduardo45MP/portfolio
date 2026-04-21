@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-20T05:44:24.557Z",
+  "generated_at": "2026-04-21T05:29:47.920Z",
   "followers": 8,
   "public_repos": 14,
   "stars_total": 0,
   "top_languages": [
     {
       "name": "JavaScript",
-      "bytes": 148348,
+      "bytes": 149426,
       "percent": 36
     },
     {
       "name": "HTML",
-      "bytes": 121201,
+      "bytes": 121589,
       "percent": 29
     },
     {
@@ -36,6 +36,20 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "update edu_assistant project page to match current README",
+      "sha": "d720fe4",
+      "date": "2026-04-20T13:46:59Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/d720fe49b06c38bc2c3e0ece11ada9383b81d7dc"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "7b3ddcf",
+      "date": "2026-04-20T05:44:24Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/7b3ddcfb1e10f49254793cbfc8cb46ff7fb9de34"
+    },
     {
       "repo": "edu_assistant",
       "message": "feat: adiciona MVP local com orquestração, tool de agenda e testes",
@@ -63,20 +77,6 @@
       "sha": "966cc5e",
       "date": "2026-04-17T05:30:36Z",
       "url": "https://github.com/eduardo45MP/portfolio/commit/966cc5e7d8e88b69b0f539c193559c6fecb5b3b8"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "50b1d50",
-      "date": "2026-04-16T05:33:18Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/50b1d50cf8bdecd5c36e140ae56b26cef345d38b"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "f5c5f18",
-      "date": "2026-04-15T05:27:06Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/f5c5f18939a014022d3f993132019d3c13cc972b"
     },
     {
       "repo": "NSA",
