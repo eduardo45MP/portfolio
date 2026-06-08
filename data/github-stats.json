@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-07T07:06:56.086Z",
+  "generated_at": "2026-06-08T08:11:55.874Z",
   "followers": 8,
-  "public_repos": 14,
+  "public_repos": 15,
   "stars_total": 0,
   "top_languages": [
     {
-      "name": "JavaScript",
-      "bytes": 149426,
-      "percent": 36
+      "name": "HTML",
+      "bytes": 160181,
+      "percent": 34
     },
     {
-      "name": "HTML",
-      "bytes": 121589,
-      "percent": 29
+      "name": "JavaScript",
+      "bytes": 149426,
+      "percent": 31
     },
     {
       "name": "Python",
       "bytes": 93799,
-      "percent": 23
+      "percent": 20
     },
     {
       "name": "CSS",
-      "bytes": 31435,
-      "percent": 8
+      "bytes": 51647,
+      "percent": 11
     },
     {
       "name": "Dockerfile",
@@ -32,10 +32,38 @@
     {
       "name": "Shell",
       "bytes": 7042,
-      "percent": 2
+      "percent": 1
     }
   ],
   "recent_commits": [
+    {
+      "repo": "ACDocs",
+      "message": "Update deploy.yml",
+      "sha": "354b60a",
+      "date": "2026-06-07T19:26:12Z",
+      "url": "https://github.com/eduardo45MP/ACDocs/commit/354b60a228a8f70a6ef20e2cf1b882ab0878deb8"
+    },
+    {
+      "repo": "ACDocs",
+      "message": "início da documentação pública, ID visual",
+      "sha": "8975319",
+      "date": "2026-06-07T19:21:05Z",
+      "url": "https://github.com/eduardo45MP/ACDocs/commit/897531940604a94c0286791f7cf88178cf5e6d9c"
+    },
+    {
+      "repo": "ACDocs",
+      "message": "Initial commit",
+      "sha": "f25cc99",
+      "date": "2026-06-07T18:31:14Z",
+      "url": "https://github.com/eduardo45MP/ACDocs/commit/f25cc99ac7f96b60531685671c8986457a031b8b"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "68e401e",
+      "date": "2026-06-07T07:06:56Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/68e401edaa2ec94cbad4cbc863a50676da221d5e"
+    },
     {
       "repo": "portfolio",
       "message": "chore: update GitHub stats",
@@ -63,34 +91,6 @@
       "sha": "0a693e5",
       "date": "2026-06-03T08:20:25Z",
       "url": "https://github.com/eduardo45MP/portfolio/commit/0a693e5a09c3e9d539c3505e6ae92f48c8c77057"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "a93f7a2",
-      "date": "2026-06-02T07:26:12Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/a93f7a288738a4417db665841c9bc3f0755f2523"
-    },
-    {
-      "repo": "edu_assistant",
-      "message": "feat: adiciona MVP local com orquestração, tool de agenda e testes",
-      "sha": "2e60d8e",
-      "date": "2026-04-20T03:55:31Z",
-      "url": "https://github.com/eduardo45MP/edu_assistant/commit/2e60d8e22c0e2558fcf970dc1daa23d7fbe4b73c"
-    },
-    {
-      "repo": "NSA",
-      "message": "padronização de documentação conforme portfolio",
-      "sha": "771bb6a",
-      "date": "2026-02-01T13:55:23Z",
-      "url": "https://github.com/eduardo45MP/NSA/commit/771bb6a1e675b4d0be75100dcaca345b28b1ec77"
-    },
-    {
-      "repo": "ReadMonitor",
-      "message": "chore: remover site-packages versionado e ignorar artefatos locais",
-      "sha": "4c5a913",
-      "date": "2026-02-01T02:27:08Z",
-      "url": "https://github.com/eduardo45MP/ReadMonitor/commit/4c5a9137a15762279553a8744a7d8767e658d73e"
     }
   ]
 }
