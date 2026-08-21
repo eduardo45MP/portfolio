@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T03:48:27.247Z",
+  "generated_at": "2026-08-21T03:51:30.015Z",
   "followers": 8,
-  "public_repos": 15,
+  "public_repos": 16,
   "stars_total": 0,
   "top_languages": [
     {
@@ -37,6 +37,20 @@
   ],
   "recent_commits": [
     {
+      "repo": "crowley",
+      "message": "Initial commit",
+      "sha": "b3944ba",
+      "date": "2026-08-21T01:59:44Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/b3944ba8f3e60d0dd5e12d5d74f68727e46d6fc0"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "473c436",
+      "date": "2026-08-20T03:48:27Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/473c436641e00da0ca9a041a614cc05ebea394cd"
+    },
+    {
       "repo": "portfolio",
       "message": "chore: update GitHub stats",
       "sha": "d448ec0",
@@ -65,13 +79,6 @@
       "url": "https://github.com/eduardo45MP/portfolio/commit/cbe506f934d131408fac1e8633ac292f44c54e9d"
     },
     {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "13a439f",
-      "date": "2026-08-15T03:40:26Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/13a439f0859f536cb85913f985f9b624c4f6ebed"
-    },
-    {
       "repo": "ACDocs",
       "message": "Update deploy.yml",
       "sha": "354b60a",
@@ -84,13 +91,6 @@
       "sha": "8975319",
       "date": "2026-06-07T19:21:05Z",
       "url": "https://github.com/eduardo45MP/ACDocs/commit/897531940604a94c0286791f7cf88178cf5e6d9c"
-    },
-    {
-      "repo": "ACDocs",
-      "message": "Initial commit",
-      "sha": "f25cc99",
-      "date": "2026-06-07T18:31:14Z",
-      "url": "https://github.com/eduardo45MP/ACDocs/commit/f25cc99ac7f96b60531685671c8986457a031b8b"
     }
   ]
 }
