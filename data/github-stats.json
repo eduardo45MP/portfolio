@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-08-21T03:51:30.015Z",
+  "generated_at": "2026-08-22T03:42:54.049Z",
   "followers": 8,
   "public_repos": 16,
   "stars_total": 0,
   "top_languages": [
     {
+      "name": "Python",
+      "bytes": 470128,
+      "percent": 55
+    },
+    {
       "name": "HTML",
       "bytes": 160181,
-      "percent": 34
+      "percent": 19
     },
     {
       "name": "JavaScript",
       "bytes": 149426,
-      "percent": 31
-    },
-    {
-      "name": "Python",
-      "bytes": 93799,
-      "percent": 20
+      "percent": 18
     },
     {
       "name": "CSS",
       "bytes": 51647,
-      "percent": 11
+      "percent": 6
     },
     {
       "name": "Dockerfile",
       "bytes": 8925,
-      "percent": 2
+      "percent": 1
     },
     {
       "name": "Shell",
@@ -36,6 +36,27 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "crowley",
+      "message": "feat(market-intelligence): add deterministic deep research due diligence layer",
+      "sha": "e07e154",
+      "date": "2026-08-22T00:10:00Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/e07e15485c8b2212eb3f8874a9e66ea564634999"
+    },
+    {
+      "repo": "crowley",
+      "message": "feat(clustering): add product-market clustering layer for canonical products",
+      "sha": "9b7c62a",
+      "date": "2026-08-21T11:49:51Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/9b7c62a56e813de9f62cbd923e9bde45b6558d54"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "d842195",
+      "date": "2026-08-21T03:51:30Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/d842195b0a6b5da9ef5b3c28954f834e401fde64"
+    },
     {
       "repo": "crowley",
       "message": "Initial commit",
@@ -70,27 +91,6 @@
       "sha": "d04fa4c",
       "date": "2026-08-17T03:51:28Z",
       "url": "https://github.com/eduardo45MP/portfolio/commit/d04fa4c9712fcc36b18f8d5ec18edd187a7d8fe2"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "cbe506f",
-      "date": "2026-08-16T03:49:32Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/cbe506f934d131408fac1e8633ac292f44c54e9d"
-    },
-    {
-      "repo": "ACDocs",
-      "message": "Update deploy.yml",
-      "sha": "354b60a",
-      "date": "2026-06-07T19:26:12Z",
-      "url": "https://github.com/eduardo45MP/ACDocs/commit/354b60a228a8f70a6ef20e2cf1b882ab0878deb8"
-    },
-    {
-      "repo": "ACDocs",
-      "message": "início da documentação pública, ID visual",
-      "sha": "8975319",
-      "date": "2026-06-07T19:21:05Z",
-      "url": "https://github.com/eduardo45MP/ACDocs/commit/897531940604a94c0286791f7cf88178cf5e6d9c"
     }
   ]
 }
