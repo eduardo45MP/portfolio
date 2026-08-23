@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:42:54.049Z",
+  "generated_at": "2026-08-23T03:51:36.937Z",
   "followers": 8,
   "public_repos": 16,
   "stars_total": 0,
@@ -36,6 +36,20 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "crowley",
+      "message": "feat: implementa pipeline determinístico de market intelligence",
+      "sha": "0eb4ffd",
+      "date": "2026-08-22T17:20:58Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/0eb4ffdea73fb1754f28a169b5dce07682affb81"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "109a328",
+      "date": "2026-08-22T03:42:54Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/109a32835b389b6f9e9b7ec6a61b4ff2a14f4379"
+    },
     {
       "repo": "crowley",
       "message": "feat(market-intelligence): add deterministic deep research due diligence layer",
@@ -77,20 +91,6 @@
       "sha": "d448ec0",
       "date": "2026-08-19T03:47:52Z",
       "url": "https://github.com/eduardo45MP/portfolio/commit/d448ec0f376ac3750b06efba3ab35d60d9d0e8bc"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "fa6af6c",
-      "date": "2026-08-18T03:46:15Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/fa6af6cfc912ac28cec6803659a9a0b3b20e2986"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "d04fa4c",
-      "date": "2026-08-17T03:51:28Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/d04fa4c9712fcc36b18f8d5ec18edd187a7d8fe2"
     }
   ]
 }
