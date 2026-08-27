@@ -1,53 +1,32 @@
-# 🗺️ Roadmap – Eduardo45MP.dev Portfolio
+# Portfolio roadmap
 
-This roadmap outlines the next planned steps for the evolution of the **portfolio** and its integration with other public GitHub projects.  
-The idea is to maintain continuous growth, aligning **digital presence, project showcases, and technical innovation**.
+The roadmap lives in the repository and is intentionally absent from the homepage. The public page describes who Eduardo is, what he builds, selected evidence and how to contact him.
 
----
+## Completed in the editorial redesign
 
-## ✅ Completed
-- Initial portfolio structure (`portfolio/`) in HTML + CSS.  
-- Basic integration with GitHub Pages.  
-- Bilingual READMEs (`README.md` and `README.pt-BR.md`).  
-- About pages (`about.md` / `sobreMim.md`).  
-- Organisation of public repositories.
-- Improve the **Projects** section with visual cards and direct GitHub links.  
-- Create a fully responsive layout (Home, Projects, About, Contact).
-- Configure **consistent visual identity**. 
-- Implement **dark mode**. 
-- Configure **favicon**.  
-- Create AGENTS.md at root
-- Expand to **full multilingual support** (change English <=> Portuguese in a button).
-- Create Projects' ROADMAP (at their repos)
+- Repositioned Eduardo Peixoto as founder and software engineer.
+- Shifted the vocabulary toward software, products, automation, business systems and entrepreneurship.
+- Consolidated the homepage into seven large content blocks.
+- Kept the existing logo as a compact digital signature.
+- Added distinct professional and editorial portraits.
+- Replaced icon-led project cards with four visual case studies.
+- Reduced GitHub to a concise technical-evidence section.
+- Removed roadmap, future-feature and redundant statistics content from the homepage.
+- Added responsive navigation, consistent spacing tokens and restrained interactions.
+- Added optimised WebP project screenshots.
+- Updated bilingual content and repository documentation.
 
----
+## Quality and release
 
-## 🔜 Short Term
-- Publish **dynamic statistics** (e.g., GitHub stats, recent commits, most used languages).
-- Expand to es-LA option.
-- Create a **professional timeline page** (experience, certifications, goals).
+- Complete manual cross-browser review in Chromium and Firefox on the release candidate.
+- Run Lighthouse in the deployed GitHub Pages environment and record the report.
+- Confirm all external destinations immediately before release.
+- Review the final diff through a pull request before merging into the published branch.
 
----
+## Later, after the visual system is stable
 
-## ⏩ Medium Term
-- Expand Documentation.
-- Add a **blog/short articles** section (integrated with the `AI_studies` repository).  
-- Create integration with a **real contact form** (Formspree or a simple backend).  
+- Add dedicated Open Graph metadata and `img/social/og-portfolio.jpg`.
+- Evaluate dark mode through shared tokens; do not create a separate parallel design.
+- Refresh project screenshots when product interfaces materially change.
 
----
-
-## 🚀 Long Term
-- Provide an **online demo section** for projects (e.g., RussianTrainingHub, ReadMonitor).  
-- Publish the roadmap publicly and open to community feedback.  
-
----
-
-## 🎯 Vision
-Establish **Eduardo45MP.dev** as the central hub to:  
-- Showcase expertise and projects in **AI, security, and automation**.  
-- Attract **collaborations and entrepreneurial partnerships**.  
-- Build a **solid, long-term digital brand**.  
-
----
-
-✨ Created by **Eduardo45MP.dev** to guide the evolution of the public portfolio.
+Future ideas belong here or in project issue trackers, not in the homepage navigation.
