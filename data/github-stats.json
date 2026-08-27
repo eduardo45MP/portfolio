@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-26T03:54:21.547Z",
+  "generated_at": "2026-08-27T13:54:49.191Z",
   "followers": 9,
   "public_repos": 16,
   "stars_total": 0,
   "top_languages": [
     {
       "name": "Python",
-      "bytes": 470128,
-      "percent": 55
+      "bytes": 661505,
+      "percent": 63
     },
     {
       "name": "HTML",
       "bytes": 160181,
-      "percent": 19
+      "percent": 15
     },
     {
       "name": "JavaScript",
       "bytes": 149426,
-      "percent": 18
+      "percent": 14
     },
     {
       "name": "CSS",
       "bytes": 51647,
-      "percent": 6
+      "percent": 5
     },
     {
       "name": "Dockerfile",
@@ -36,6 +36,27 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "crowley",
+      "message": "feat: complete editorial reporting pipeline",
+      "sha": "7ead85d",
+      "date": "2026-08-27T00:31:31Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/7ead85d332630fe43b426e25c07b0c08e4c1759c"
+    },
+    {
+      "repo": "crowley",
+      "message": "feat(market-intelligence): add research-to-blueprint pipeline",
+      "sha": "3425a11",
+      "date": "2026-08-26T17:53:44Z",
+      "url": "https://github.com/eduardo45MP/crowley/commit/3425a11f46d445c87bb5381746d5fd3210a79ba5"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "73f7194",
+      "date": "2026-08-26T03:54:21Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/73f71940f39d3dc64a84c6407a69b2c5fb2e4254"
+    },
     {
       "repo": "portfolio",
       "message": "chore: update GitHub stats",
@@ -70,27 +91,6 @@
       "sha": "109a328",
       "date": "2026-08-22T03:42:54Z",
       "url": "https://github.com/eduardo45MP/portfolio/commit/109a32835b389b6f9e9b7ec6a61b4ff2a14f4379"
-    },
-    {
-      "repo": "crowley",
-      "message": "feat(market-intelligence): add deterministic deep research due diligence layer",
-      "sha": "e07e154",
-      "date": "2026-08-22T00:10:00Z",
-      "url": "https://github.com/eduardo45MP/crowley/commit/e07e15485c8b2212eb3f8874a9e66ea564634999"
-    },
-    {
-      "repo": "crowley",
-      "message": "feat(clustering): add product-market clustering layer for canonical products",
-      "sha": "9b7c62a",
-      "date": "2026-08-21T11:49:51Z",
-      "url": "https://github.com/eduardo45MP/crowley/commit/9b7c62a56e813de9f62cbd923e9bde45b6558d54"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "d842195",
-      "date": "2026-08-21T03:51:30Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/d842195b0a6b5da9ef5b3c28954f834e401fde64"
     }
   ]
 }
