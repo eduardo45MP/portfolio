@@ -7,6 +7,44 @@ const updateYear = () => {
 
 updateYear();
 
+const menuToggle = document.querySelector('[data-menu-toggle]');
+const siteNav = document.querySelector('.site-nav');
+
+const closeMenu = () => {
+  if (!menuToggle || !siteNav) return;
+  menuToggle.setAttribute('aria-expanded', 'false');
+  siteNav.classList.remove('is-open');
+  document.body.classList.remove('menu-open');
+};
+
+if (menuToggle && siteNav) {
+  menuToggle.addEventListener('click', () => {
+    const willOpen = menuToggle.getAttribute('aria-expanded') !== 'true';
+    menuToggle.setAttribute('aria-expanded', String(willOpen));
+    siteNav.classList.toggle('is-open', willOpen);
+    document.body.classList.toggle('menu-open', willOpen);
+  });
+  siteNav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 820) closeMenu();
+  });
+}
+
+const revealElements = document.querySelectorAll('.reveal');
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  revealElements.forEach((element) => revealObserver.observe(element));
+} else {
+  revealElements.forEach((element) => element.classList.add('is-visible'));
+}
+
 const themeToggle = document.querySelector('[data-theme-toggle]');
 const themeLabel = document.querySelector('[data-theme-label]');
 
@@ -24,7 +62,15 @@ const prefersDark = window.matchMedia
   : false;
 const initialTheme = preferredTheme || (prefersDark ? 'dark' : 'light');
 
+const updateThemeColour = (theme) => {
+  const themeColour = document.querySelector('meta[name="theme-color"]');
+  if (themeColour) {
+    themeColour.setAttribute('content', theme === 'dark' ? '#14171b' : '#f4f0e8');
+  }
+};
+
 document.documentElement.setAttribute('data-theme', initialTheme);
+updateThemeColour(initialTheme);
 if (themeToggle) {
   themeToggle.setAttribute('aria-pressed', initialTheme === 'dark');
 }
@@ -39,6 +85,7 @@ if (themeToggle) {
 
     document.documentElement.setAttribute('data-theme', nextTheme);
     localStorage.setItem('theme', nextTheme);
+    updateThemeColour(nextTheme);
     themeToggle.setAttribute('aria-pressed', nextTheme === 'dark');
     if (themeLabel) {
       themeLabel.textContent = getThemeLabel(nextTheme);

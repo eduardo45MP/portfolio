@@ -13,7 +13,7 @@
       "home": "Home",
       "projects": "Projects",
       "about": "About",
-      "stack": "Stack",
+      "stack": "What I Build",
       "contact": "Contact"
     },
     "project": {
@@ -31,7 +31,7 @@
   },
   "meta": {
     "description": {
-      "home": "Portfolio of Eduardo Peixoto (Eduardo45MP.dev), developer focused on AI, automation, cybersecurity and web solutions.",
+      "home": "Portfolio of Eduardo Peixoto, founder, software engineer and business builder focused on building digital products through technology, strategy and software.",
       "ai_studies": "AI_studies is the public lab for Eduardo45MP.dev to explore and document artificial intelligence experiments.",
       "edu_assistant": "EduAssistant is a personal voice assistant with local memory, lightweight automation, and tailored integrations.",
       "readmonitor": "ReadMonitor is a full-stack ecosystem to manage reading lists and personal libraries with clear MVC separation.",
@@ -40,7 +40,7 @@
     }
   },
   "title": {
-    "home": "Eduardo45MP.dev | Portfolio",
+    "home": "Eduardo Peixoto | Portfolio",
     "ai_studies": "AI_studies | AI Lab",
     "edu_assistant": "edu_assistant | Voice Ops Companion",
     "readmonitor": "ReadMonitor | Smart library",
@@ -48,39 +48,19 @@
     "nsa": "NSA | Network Security Assistant"
   },
   "hero": {
-    "badge": "CEO @Innoforge.tech · Developer",
-    "title": "Entrepreneurship driven by technology",
-    "description": "I am Eduardo Peixoto, integrating technological innovation, automation and cybersecurity into digital projects that solve real-world challenges and deliver immediate impact.",
+    "name": "Eduardo Peixoto",
+    "title": "I build businesses through software.",
+    "description": "Founder, software engineer and commercial strategist turning business problems into digital products.",
     "cta": {
-      "projects": "View projects",
-      "contact": "Get in touch"
-    },
-    "highlights": {
-      "mission": {
-        "label": "Mission",
-        "value": "Transform ambitious ideas into scalable solutions by connecting strategy, product, and technology."
-      },
-      "expertise": {
-        "label": "Expertise",
-        "value": "AI, automation, cybersecurity and responsive web experiences."
-      }
-    },
-    "card": {
-      "label": "Quick highlights",
-      "stack": {
-        "title": "Core Stack",
-        "tools": "React · Laravel · Python",
-        "description": "Functional and pretty UX with secure servers and criative solutions."
-      },
-      "languages": {
-        "title": "Languages & Networking",
-        "description": "Portuguese (native), English (fluent), and Spanish (conversational). Expanding into Mandarin, French, German, Russian, and Arabic."
-      },
-      "focus": {
-        "title": "Current Focus",
-        "description": "Testing intelligent automations and scalable digital experiences for new partnerships and products."
-      }
+      "projects": "Selected work",
+      "contact": "Contact"
     }
+  },
+  "positioning": {
+    "founder": "Founder @ Innoforge Tech",
+    "engineering": "Software Engineering",
+    "product": "Product & Automation",
+    "business": "Business & Sales"
   },
   "about": {
     "eyebrow": "About me",
@@ -94,40 +74,38 @@
     }
   },
   "stack": {
-    "eyebrow": "Skills & stack",
-    "title": "Building complete experiences with clean technology",
-    "description": "Minimalist and scalable stack, ready to evolve from static pages to full applications with automation, security, and data.",
+    "eyebrow": "What I build",
+    "title": "Software that connects product, operations and growth",
+    "description": "I design and build digital systems that solve business problems, automate operations and create scalable foundations for growth.",
     "cards": {
-      "ai": {
-        "title": "AI & Automation",
-        "description": "Continuous experiments with personal assistants, automated flows, and solutions that boost productivity.",
-        "meta": {
-          "primary": "edu_assistant",
-          "secondary": "Automated Ops"
+      "products": {
+        "title": "Digital Products",
+        "description": "End-to-end digital products designed around real business workflows, users and commercial goals.",
+        "items": {
+          "web": "Web applications",
+          "saas": "SaaS products",
+          "systems": "Business systems",
+          "tools": "Internal tools"
         }
       },
-      "security": {
-        "title": "Cybersecurity",
-        "description": "Research and testing in Wi-Fi networks, prioritising protection and reliability from the ground up.",
-        "meta": {
-          "primary": "NSA toolkit",
-          "secondary": "Network Hardening"
+      "automation": {
+        "title": "Automation & AI",
+        "description": "Intelligent workflows that reduce repetitive work, connect systems and turn operational processes into software.",
+        "items": {
+          "integrations": "AI integrations",
+          "pipelines": "Automation pipelines",
+          "agents": "Agents",
+          "workflows": "Intelligent workflows"
         }
       },
-      "web": {
-        "title": "Web Experiences",
-        "description": "Responsive interfaces, intuitive navigation, and a consistent visual identity with Poppins + Roboto.",
-        "meta": {
-          "primary": "Flexbox & Grid",
-          "secondary": "Design Systems"
-        }
-      },
-      "languages": {
-        "title": "Languages & Culture",
-        "description": "Fluent communication in different languages to expand opportunities and global collaborations.",
-        "meta": {
-          "primary": "PT · EN · ES",
-          "secondary": "Global Mindset"
+      "business": {
+        "title": "Business Systems",
+        "description": "Software infrastructure that supports sales, operations, internal decision-making and product execution.",
+        "items": {
+          "sales": "Sales infrastructure",
+          "operations": "Operational software",
+          "internal": "Internal tooling",
+          "architecture": "Product architecture"
         }
       }
     }
@@ -475,7 +453,7 @@
             }
           }
         },
-        "note": "Keep the visual identity standards described in <code>portfolio/docs/visualID.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities."
+        "note": "Keep the visual identity standards described in <code>portfolio/docs/visual-identity.md</code> and follow <code>ROADMAP.md</code> to align contributions with current priorities."
       }
     },
     "readmonitor": {
@@ -611,7 +589,7 @@
             }
           }
         },
-        "note": "Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visualID.md</code>."
+        "note": "Review <code>portfolio/docs/ROADMAP.md</code> to align priorities and keep visual consistency with the guide in <code>portfolio/docs/visual-identity.md</code>."
       }
     },
     "russian": {
@@ -923,8 +901,26 @@
       "site": "eduardo45mp.github.io/portfolio"
     }
   },
+  "home": {
+    "skip": "Skip to content",
+    "brandLabel": "Eduardo45MP.dev — home",
+    "common": {"github":"GitHub","githubLink":"GitHub ↗","linkedin":"LinkedIn","email":"Email"},
+    "nav": {"menu":"Menu","work":"Work","about":"About","contact":"Contact"},
+    "hero": {"name":"Eduardo Peixoto","eyebrow":"Founder & Software Engineer","title":"I build businesses through software.","description":"I turn business problems into useful digital products, automation and systems designed to grow.","work":"View selected work","contact":"Let's talk ↗","imageAlt":"Portrait of Eduardo Peixoto"},
+    "positioning": {"label":"Professional positioning","intro":"Strategy at the start. Software at the core.","product":"Products","automation":"Automation","systems":"Business systems"},
+    "build": {"eyebrow":"What I build","title":"Software that moves a business forward.","products":{"title":"Digital products","text":"Focused web experiences and tools shaped around real users, workflows and commercial goals."},"automation":{"title":"Automation","text":"Reliable workflows that connect tools, reduce repetition and turn operations into software."},"systems":{"title":"Business systems","text":"Technical foundations for sales, research, decision-making and scalable execution."}},
+    "work": {"eyebrow":"Selected work","title":"Problems turned into working systems.","intro":"A focused selection of products and experiments. Each began with a concrete problem, not a technology checklist.","problem":"Problem","solution":"Solution","result":"Learning / result","github":"View on GitHub ↗","more":"More experiments, including AI_studies, live on GitHub.","all":"Explore all repositories ↗","readmonitor":{"problem":"Reading lists become fragmented and progress is difficult to see.","solution":"A full-stack library and reading tracker with a clear, maintainable architecture.","result":"Connected product thinking, data modelling and interface design in one system."},"russian":{"problem":"Language drills often feel disconnected, passive and difficult to revisit offline.","solution":"A modular hub of small, gamified exercises for practising Russian literacy.","result":"Explored progressive learning, offline-first delivery and reusable content modules."},"assistant":{"problem":"Personal automation can become opaque and surrender too much control.","solution":"An intent-driven assistant with local memory, explicit approval and auditable execution.","result":"Developed a modular approach to orchestration, tools and human-in-the-loop AI."},"nsa":{"problem":"Wi-Fi security checks require several tools and can be hard to interpret.","solution":"A guided network security assistant for scans, analysis and clear reporting.","result":"Combined command-line tooling with safer workflows and accessible reporting."}},
+    "about": {"eyebrow":"Beyond the code","title":"Curiosity is part of the work.","p1":"I am interested in the whole journey from a useful insight to a sustainable company: research, product decisions, technology and commercial reality.","p2":"Outside delivery cycles, I explore languages, learning systems and experimental projects. They keep my thinking broad and my craft in motion.","imageAlt":"Eduardo Peixoto in an editorial portrait"},
+    "github": {"title":"Technical depth, in public.","text":"Public experiments, engineering studies and open-source projects — the deeper technical layer behind the selected work.","link":"View GitHub ↗"},
+    "contact": {"eyebrow":"Start a conversation","title":"Have a problem worth building for?","text":"Let's talk about the product, system or opportunity behind it.","email":"Contact me"},
+    "footer": {"name":"Eduardo Peixoto","role":"Founder & Software Engineer","navLabel":"Footer navigation"}
+  },
   "footer": {
-    "copyright": "© <span id=\"year\">2024</span> Eduardo Peixoto · eduardo45MP.dev",
-    "docs": "Full documentation available in <a href=\"./docs/archtecture.md\">Architecture</a>, <a href=\"./docs/visualID.md\">Visual Identity</a> and <a href=\"./docs/ROADMAP.md\">Roadmap</a>."
+    "identity": {
+      "name": "Eduardo Peixoto",
+      "role": "Founder · Software Engineer · Business Builder"
+    },
+    "copyright": "© <span id=\"year\">2024</span> Eduardo Peixoto",
+    "docs": "Full documentation available in <a href=\"./docs/archtecture.md\">Architecture</a>, <a href=\"./docs/visual-identity.md\">Visual Identity</a> and <a href=\"./docs/ROADMAP.md\">Roadmap</a>."
   }
 }

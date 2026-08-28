@@ -13,7 +13,7 @@
       "home": "Início",
       "projects": "Projetos",
       "about": "Sobre",
-      "stack": "Stack",
+      "stack": "O que eu construo",
       "contact": "Contato"
     },
     "project": {
@@ -31,7 +31,7 @@
   },
   "meta": {
     "description": {
-      "home": "Portfólio de Eduardo Peixoto (Eduardo45MP.dev), desenvolvedor focado em IA, automação, cibersegurança e soluções web.",
+      "home": "Portfólio de Eduardo Peixoto, founder, engenheiro de software e business builder focado na construção de produtos digitais por meio de tecnologia, estratégia e software.",
       "ai_studies": "AI_studies é o laboratório público do Eduardo45MP.dev para explorar e documentar experimentos de inteligência artificial.",
       "edu_assistant": "EduAssistant é um assistente de voz pessoal com memória local, automações leves e integrações sob medida.",
       "readmonitor": "ReadMonitor é um ecossistema full-stack para gerenciar listas de leitura e bibliotecas pessoais com clara separação MVC.",
@@ -40,7 +40,7 @@
     }
   },
   "title": {
-    "home": "Eduardo45MP.dev | Portfólio",
+    "home": "Eduardo Peixoto | Portfólio",
     "ai_studies": "AI_studies | Laboratório de IA",
     "edu_assistant": "edu_assistant | Assistente de Voz",
     "readmonitor": "ReadMonitor | Biblioteca inteligente",
@@ -48,39 +48,19 @@
     "nsa": "NSA | Assistente de Segurança de Rede"
   },
   "hero": {
-    "badge": "CEO @Innoforge.tech · Developer",
-    "title": "Empreendedorismo impulsionado por tecnologia",
-    "description": "Sou Eduardo Peixoto, integrando inovação tecnológica, automação e cibersegurança em projetos digitais que resolvem desafios reais e geram impacto imediato.",
+    "name": "Eduardo Peixoto",
+    "title": "Construo negócios através de software.",
+    "description": "Founder, engenheiro de software e estrategista comercial transformando problemas de negócio em produtos digitais.",
     "cta": {
-      "projects": "Ver projetos",
-      "contact": "Fale comigo"
-    },
-    "highlights": {
-      "mission": {
-        "label": "Missão",
-        "value": "Transformar ideias ambiciosas em soluções escaláveis conectando estratégia, produto e tecnologia."
-      },
-      "expertise": {
-        "label": "Expertise",
-        "value": "IA, automação, cibersegurança e experiências web responsivas."
-      }
-    },
-    "card": {
-      "label": "Destaques rápidos",
-      "stack": {
-        "title": "Stack principal",
-        "tools": "React · Laravel · Python",
-        "description": "UX funcional e elegante com servidores seguros e soluções criativas."
-      },
-      "languages": {
-        "title": "Idiomas & Networking",
-        "description": "Português (nativo), inglês (fluente) e espanhol (conversacional). Expandindo para mandarim, francês, alemão, russo e árabe."
-      },
-      "focus": {
-        "title": "Foco atual",
-        "description": "Testes de automações inteligentes e experiências digitais escaláveis para novas parcerias e produtos."
-      }
+      "projects": "Trabalhos selecionados",
+      "contact": "Contato"
     }
+  },
+  "positioning": {
+    "founder": "Fundor em Innoforge Tech",
+    "engineering": "Engenharia de Software",
+    "product": "Produto & Automação",
+    "business": "Negócios & Vendas"
   },
   "about": {
     "eyebrow": "Sobre mim",
@@ -94,40 +74,38 @@
     }
   },
   "stack": {
-    "eyebrow": "Skills & stack",
-    "title": "Construindo experiências completas com tecnologia limpa",
-    "description": "Stack minimalista e escalável, pronta para evoluir de páginas estáticas para aplicações completas com automação, segurança e dados.",
+    "eyebrow": "O que eu construo",
+    "title": "Software que conecta produto, operações e crescimento",
+    "description": "Projeto e construo sistemas digitais que resolvem problemas de negócio, automatizam operações e criam bases escaláveis para crescimento.",
     "cards": {
-      "ai": {
-        "title": "IA & Automação",
-        "description": "Experimentos contínuos com assistentes pessoais, fluxos automatizados e soluções que aumentam a produtividade.",
-        "meta": {
-          "primary": "edu_assistant",
-          "secondary": "Automated Ops"
+      "products": {
+        "title": "Produtos Digitais",
+        "description": "Produtos digitais completos construídos em torno de fluxos reais de negócio, usuários e objetivos comerciais.",
+        "items": {
+          "web": "Aplicações web",
+          "saas": "Produtos SaaS",
+          "systems": "Sistemas de negócio",
+          "tools": "Ferramentas internas"
         }
       },
-      "security": {
-        "title": "Cibersegurança",
-        "description": "Pesquisa e testes em redes Wi-Fi, priorizando proteção e confiabilidade desde a base.",
-        "meta": {
-          "primary": "NSA toolkit",
-          "secondary": "Network Hardening"
+      "automation": {
+        "title": "Automação & IA",
+        "description": "Fluxos inteligentes que reduzem trabalho repetitivo, conectam sistemas e transformam processos operacionais em software.",
+        "items": {
+          "integrations": "Integrações com IA",
+          "pipelines": "Pipelines de automação",
+          "agents": "Agentes",
+          "workflows": "Workflows inteligentes"
         }
       },
-      "web": {
-        "title": "Experiências web",
-        "description": "Interfaces responsivas, navegação intuitiva e identidade visual consistente com Poppins + Roboto.",
-        "meta": {
-          "primary": "Flexbox & Grid",
-          "secondary": "Design Systems"
-        }
-      },
-      "languages": {
-        "title": "Idiomas & cultura",
-        "description": "Comunicação fluente em diferentes idiomas para ampliar oportunidades e colaborações globais.",
-        "meta": {
-          "primary": "PT · EN · ES",
-          "secondary": "Global Mindset"
+      "business": {
+        "title": "Sistemas de Negócio",
+        "description": "Infraestrutura de software para apoiar vendas, operações, decisões internas e execução de produto.",
+        "items": {
+          "sales": "Infraestrutura comercial",
+          "operations": "Software operacional",
+          "internal": "Ferramentas internas",
+          "architecture": "Arquitetura de produto"
         }
       }
     }
@@ -306,7 +284,7 @@
         "commands": {
           "clone": "git clone https://github.com/eduardo45MP/AI_studies.git\ncd AI_studies",
           "venv": "python3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
-          "dependencies": "pip install -r requirements.txt  # when available\n# or install individual libraries per experiment"
+          "dependencies": "pip install -r requirements.txt  # when available\n# ou instale as bibliotecas individualmente por experimento"
         },
         "note": "Use o Google Colab para testes rápidos compartilhando notebooks diretamente da pasta <code>notebooks/</code>."
       },
@@ -440,7 +418,7 @@
         "commands": {
           "clone": "git clone https://github.com/eduardo45MP/edu_assistant.git\ncd edu_assistant\npython3 -m venv venv\nsource venv/bin/activate  # Linux/macOS\n# .\\venv\\Scripts\\activate  # Windows",
           "dependencies": "pip install -r requirements.txt",
-          "config": "cp config.example.json config.json\n# Fill in API keys, preferences, and local paths",
+          "config": "cp config.example.json config.json\n# Preencha chaves de API, preferências e caminhos locais",
           "run": "python main.py"
         },
         "note": "Troque a captura de áudio por entrada via CLI se você não tiver microfone disponível."
@@ -475,7 +453,7 @@
             }
           }
         },
-        "note": "Mantenha os padrões de identidade visual descritos em <code>portfolio/docs/visualID.md</code> e siga <code>ROADMAP.md</code> para alinhar contribuições às prioridades atuais."
+        "note": "Mantenha os padrões de identidade visual descritos em <code>portfolio/docs/visual-identity.md</code> e siga <code>ROADMAP.md</code> para alinhar contribuições às prioridades atuais."
       }
     },
     "readmonitor": {
@@ -575,9 +553,9 @@
         },
         "commands": {
           "clone": "git clone https://github.com/eduardo45MP/ReadMonitor.git\ncd ReadMonitor",
-          "controller": "cd Controller\nnpm install\nnpm run dev  # Default port 3000\ncd ..",
-          "model": "cd Model\nnpm install\nnpm start     # Starts API + SQLite\ncd ..",
-          "view": "cd View\nnpm install\nnpm start    # Open the Expo app on your device\ncd .."
+          "controller": "cd Controller\nnpm install\nnpm run dev  # Porta padrão 3000\ncd ..",
+          "model": "cd Model\nnpm install\nnpm start     # Inicia API + SQLite\ncd ..",
+          "view": "cd View\nnpm install\nnpm start     # Abra o app Expo no dispositivo\ncd .."
         },
         "note": "Alinhe a configuração de cada camada para o mesmo banco/endpoint. Considere scripts seed para popular dados iniciais."
       },
@@ -611,7 +589,7 @@
             }
           }
         },
-        "note": "Revise <code>portfolio/docs/ROADMAP.md</code> para alinhar prioridades e manter a consistência visual com o guia em <code>portfolio/docs/visualID.md</code>."
+        "note": "Revise <code>portfolio/docs/ROADMAP.md</code> para alinhar prioridades e manter a consistência visual com o guia em <code>portfolio/docs/visual-identity.md</code>."
       }
     },
     "russian": {
@@ -716,8 +694,8 @@
         },
         "commands": {
           "clone": "git clone https://github.com/eduardo45MP/RussianTrainingHub.git\ncd RussianTrainingHub",
-          "deploy": "git checkout main\n# Configure GitHub Pages: Settings ▸ Pages ▸ Branch main /root\n# or use surge, vercel, netlify for static deploys",
-          "local": "npx serve .  # Or use a Live Server extension"
+          "deploy": "git checkout main\n# Configure GitHub Pages: Settings ▸ Pages ▸ Branch main /root\n# ou use Surge, Vercel ou Netlify para deploy estático",
+          "local": "npx serve .  # Ou use uma extensão Live Server"
         },
         "note": "O service worker ativa automaticamente em produção (HTTPS). Limpe o cache via DevTools ao atualizar datasets."
       },
@@ -923,8 +901,26 @@
       "site": "eduardo45mp.github.io/portfolio"
     }
   },
+  "home": {
+    "skip": "Pular para o conteúdo",
+    "brandLabel": "Eduardo45MP.dev — início",
+    "common": {"github":"GitHub","githubLink":"GitHub ↗","linkedin":"LinkedIn","email":"E-mail"},
+    "nav": {"menu":"Menu","work":"Projetos","about":"Sobre","contact":"Contato"},
+    "hero": {"name":"Eduardo Peixoto","eyebrow":"Founder & Engenheiro de Software","title":"Construo negócios através de software.","description":"Transformo problemas de negócio em produtos digitais, automações e sistemas úteis, feitos para crescer.","work":"Ver projetos selecionados","contact":"Vamos conversar ↗","imageAlt":"Retrato de Eduardo Peixoto"},
+    "positioning": {"label":"Posicionamento profissional","intro":"Estratégia no início. Software no centro.","product":"Produtos","automation":"Automação","systems":"Sistemas de negócio"},
+    "build": {"eyebrow":"O que eu construo","title":"Software que faz um negócio avançar.","products":{"title":"Produtos digitais","text":"Experiências web e ferramentas construídas em torno de usuários, fluxos reais e objetivos comerciais."},"automation":{"title":"Automação","text":"Fluxos confiáveis que conectam ferramentas, reduzem repetição e transformam operações em software."},"systems":{"title":"Sistemas de negócio","text":"Bases técnicas para vendas, pesquisa, tomada de decisão e execução escalável."}},
+    "work": {"eyebrow":"Projetos selecionados","title":"Problemas transformados em sistemas funcionais.","intro":"Uma seleção focada de produtos e experimentos. Cada um começou com um problema concreto, não com uma lista de tecnologias.","problem":"Problema","solution":"Solução","result":"Aprendizado / resultado","github":"Ver no GitHub ↗","more":"Outros experimentos, incluindo AI_studies, estão no GitHub.","all":"Explorar repositórios ↗","readmonitor":{"problem":"Listas de leitura ficam fragmentadas e o progresso é difícil de acompanhar.","solution":"Uma biblioteca e monitor de leitura full-stack com arquitetura clara e sustentável.","result":"Conectou visão de produto, modelagem de dados e design de interface em um único sistema."},"russian":{"problem":"Exercícios de idioma costumam ser desconectados, passivos e difíceis de retomar offline.","solution":"Um hub modular de pequenos exercícios gamificados para praticar a alfabetização em russo.","result":"Explorou aprendizagem progressiva, uso offline e módulos de conteúdo reutilizáveis."},"assistant":{"problem":"A automação pessoal pode ser opaca e retirar controle demais do usuário.","solution":"Um assistente orientado a intenções, com memória local, aprovação explícita e execução auditável.","result":"Desenvolveu uma abordagem modular para orquestração, ferramentas e IA com supervisão humana."},"nsa":{"problem":"Verificações de segurança Wi-Fi exigem várias ferramentas e podem ser difíceis de interpretar.","solution":"Um assistente guiado de segurança de rede para varreduras, análises e relatórios claros.","result":"Combinou ferramentas de terminal com fluxos mais seguros e relatórios acessíveis."}},
+    "about": {"eyebrow":"Além do código","title":"Curiosidade faz parte do trabalho.","p1":"Interesso-me por toda a jornada entre uma boa percepção e uma empresa sustentável: pesquisa, decisões de produto, tecnologia e realidade comercial.","p2":"Fora dos ciclos de entrega, exploro idiomas, sistemas de aprendizagem e projetos experimentais. Eles ampliam meu pensamento e mantêm o ofício em movimento.","imageAlt":"Eduardo Peixoto em retrato editorial"},
+    "github": {"title":"Profundidade técnica, em público.","text":"Experimentos públicos, estudos de engenharia e projetos open source — a camada técnica por trás dos trabalhos selecionados.","link":"Ver GitHub ↗"},
+    "contact": {"eyebrow":"Comece uma conversa","title":"Tem um problema que vale a pena construir?","text":"Vamos conversar sobre o produto, sistema ou oportunidade por trás dele.","email":"Entre em contato"},
+    "footer": {"name":"Eduardo Peixoto","role":"Founder & Engenheiro de Software","navLabel":"Navegação do rodapé"}
+  },
   "footer": {
-    "copyright": "© <span id=\"year\">2024</span> Eduardo Peixoto · eduardo45MP.dev",
-    "docs": "Documentação completa disponível em <a href=\"./docs/archtecture.md\">Arquitetura</a>, <a href=\"./docs/visualID.md\">Identidade visual</a> e <a href=\"./docs/ROADMAP.md\">Roadmap</a>."
+    "identity": {
+      "name": "Eduardo Peixoto",
+      "role": "Founder · Engenheiro de Software · Business Builder"
+    },
+    "copyright": "© <span id=\"year\">2024</span> Eduardo Peixoto",
+    "docs": "Documentação completa disponível em <a href=\"./docs/archtecture.md\">Arquitetura</a>, <a href=\"./docs/visual-identity.md\">Identidade visual</a> e <a href=\"./docs/ROADMAP.md\">Roadmap</a>."
   }
 }
