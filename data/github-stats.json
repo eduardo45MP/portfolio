@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:54:49.191Z",
+  "generated_at": "2026-08-28T15:06:31.867Z",
   "followers": 9,
   "public_repos": 16,
   "stars_total": 0,
@@ -7,22 +7,22 @@
     {
       "name": "Python",
       "bytes": 661505,
-      "percent": 63
+      "percent": 69
     },
     {
       "name": "HTML",
-      "bytes": 160181,
-      "percent": 15
-    },
-    {
-      "name": "JavaScript",
-      "bytes": 149426,
-      "percent": 14
+      "bytes": 150021,
+      "percent": 16
     },
     {
       "name": "CSS",
-      "bytes": 51647,
-      "percent": 5
+      "bytes": 63957,
+      "percent": 7
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 61316,
+      "percent": 6
     },
     {
       "name": "Dockerfile",
@@ -36,6 +36,27 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "Merge pull request #5 from eduardo45MP/redesign/visual-identity-2026",
+      "sha": "6fd059b",
+      "date": "2026-08-28T13:11:46Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/6fd059b961fc042750db6cf71caad17e8c528ca5"
+    },
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "e1f1bd0",
+      "date": "2026-08-27T13:54:49Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/e1f1bd0f6fe0c678a91ece330edb6f5f3c45a067"
+    },
+    {
+      "repo": "portfolio",
+      "message": "feat: redesign portfolio homepage and restore theme controls",
+      "sha": "5437ff9",
+      "date": "2026-08-27T08:36:39Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/5437ff9247e9ba78f0d3eff37380f58984ad3889"
+    },
     {
       "repo": "crowley",
       "message": "feat: complete editorial reporting pipeline",
@@ -65,32 +86,11 @@
       "url": "https://github.com/eduardo45MP/portfolio/commit/00149297aaf48badaffdc7ddf888f72322c3d1e7"
     },
     {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "d2dd507",
-      "date": "2026-08-24T03:55:19Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/d2dd507c678c9788e5f806f1f6491c792a675c58"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "06fd443",
-      "date": "2026-08-23T03:51:36Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/06fd4436e33a558312baba5a43c916e1be8e16d4"
-    },
-    {
       "repo": "crowley",
       "message": "feat: implementa pipeline determinístico de market intelligence",
       "sha": "0eb4ffd",
       "date": "2026-08-22T17:20:58Z",
       "url": "https://github.com/eduardo45MP/crowley/commit/0eb4ffdea73fb1754f28a169b5dce07682affb81"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "109a328",
-      "date": "2026-08-22T03:42:54Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/109a32835b389b6f9e9b7ec6a61b4ff2a14f4379"
     }
   ]
 }
