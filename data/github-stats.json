@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:49:13.464Z",
+  "generated_at": "2026-08-30T08:59:59.052Z",
   "followers": 9,
   "public_repos": 16,
   "stars_total": 0,
@@ -36,6 +36,13 @@
     }
   ],
   "recent_commits": [
+    {
+      "repo": "portfolio",
+      "message": "chore: update GitHub stats",
+      "sha": "cdeafc1",
+      "date": "2026-08-29T09:49:13Z",
+      "url": "https://github.com/eduardo45MP/portfolio/commit/cdeafc14e10bddb885d683a6ecef546a3dd93193"
+    },
     {
       "repo": "portfolio",
       "message": "chore: update GitHub stats",
@@ -77,13 +84,6 @@
       "sha": "3425a11",
       "date": "2026-08-26T17:53:44Z",
       "url": "https://github.com/eduardo45MP/crowley/commit/3425a11f46d445c87bb5381746d5fd3210a79ba5"
-    },
-    {
-      "repo": "portfolio",
-      "message": "chore: update GitHub stats",
-      "sha": "73f7194",
-      "date": "2026-08-26T03:54:21Z",
-      "url": "https://github.com/eduardo45MP/portfolio/commit/73f71940f39d3dc64a84c6407a69b2c5fb2e4254"
     },
     {
       "repo": "crowley",
